@@ -2,6 +2,14 @@ import { useState, useEffect, useMemo } from 'react'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, LineChart, Line, Legend } from 'recharts'
 import DateFilter, { filterDataByDateRange, aggregateDailyStats } from '../components/DateFilter'
 
+// Helper to get date in Philippine time (UTC+8)
+function getPhilippineDate(daysAgo = 0) {
+  const now = new Date()
+  const phTime = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Manila' }))
+  phTime.setDate(phTime.getDate() - daysAgo)
+  return phTime.toISOString().split('T')[0]
+}
+
 function formatNumber(value) {
   if (value === null || value === undefined) return '0'
   return Number(value).toLocaleString('en-US')
@@ -49,13 +57,10 @@ export default function Dashboard() {
       .then(res => res.json())
       .then(d => {
         setData(d)
-        // Set default to last 7 days
+        // Set default to last 7 days (Philippine time)
         if (d.dateRange?.maxDate) {
-          const end = new Date(d.dateRange.maxDate)
-          const start = new Date(end)
-          start.setDate(start.getDate() - 7)
-          setStartDate(start.toISOString().split('T')[0])
-          setEndDate(d.dateRange.maxDate)
+          setStartDate(getPhilippineDate(7))
+          setEndDate(getPhilippineDate(0))
         }
       })
       .catch(err => console.error('Error loading data:', err))
@@ -287,7 +292,7 @@ export default function Dashboard() {
       {/* Last Sync */}
       {data.lastSync && (
         <div className="text-center text-gray-500 text-sm">
-          Last updated: {new Date(data.lastSync).toLocaleString()}
+          Last updated: {new Date(data.lastSync).toLocaleString('en-PH', { timeZone: 'Asia/Manila', dateStyle: 'medium', timeStyle: 'short' })}
         </div>
       )}
     </div>

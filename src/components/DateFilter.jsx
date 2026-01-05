@@ -1,5 +1,14 @@
 import { useState, useMemo } from 'react'
 
+// Helper to get date in Philippine time (UTC+8)
+function getPhilippineDate(daysAgo = 0) {
+  const now = new Date()
+  // Convert to Philippine time
+  const phTime = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Manila' }))
+  phTime.setDate(phTime.getDate() - daysAgo)
+  return phTime.toISOString().split('T')[0]
+}
+
 export default function DateFilter({ dateRange, dailyStats, onFilterChange }) {
   const [startDate, setStartDate] = useState(dateRange?.minDate || '')
   const [endDate, setEndDate] = useState(dateRange?.maxDate || '')
@@ -18,16 +27,13 @@ export default function DateFilter({ dateRange, dailyStats, onFilterChange }) {
       setEndDate(dateRange?.maxDate || '')
       onFilterChange(dateRange?.minDate, dateRange?.maxDate)
     } else if (days === 0) {
-      const today = new Date().toISOString().split('T')[0]
+      const today = getPhilippineDate(0)
       setStartDate(today)
       setEndDate(today)
       onFilterChange(today, today)
     } else {
-      const end = new Date()
-      const start = new Date()
-      start.setDate(start.getDate() - days)
-      const startStr = start.toISOString().split('T')[0]
-      const endStr = end.toISOString().split('T')[0]
+      const endStr = getPhilippineDate(0)
+      const startStr = getPhilippineDate(days)
       setStartDate(startStr)
       setEndDate(endStr)
       onFilterChange(startStr, endStr)

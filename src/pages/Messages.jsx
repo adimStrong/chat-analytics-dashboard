@@ -2,6 +2,14 @@ import { useState, useEffect, useMemo } from 'react'
 import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer, BarChart, Bar, Legend } from 'recharts'
 import DateFilter, { filterDataByDateRange, aggregateDailyStats } from '../components/DateFilter'
 
+// Helper to get date in Philippine time (UTC+8)
+function getPhilippineDate(daysAgo = 0) {
+  const now = new Date()
+  const phTime = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Manila' }))
+  phTime.setDate(phTime.getDate() - daysAgo)
+  return phTime.toISOString().split('T')[0]
+}
+
 function formatNumber(value) {
   if (value === null || value === undefined) return '0'
   return Number(value).toLocaleString('en-US')
@@ -31,13 +39,10 @@ export default function Messages() {
       .then(res => res.json())
       .then(d => {
         setData(d)
-        // Set default to last 7 days
+        // Set default to last 7 days (Philippine time)
         if (d.dateRange?.maxDate) {
-          const end = new Date(d.dateRange.maxDate)
-          const start = new Date(end)
-          start.setDate(start.getDate() - 7)
-          setStartDate(start.toISOString().split('T')[0])
-          setEndDate(d.dateRange.maxDate)
+          setStartDate(getPhilippineDate(7))
+          setEndDate(getPhilippineDate(0))
         }
       })
       .catch(err => console.error('Error loading data:', err))
