@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar } from 'recharts'
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts'
 
 function formatDuration(seconds) {
   if (!seconds) return 'N/A'
@@ -36,11 +36,11 @@ export default function Shifts() {
     )
   }
 
-  const { shiftStats } = data
+  const { shiftStats, shiftMessages, shiftComments, categoryShiftStats } = data
   const shiftColors = {
-    Morning: { bg: 'bg-yellow-100', text: 'text-yellow-800', icon: '🌅' },
-    Mid: { bg: 'bg-blue-100', text: 'text-blue-800', icon: '☀️' },
-    Evening: { bg: 'bg-purple-100', text: 'text-purple-800', icon: '🌙' },
+    Morning: { bg: 'bg-yellow-100', text: 'text-yellow-800', icon: '🌅', bar: '#F59E0B' },
+    Mid: { bg: 'bg-blue-100', text: 'text-blue-800', icon: '☀️', bar: '#3B82F6' },
+    Evening: { bg: 'bg-purple-100', text: 'text-purple-800', icon: '🌙', bar: '#8B5CF6' },
   }
 
   return (
@@ -78,9 +78,9 @@ export default function Shifts() {
         </div>
       </div>
 
-      {/* Shift Stats Cards */}
+      {/* Messages by Shift */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {shiftStats?.map((shift) => {
+        {shiftMessages?.map((shift) => {
           const colors = shiftColors[shift.shift] || shiftColors.Morning
           return (
             <div key={shift.shift} className={`${colors.bg} rounded-xl shadow-lg p-6`}>
@@ -90,22 +90,24 @@ export default function Shifts() {
               </div>
               <div className="space-y-3">
                 <div>
-                  <p className="text-gray-600 text-sm">Sessions</p>
+                  <p className="text-gray-600 text-sm">Total Messages</p>
                   <p className={`text-2xl font-bold ${colors.text}`}>
-                    {shift.sessions?.toLocaleString() || 0}
+                    {shift.messages?.toLocaleString() || 0}
                   </p>
                 </div>
-                <div>
-                  <p className="text-gray-600 text-sm">Avg Response Time</p>
-                  <p className={`text-xl font-semibold ${colors.text}`}>
-                    {formatDuration(shift.avgResponseTime)}
-                  </p>
-                </div>
-                <div>
-                  <p className="text-gray-600 text-sm">Avg Session Duration</p>
-                  <p className={`text-xl font-semibold ${colors.text}`}>
-                    {formatDuration(shift.avgDuration)}
-                  </p>
+                <div className="grid grid-cols-2 gap-2">
+                  <div>
+                    <p className="text-gray-600 text-xs">Incoming</p>
+                    <p className={`text-lg font-semibold ${colors.text}`}>
+                      {shift.incoming?.toLocaleString() || 0}
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-gray-600 text-xs">Outgoing</p>
+                    <p className={`text-lg font-semibold ${colors.text}`}>
+                      {shift.outgoing?.toLocaleString() || 0}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -113,24 +115,111 @@ export default function Shifts() {
         })}
       </div>
 
-      {/* Comparison Chart */}
-      {shiftStats && (
+      {/* Comments by Shift */}
+      {shiftComments && shiftComments.length > 0 && (
         <div className="bg-white rounded-xl shadow-lg p-6">
-          <h3 className="font-semibold text-gray-800 mb-4">Shift Comparison</h3>
-          <ResponsiveContainer width="100%" height={350}>
-            <BarChart data={shiftStats}>
-              <XAxis dataKey="shift" />
-              <YAxis yAxisId="left" orientation="left" stroke="#3B82F6" />
-              <YAxis yAxisId="right" orientation="right" stroke="#10B981" tickFormatter={(v) => `${Math.round(v / 60)}m`} />
-              <Tooltip
-                formatter={(value, name) => {
-                  if (name === 'sessions') return [value, 'Sessions']
-                  return [formatDuration(value), name === 'avgResponseTime' ? 'Avg Response' : 'Avg Duration']
-                }}
-              />
+          <h3 className="font-semibold text-gray-800 mb-4">Comments by Shift</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {shiftComments.map((shift) => {
+              const colors = shiftColors[shift.shift] || shiftColors.Morning
+              return (
+                <div key={shift.shift} className={`${colors.bg} rounded-lg p-4`}>
+                  <div className="flex items-center justify-between mb-2">
+                    <span className={`font-semibold ${colors.text}`}>{shift.shift}</span>
+                    <span className="text-2xl">{colors.icon}</span>
+                  </div>
+                  <div className="grid grid-cols-3 gap-2 text-center">
+                    <div>
+                      <p className="text-gray-500 text-xs">Total</p>
+                      <p className={`font-bold ${colors.text}`}>{shift.total}</p>
+                    </div>
+                    <div>
+                      <p className="text-gray-500 text-xs">Hidden</p>
+                      <p className={`font-bold ${colors.text}`}>{shift.hidden}</p>
+                    </div>
+                    <div>
+                      <p className="text-gray-500 text-xs">Replies</p>
+                      <p className={`font-bold ${colors.text}`}>{shift.replies}</p>
+                    </div>
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* Session Stats by Shift */}
+      <div className="bg-white rounded-xl shadow-lg p-6">
+        <h3 className="font-semibold text-gray-800 mb-4">Session Performance by Shift</h3>
+        <div className="overflow-x-auto">
+          <table className="w-full">
+            <thead className="bg-gray-50">
+              <tr>
+                <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Shift</th>
+                <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase">Sessions</th>
+                <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase">Avg Response</th>
+                <th className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase">Avg Duration</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-gray-200">
+              {shiftStats?.map((shift) => {
+                const colors = shiftColors[shift.shift] || shiftColors.Morning
+                return (
+                  <tr key={shift.shift} className="hover:bg-gray-50">
+                    <td className="px-4 py-3">
+                      <div className="flex items-center gap-2">
+                        <span>{colors.icon}</span>
+                        <span className={`font-medium ${colors.text}`}>{shift.shift}</span>
+                      </div>
+                    </td>
+                    <td className="px-4 py-3 text-right text-gray-700">
+                      {shift.sessions?.toLocaleString()}
+                    </td>
+                    <td className="px-4 py-3 text-right text-gray-700">
+                      {formatDuration(shift.avgResponseTime)}
+                    </td>
+                    <td className="px-4 py-3 text-right text-gray-700">
+                      {formatDuration(shift.avgDuration)}
+                    </td>
+                  </tr>
+                )
+              })}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      {/* Category by Shift */}
+      {categoryShiftStats && (
+        <div className="bg-white rounded-xl shadow-lg p-6">
+          <h3 className="font-semibold text-gray-800 mb-4">Messages by Category & Shift</h3>
+          <ResponsiveContainer width="100%" height={300}>
+            <BarChart data={categoryShiftStats}>
+              <XAxis dataKey="category" tick={{ fontSize: 11 }} />
+              <YAxis />
+              <Tooltip />
               <Legend />
-              <Bar yAxisId="left" dataKey="sessions" fill="#3B82F6" name="Sessions" radius={[4, 4, 0, 0]} />
-              <Bar yAxisId="right" dataKey="avgResponseTime" fill="#10B981" name="Avg Response Time" radius={[4, 4, 0, 0]} />
+              <Bar dataKey="Morning" fill="#F59E0B" name="Morning" stackId="a" />
+              <Bar dataKey="Mid" fill="#3B82F6" name="Mid" stackId="a" />
+              <Bar dataKey="Evening" fill="#8B5CF6" name="Evening" stackId="a" />
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+      )}
+
+      {/* Message Volume Comparison */}
+      {shiftMessages && (
+        <div className="bg-white rounded-xl shadow-lg p-6">
+          <h3 className="font-semibold text-gray-800 mb-4">Incoming vs Outgoing by Shift</h3>
+          <ResponsiveContainer width="100%" height={250}>
+            <BarChart data={shiftMessages}>
+              <XAxis dataKey="shift" />
+              <YAxis />
+              <Tooltip />
+              <Legend />
+              <Bar dataKey="incoming" fill="#3B82F6" name="Incoming" radius={[4, 4, 0, 0]} />
+              <Bar dataKey="outgoing" fill="#10B981" name="Outgoing" radius={[4, 4, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </div>
