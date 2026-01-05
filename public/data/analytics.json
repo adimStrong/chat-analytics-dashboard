@@ -1,77 +1,80 @@
 {
   "totals": {
     "pages": 26,
-    "messages": 4117,
-    "sessions": 3167,
-    "conversations": 1034,
-    "comments": 103655,
-    "avgResponseTime": 10471.4,
-    "avgSessionDuration": "696.4"
+    "messages": 6689,
+    "sessions": 3790,
+    "conversations": 1146,
+    "comments": 105389,
+    "avgResponseTime": 6266.1,
+    "avgSessionDuration": "760.3"
   },
   "shiftStats": [
     {
       "shift": "Morning",
-      "sessions": 1819,
-      "avgResponseTime": 7560.1,
-      "avgDuration": "238.3"
+      "sessions": 2134,
+      "avgResponseTime": 4172.4,
+      "avgDuration": "318.4"
     },
     {
       "shift": "Mid",
-      "sessions": 633,
-      "avgResponseTime": 13957.8,
-      "avgDuration": "160.3"
+      "sessions": 761,
+      "avgResponseTime": 8670.4,
+      "avgDuration": "234.8"
     },
     {
       "shift": "Evening",
-      "sessions": 715,
-      "avgResponseTime": 11613.1,
-      "avgDuration": "252.6"
+      "sessions": 895,
+      "avgResponseTime": 7719.1,
+      "avgDuration": "331.4"
     }
   ],
   "shiftMessages": [
     {
       "shift": "Morning",
-      "messages": 2422,
-      "incoming": 1943,
-      "outgoing": 479
+      "messages": 3827,
+      "incoming": 2763,
+      "outgoing": 1064
     },
     {
       "shift": "Mid",
-      "messages": 675,
-      "incoming": 492,
-      "outgoing": 183
+      "messages": 1220,
+      "incoming": 778,
+      "outgoing": 442
     },
     {
       "shift": "Evening",
-      "messages": 1020,
-      "incoming": 682,
-      "outgoing": 338
+      "messages": 1642,
+      "incoming": 1046,
+      "outgoing": 596
     }
   ],
   "shiftComments": [
     {
       "shift": "Morning",
-      "total": 85688,
-      "hidden": 3648,
-      "replies": 7984
+      "total": 86706,
+      "hidden": 3741,
+      "replies": 8038,
+      "withReplies": 2919
     },
     {
       "shift": "Mid",
-      "total": 6596,
-      "hidden": 953,
-      "replies": 850
+      "total": 6886,
+      "hidden": 990,
+      "replies": 891,
+      "withReplies": 532
     },
     {
       "shift": "Evening",
-      "total": 11371,
-      "hidden": 1681,
-      "replies": 1602
+      "total": 11797,
+      "hidden": 1731,
+      "replies": 1616,
+      "withReplies": 1031
     }
   ],
   "topPages": [
     {
       "name": "Juan365",
-      "messages": 1563
+      "messages": 4135
     },
     {
       "name": "Juana Babe Ashley",
@@ -115,10 +118,10 @@
       "pageId": "580104038511364",
       "name": "Juan365",
       "category": "Juan365",
-      "messages": 1563,
-      "sessions": 241,
-      "avgResponseTime": 157.7,
-      "avgDuration": "773.6",
+      "messages": 4135,
+      "sessions": 750,
+      "avgResponseTime": 214.8,
+      "avgDuration": "789.2",
       "comments": 0
     },
     {
@@ -146,9 +149,9 @@
       "name": "Juana Babe Zell",
       "category": "Juana Babe",
       "messages": 282,
-      "sessions": 316,
-      "avgResponseTime": 34114.2,
-      "avgDuration": "246.0",
+      "sessions": 326,
+      "avgResponseTime": 32223.0,
+      "avgDuration": "238.8",
       "comments": 1984
     },
     {
@@ -186,20 +189,20 @@
       "name": "Juan365 Cares",
       "category": "Juan365",
       "messages": 153,
-      "sessions": 75,
+      "sessions": 150,
       "avgResponseTime": 19613.1,
       "avgDuration": "264.7",
-      "comments": 0
+      "comments": 750
     },
     {
       "pageId": "708878528972997",
       "name": "Juan365 Studios",
       "category": "Juan365",
       "messages": 84,
-      "sessions": 28,
+      "sessions": 56,
       "avgResponseTime": 19273.5,
       "avgDuration": "496.9",
-      "comments": 0
+      "comments": 982
     },
     {
       "pageId": "858606287343265",
@@ -339,7 +342,7 @@
       "sessions": 0,
       "avgResponseTime": null,
       "avgDuration": null,
-      "comments": 11
+      "comments": 12
     },
     {
       "pageId": "305553999318966",
@@ -349,7 +352,7 @@
       "sessions": 0,
       "avgResponseTime": null,
       "avgDuration": null,
-      "comments": 33
+      "comments": 34
     },
     {
       "pageId": "112088047220992",
@@ -378,24 +381,24 @@
       "pageCount": 14,
       "messages": 141,
       "sessions": 230,
-      "comments": 499,
+      "comments": 501,
       "avgResponseTime": 4914.2
     },
     {
       "category": "Juan365",
       "pageCount": 5,
-      "messages": 1828,
-      "sessions": 366,
-      "comments": 92377,
-      "avgResponseTime": 13014.8
+      "messages": 4407,
+      "sessions": 979,
+      "comments": 94109,
+      "avgResponseTime": 13033.7
     },
     {
       "category": "Juana Babe",
       "pageCount": 5,
       "messages": 1975,
-      "sessions": 2373,
+      "sessions": 2381,
       "comments": 9346,
-      "avgResponseTime": 18847.4
+      "avgResponseTime": 18469.1
     },
     {
       "category": "Others",
@@ -416,10 +419,10 @@
     },
     {
       "category": "Juan365",
-      "Morning": 944,
-      "Mid": 268,
-      "Evening": 616,
-      "total": 1828
+      "Morning": 2356,
+      "Mid": 813,
+      "Evening": 1238,
+      "total": 4407
     },
     {
       "category": "Juana Babe",
@@ -439,144 +442,222 @@
   "dailyTrend": [
     {
       "date": "12/29",
-      "messages": 55
+      "messages": 144
     },
     {
       "date": "12/30",
-      "messages": 99
+      "messages": 126
     },
     {
       "date": "12/31",
-      "messages": 106
+      "messages": 119
     },
     {
       "date": "01/01",
-      "messages": 69
+      "messages": 108
     },
     {
       "date": "01/02",
-      "messages": 49
+      "messages": 95
     },
     {
       "date": "01/03",
-      "messages": 69
+      "messages": 352
     },
     {
       "date": "01/04",
-      "messages": 69
+      "messages": 886
     },
     {
       "date": "01/05",
-      "messages": 355
+      "messages": 469
     }
   ],
   "messageStats": {
-    "incoming": 3117,
-    "outgoing": 1000
+    "incoming": 4591,
+    "outgoing": 2105
   },
   "commentStats": {
-    "total": 103655,
-    "hidden": 6282,
-    "totalReplies": 10436,
+    "total": 105389,
+    "hidden": 6462,
+    "totalReplies": 10545,
     "avgLikes": "0.0"
   },
   "hourlyDistribution": [
     {
       "hour": 0,
-      "messages": 82
+      "messages": 145
     },
     {
       "hour": 1,
-      "messages": 151
+      "messages": 291
     },
     {
       "hour": 2,
-      "messages": 97
+      "messages": 146
     },
     {
       "hour": 3,
-      "messages": 105
+      "messages": 136
     },
     {
       "hour": 4,
-      "messages": 174
+      "messages": 325
     },
     {
       "hour": 5,
-      "messages": 236
+      "messages": 347
     },
     {
       "hour": 6,
-      "messages": 147
+      "messages": 294
     },
     {
       "hour": 7,
-      "messages": 277
+      "messages": 438
     },
     {
       "hour": 8,
-      "messages": 664
+      "messages": 884
     },
     {
       "hour": 9,
-      "messages": 419
+      "messages": 512
     },
     {
       "hour": 10,
-      "messages": 282
+      "messages": 461
     },
     {
       "hour": 11,
-      "messages": 209
+      "messages": 331
     },
     {
       "hour": 12,
-      "messages": 175
+      "messages": 449
     },
     {
       "hour": 13,
-      "messages": 249
+      "messages": 465
     },
     {
       "hour": 14,
-      "messages": 166
+      "messages": 338
     },
     {
       "hour": 15,
-      "messages": 143
+      "messages": 231
     },
     {
       "hour": 16,
-      "messages": 130
+      "messages": 215
     },
     {
       "hour": 17,
-      "messages": 59
+      "messages": 166
     },
     {
       "hour": 18,
-      "messages": 43
+      "messages": 69
     },
     {
       "hour": 19,
-      "messages": 43
+      "messages": 76
     },
     {
       "hour": 20,
-      "messages": 16
+      "messages": 39
     },
     {
       "hour": 21,
-      "messages": 75
+      "messages": 86
     },
     {
       "hour": 22,
-      "messages": 98
+      "messages": 134
     },
     {
       "hour": 23,
-      "messages": 77
+      "messages": 118
     }
   ],
-  "lastSync": "2026-01-05T18:41:02.713234"
+  "followupStats": {
+    "commentsWithReplies": 4482,
+    "totalReplies": 10545,
+    "hiddenCount": 6462
+  },
+  "followupDailyTrend": [
+    {
+      "date": "12/29",
+      "total": 2178,
+      "followups": 94,
+      "hidden": 49
+    },
+    {
+      "date": "12/30",
+      "total": 340,
+      "followups": 47,
+      "hidden": 58
+    },
+    {
+      "date": "12/31",
+      "total": 301,
+      "followups": 46,
+      "hidden": 26
+    },
+    {
+      "date": "01/01",
+      "total": 331,
+      "followups": 24,
+      "hidden": 33
+    },
+    {
+      "date": "01/02",
+      "total": 3632,
+      "followups": 147,
+      "hidden": 45
+    },
+    {
+      "date": "01/03",
+      "total": 5223,
+      "followups": 132,
+      "hidden": 79
+    },
+    {
+      "date": "01/04",
+      "total": 3424,
+      "followups": 164,
+      "hidden": 43
+    },
+    {
+      "date": "01/05",
+      "total": 364,
+      "followups": 16,
+      "hidden": 22
+    }
+  ],
+  "messagesByTimeframe": [
+    {
+      "shift": "Morning",
+      "total": 3834,
+      "received": 2767,
+      "sent": 1067,
+      "avgResponse": null
+    },
+    {
+      "shift": "Mid",
+      "total": 1220,
+      "received": 778,
+      "sent": 442,
+      "avgResponse": null
+    },
+    {
+      "shift": "Evening",
+      "total": 1642,
+      "received": 1046,
+      "sent": 596,
+      "avgResponse": null
+    }
+  ],
+  "lastSync": "2026-01-05T19:02:11.310294"
 }

@@ -1,7 +1,10 @@
 import { useState, useEffect } from 'react'
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line } from 'recharts'
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, LineChart, Line, Legend } from 'recharts'
 
-const COLORS = ['#3B82F6', '#10B981', '#8B5CF6', '#F59E0B', '#EF4444', '#EC4899']
+function formatNumber(value) {
+  if (value === null || value === undefined) return '0'
+  return Number(value).toLocaleString('en-US')
+}
 
 function StatCard({ title, value, subtitle, icon, color = 'blue' }) {
   const colorClasses = {
@@ -9,6 +12,8 @@ function StatCard({ title, value, subtitle, icon, color = 'blue' }) {
     green: 'from-green-500 to-green-600',
     purple: 'from-purple-500 to-purple-600',
     orange: 'from-orange-500 to-orange-600',
+    pink: 'from-pink-500 to-pink-600',
+    red: 'from-red-500 to-red-600',
   }
 
   return (
@@ -60,7 +65,7 @@ export default function Dashboard() {
     )
   }
 
-  const { totals, shiftStats, topPages, dailyTrend } = data
+  const { totals, followupStats, shiftStats, messagesByTimeframe, followupDailyTrend, commentStats } = data
 
   return (
     <div className="space-y-6">
@@ -69,41 +74,66 @@ export default function Dashboard() {
         <p className="text-gray-600">Chat analytics across all 26 pages</p>
       </div>
 
-      {/* Stats Cards */}
+      {/* Stats Cards - Row 1: Messages & Response */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <StatCard
           title="Total Messages"
-          value={totals?.messages?.toLocaleString() || 0}
-          subtitle={`From ${totals?.conversations || 0} conversations`}
+          value={formatNumber(totals?.messages)}
+          subtitle={`From ${formatNumber(totals?.conversations)} conversations`}
           icon="💬"
           color="blue"
         />
         <StatCard
+          title="Chat Response Time"
+          value={formatDuration(totals?.avgResponseTime)}
+          subtitle="Average response"
+          icon="⚡"
+          color="purple"
+        />
+        <StatCard
           title="Total Sessions"
-          value={totals?.sessions?.toLocaleString() || 0}
+          value={formatNumber(totals?.sessions)}
           subtitle={`Across ${totals?.pages || 0} pages`}
           icon="📊"
           color="green"
         />
         <StatCard
-          title="Avg Response Time"
-          value={formatDuration(totals?.avgResponseTime)}
-          subtitle="Overall average"
-          icon="⚡"
-          color="purple"
+          title="Total Comments"
+          value={formatNumber(commentStats?.total)}
+          subtitle="All page comments"
+          icon="💭"
+          color="orange"
+        />
+      </div>
+
+      {/* Stats Cards - Row 2: Comment Metrics */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <StatCard
+          title="Follow-up Comments"
+          value={formatNumber(followupStats?.commentsWithReplies)}
+          subtitle="Comments with replies"
+          icon="🔄"
+          color="pink"
         />
         <StatCard
-          title="Avg Session Duration"
-          value={formatDuration(totals?.avgSessionDuration)}
-          subtitle="Per chat session"
-          icon="⏱️"
-          color="orange"
+          title="Reply to Comment"
+          value={formatNumber(followupStats?.totalReplies)}
+          subtitle="Total page replies"
+          icon="↩️"
+          color="green"
+        />
+        <StatCard
+          title="Hidden Comments"
+          value={formatNumber(followupStats?.hiddenCount)}
+          subtitle="Moderated/hidden"
+          icon="🚫"
+          color="red"
         />
       </div>
 
       {/* Charts Row */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* Shift Breakdown */}
+        {/* Response Time by Shift */}
         <div className="bg-white rounded-xl shadow-lg p-6">
           <h3 className="font-semibold text-gray-800 mb-4">Response Time by Shift</h3>
           <ResponsiveContainer width="100%" height={300}>
@@ -114,39 +144,72 @@ export default function Dashboard() {
                 formatter={(value) => formatDuration(value)}
                 labelFormatter={(label) => `${label} Shift`}
               />
-              <Bar dataKey="avgResponseTime" fill="#3B82F6" name="Avg Response" radius={[4, 4, 0, 0]} />
+              <Bar dataKey="avgResponseTime" fill="#8B5CF6" name="Avg Response" radius={[4, 4, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </div>
 
-        {/* Top Pages */}
+        {/* Received Chat by Shift */}
         <div className="bg-white rounded-xl shadow-lg p-6">
-          <h3 className="font-semibold text-gray-800 mb-4">Top Pages by Message Volume</h3>
+          <h3 className="font-semibold text-gray-800 mb-4">Received Chat by Timeframe</h3>
           <ResponsiveContainer width="100%" height={300}>
-            <BarChart data={topPages?.slice(0, 8)} layout="vertical">
-              <XAxis type="number" />
-              <YAxis dataKey="name" type="category" width={120} tick={{ fontSize: 12 }} />
-              <Tooltip />
-              <Bar dataKey="messages" fill="#10B981" name="Messages" radius={[0, 4, 4, 0]} />
+            <BarChart data={messagesByTimeframe}>
+              <XAxis dataKey="shift" />
+              <YAxis />
+              <Tooltip formatter={(value) => formatNumber(value)} />
+              <Legend />
+              <Bar dataKey="received" fill="#3B82F6" name="Received" radius={[4, 4, 0, 0]} />
+              <Bar dataKey="sent" fill="#10B981" name="Sent" radius={[4, 4, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </div>
       </div>
 
-      {/* Daily Trend */}
-      {dailyTrend && dailyTrend.length > 0 && (
+      {/* Follow-up Trend */}
+      {followupDailyTrend && followupDailyTrend.length > 0 && (
         <div className="bg-white rounded-xl shadow-lg p-6">
-          <h3 className="font-semibold text-gray-800 mb-4">Messages Trend (Last 7 Days)</h3>
+          <h3 className="font-semibold text-gray-800 mb-4">Daily Comment Activity (Last 7 Days)</h3>
           <ResponsiveContainer width="100%" height={250}>
-            <LineChart data={dailyTrend}>
+            <LineChart data={followupDailyTrend}>
               <XAxis dataKey="date" />
               <YAxis />
-              <Tooltip />
-              <Line type="monotone" dataKey="messages" stroke="#3B82F6" strokeWidth={2} dot={{ fill: '#3B82F6' }} />
+              <Tooltip formatter={(value) => formatNumber(value)} />
+              <Legend />
+              <Line type="monotone" dataKey="total" stroke="#3B82F6" strokeWidth={2} name="Total Comments" dot={{ fill: '#3B82F6' }} />
+              <Line type="monotone" dataKey="followups" stroke="#10B981" strokeWidth={2} name="With Replies" dot={{ fill: '#10B981' }} />
+              <Line type="monotone" dataKey="hidden" stroke="#EF4444" strokeWidth={2} name="Hidden" dot={{ fill: '#EF4444' }} />
             </LineChart>
           </ResponsiveContainer>
         </div>
       )}
+
+      {/* Shift Schedule Reference */}
+      <div className="bg-white rounded-xl shadow-lg p-6">
+        <h3 className="font-semibold text-gray-800 mb-4">Shift Schedule</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="flex items-center space-x-3 p-4 bg-yellow-50 rounded-lg">
+            <span className="text-3xl">🌅</span>
+            <div>
+              <p className="font-semibold text-yellow-800">Morning Shift</p>
+              <p className="text-yellow-600">6:00 AM - 2:00 PM</p>
+            </div>
+          </div>
+          <div className="flex items-center space-x-3 p-4 bg-blue-50 rounded-lg">
+            <span className="text-3xl">☀️</span>
+            <div>
+              <p className="font-semibold text-blue-800">Mid Shift</p>
+              <p className="text-blue-600">2:00 PM - 10:00 PM</p>
+            </div>
+          </div>
+          <div className="flex items-center space-x-3 p-4 bg-purple-50 rounded-lg">
+            <span className="text-3xl">🌙</span>
+            <div>
+              <p className="font-semibold text-purple-800">Evening Shift</p>
+              <p className="text-purple-600">10:00 PM - 6:00 AM</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* Last Sync */}
       {data.lastSync && (

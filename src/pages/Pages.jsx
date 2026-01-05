@@ -1,6 +1,11 @@
 import { useState, useEffect } from 'react'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts'
 
+function formatNumber(value) {
+  if (value === null || value === undefined) return '0'
+  return Number(value).toLocaleString('en-US')
+}
+
 function formatDuration(seconds) {
   if (!seconds) return 'N/A'
   if (seconds < 60) return `${Math.round(seconds)}s`
@@ -9,10 +14,10 @@ function formatDuration(seconds) {
 }
 
 const categoryColors = {
-  "Juankada Hosts": { bg: "bg-blue-100", text: "text-blue-800", border: "border-blue-200" },
-  "Juana Babe": { bg: "bg-pink-100", text: "text-pink-800", border: "border-pink-200" },
-  "Juan365": { bg: "bg-green-100", text: "text-green-800", border: "border-green-200" },
-  "Others": { bg: "bg-purple-100", text: "text-purple-800", border: "border-purple-200" },
+  "Juankada Hosts": { bg: "bg-blue-100", text: "text-blue-800", border: "border-blue-200", icon: "🎤" },
+  "Juana Babe": { bg: "bg-pink-100", text: "text-pink-800", border: "border-pink-200", icon: "💃" },
+  "Juan365": { bg: "bg-green-100", text: "text-green-800", border: "border-green-200", icon: "🎯" },
+  "Others": { bg: "bg-purple-100", text: "text-purple-800", border: "border-purple-200", icon: "📺" },
 }
 
 export default function Pages() {
@@ -69,6 +74,14 @@ export default function Pages() {
     }
   }
 
+  // Group pages by category for hierarchy view
+  const pagesByCategory = {
+    "Juankada Hosts": sortedPages.filter(p => p.category === "Juankada Hosts"),
+    "Juan365": sortedPages.filter(p => p.category === "Juan365"),
+    "Juana Babe": sortedPages.filter(p => p.category === "Juana Babe"),
+    "Others": sortedPages.filter(p => p.category === "Others"),
+  }
+
   return (
     <div className="space-y-6">
       <div>
@@ -80,32 +93,36 @@ export default function Pages() {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         {categoryStats?.map(cat => {
           const colors = categoryColors[cat.category] || categoryColors.Others
+          const isSelected = filterCategory === cat.category
           return (
             <div
               key={cat.category}
-              className={`${colors.bg} ${colors.border} border rounded-xl p-4 cursor-pointer transition hover:shadow-md ${
-                filterCategory === cat.category ? 'ring-2 ring-offset-2 ring-blue-500' : ''
+              className={`${colors.bg} ${colors.border} border-2 rounded-xl p-4 cursor-pointer transition hover:shadow-md ${
+                isSelected ? 'ring-2 ring-offset-2 ring-blue-500' : ''
               }`}
-              onClick={() => setFilterCategory(filterCategory === cat.category ? 'all' : cat.category)}
+              onClick={() => setFilterCategory(isSelected ? 'all' : cat.category)}
             >
               <div className="flex justify-between items-start">
                 <div>
-                  <p className={`font-semibold ${colors.text}`}>{cat.category}</p>
+                  <div className="flex items-center gap-2">
+                    <span className="text-xl">{colors.icon}</span>
+                    <p className={`font-semibold ${colors.text}`}>{cat.category}</p>
+                  </div>
                   <p className="text-gray-600 text-sm">{cat.pageCount} pages</p>
                 </div>
               </div>
               <div className="mt-3 grid grid-cols-2 gap-2 text-sm">
                 <div>
                   <p className="text-gray-500">Messages</p>
-                  <p className={`font-bold ${colors.text}`}>{cat.messages?.toLocaleString()}</p>
+                  <p className={`font-bold ${colors.text}`}>{formatNumber(cat.messages)}</p>
                 </div>
                 <div>
                   <p className="text-gray-500">Comments</p>
-                  <p className={`font-bold ${colors.text}`}>{cat.comments?.toLocaleString()}</p>
+                  <p className={`font-bold ${colors.text}`}>{formatNumber(cat.comments)}</p>
                 </div>
                 <div>
                   <p className="text-gray-500">Sessions</p>
-                  <p className={`font-bold ${colors.text}`}>{cat.sessions?.toLocaleString()}</p>
+                  <p className={`font-bold ${colors.text}`}>{formatNumber(cat.sessions)}</p>
                 </div>
                 <div>
                   <p className="text-gray-500">Avg Resp</p>
@@ -124,8 +141,8 @@ export default function Pages() {
           <ResponsiveContainer width="100%" height={250}>
             <BarChart data={categoryStats}>
               <XAxis dataKey="category" tick={{ fontSize: 12 }} />
-              <YAxis />
-              <Tooltip />
+              <YAxis tickFormatter={(v) => formatNumber(v)} />
+              <Tooltip formatter={(value) => formatNumber(value)} />
               <Legend />
               <Bar dataKey="messages" fill="#3B82F6" name="Messages" radius={[4, 4, 0, 0]} />
               <Bar dataKey="comments" fill="#10B981" name="Comments" radius={[4, 4, 0, 0]} />
@@ -139,7 +156,7 @@ export default function Pages() {
         <div className="flex items-center gap-2">
           <span className="text-gray-600">Showing:</span>
           <span className={`px-3 py-1 rounded-full text-sm font-medium ${categoryColors[filterCategory]?.bg} ${categoryColors[filterCategory]?.text}`}>
-            {filterCategory}
+            {categoryColors[filterCategory]?.icon} {filterCategory}
           </span>
           <button
             onClick={() => setFilterCategory('all')}
@@ -198,17 +215,17 @@ export default function Pages() {
                     </td>
                     <td className="px-4 py-3 whitespace-nowrap">
                       <span className={`px-2 py-1 text-xs rounded-full ${colors.bg} ${colors.text}`}>
-                        {page.category}
+                        {colors.icon} {page.category}
                       </span>
                     </td>
                     <td className="px-4 py-3 whitespace-nowrap text-right text-sm text-gray-700">
-                      {page.messages?.toLocaleString() || 0}
+                      {formatNumber(page.messages)}
                     </td>
                     <td className="px-4 py-3 whitespace-nowrap text-right text-sm text-gray-700">
-                      {page.comments?.toLocaleString() || 0}
+                      {formatNumber(page.comments)}
                     </td>
                     <td className="px-4 py-3 whitespace-nowrap text-right text-sm text-gray-700">
-                      {page.sessions?.toLocaleString() || 0}
+                      {formatNumber(page.sessions)}
                     </td>
                     <td className="px-4 py-3 whitespace-nowrap text-right text-sm text-gray-700">
                       {formatDuration(page.avgResponseTime)}
@@ -217,6 +234,24 @@ export default function Pages() {
                 )
               })}
             </tbody>
+            {/* Totals footer */}
+            <tfoot className="bg-gray-50 font-semibold">
+              <tr>
+                <td className="px-4 py-3" colSpan={2}>
+                  Total ({sortedPages.length} pages)
+                </td>
+                <td className="px-4 py-3 text-right text-gray-800">
+                  {formatNumber(sortedPages.reduce((sum, p) => sum + (p.messages || 0), 0))}
+                </td>
+                <td className="px-4 py-3 text-right text-gray-800">
+                  {formatNumber(sortedPages.reduce((sum, p) => sum + (p.comments || 0), 0))}
+                </td>
+                <td className="px-4 py-3 text-right text-gray-800">
+                  {formatNumber(sortedPages.reduce((sum, p) => sum + (p.sessions || 0), 0))}
+                </td>
+                <td className="px-4 py-3 text-right text-gray-800">-</td>
+              </tr>
+            </tfoot>
           </table>
         </div>
       </div>
@@ -227,12 +262,47 @@ export default function Pages() {
           <h3 className="font-semibold text-gray-800 mb-4">Top 10 Pages by Messages</h3>
           <ResponsiveContainer width="100%" height={350}>
             <BarChart data={sortedPages.slice(0, 10)} layout="vertical">
-              <XAxis type="number" />
+              <XAxis type="number" tickFormatter={(v) => formatNumber(v)} />
               <YAxis dataKey="name" type="category" width={150} tick={{ fontSize: 11 }} />
-              <Tooltip />
+              <Tooltip formatter={(value) => formatNumber(value)} />
               <Bar dataKey="messages" fill="#3B82F6" name="Messages" radius={[0, 4, 4, 0]} />
             </BarChart>
           </ResponsiveContainer>
+        </div>
+      )}
+
+      {/* Category Hierarchy View (when filtered) */}
+      {filterCategory === 'all' && (
+        <div className="bg-white rounded-xl shadow-lg p-6">
+          <h3 className="font-semibold text-gray-800 mb-4">Pages by Category</h3>
+          <div className="space-y-6">
+            {Object.entries(pagesByCategory).map(([category, pages]) => {
+              if (pages.length === 0) return null
+              const colors = categoryColors[category]
+              return (
+                <div key={category}>
+                  <div className={`flex items-center gap-2 mb-2 p-2 ${colors.bg} rounded-lg`}>
+                    <span className="text-xl">{colors.icon}</span>
+                    <h4 className={`font-semibold ${colors.text}`}>{category}</h4>
+                    <span className="text-gray-500 text-sm">({pages.length} pages)</span>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 ml-4">
+                    {pages.slice(0, 6).map((page, i) => (
+                      <div key={page.pageId || i} className="flex justify-between items-center p-2 bg-gray-50 rounded text-sm">
+                        <span className="font-medium truncate">{page.name}</span>
+                        <span className="text-gray-600">{formatNumber(page.messages)} msgs</span>
+                      </div>
+                    ))}
+                    {pages.length > 6 && (
+                      <div className="p-2 text-gray-500 text-sm">
+                        +{pages.length - 6} more pages...
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
         </div>
       )}
     </div>
