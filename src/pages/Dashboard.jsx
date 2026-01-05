@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, LineChart, Line, Legend } from 'recharts'
+import DateFilter, { filterDataByDateRange, aggregateDailyStats } from '../components/DateFilter'
 
 function formatNumber(value) {
   if (value === null || value === undefined) return '0'
@@ -40,14 +41,76 @@ function formatDuration(seconds) {
 export default function Dashboard() {
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
+  const [startDate, setStartDate] = useState('')
+  const [endDate, setEndDate] = useState('')
 
   useEffect(() => {
     fetch('/data/analytics.json')
       .then(res => res.json())
-      .then(setData)
+      .then(d => {
+        setData(d)
+        // Set default to last 7 days
+        if (d.dateRange?.maxDate) {
+          const end = new Date(d.dateRange.maxDate)
+          const start = new Date(end)
+          start.setDate(start.getDate() - 7)
+          setStartDate(start.toISOString().split('T')[0])
+          setEndDate(d.dateRange.maxDate)
+        }
+      })
       .catch(err => console.error('Error loading data:', err))
       .finally(() => setLoading(false))
   }, [])
+
+  const handleFilterChange = (start, end) => {
+    setStartDate(start)
+    setEndDate(end)
+  }
+
+  // Filter and aggregate data based on selected date range
+  const filteredData = useMemo(() => {
+    if (!data?.dailyStats) return null
+
+    const filtered = filterDataByDateRange(data.dailyStats, startDate, endDate)
+    const aggregated = aggregateDailyStats(filtered)
+
+    // Format daily trend for chart
+    const dailyTrend = filtered.map(d => ({
+      date: d.date.slice(5), // MM-DD format
+      total: d.comments,
+      followups: d.withReplies,
+      hidden: d.hidden
+    }))
+
+    // Calculate shift breakdown from dailyShiftStats
+    let shiftMessages = { Morning: { total: 0, received: 0, sent: 0 }, Mid: { total: 0, received: 0, sent: 0 }, Evening: { total: 0, received: 0, sent: 0 } }
+    if (data.dailyShiftStats) {
+      Object.entries(data.dailyShiftStats).forEach(([date, shifts]) => {
+        if (date >= startDate && date <= endDate) {
+          Object.entries(shifts).forEach(([shift, stats]) => {
+            if (shiftMessages[shift]) {
+              shiftMessages[shift].total += stats.messages || 0
+              shiftMessages[shift].received += stats.incoming || 0
+              shiftMessages[shift].sent += stats.outgoing || 0
+            }
+          })
+        }
+      })
+    }
+
+    const messagesByTimeframe = ['Morning', 'Mid', 'Evening'].map(shift => ({
+      shift,
+      received: shiftMessages[shift].received,
+      sent: shiftMessages[shift].sent,
+      total: shiftMessages[shift].total
+    }))
+
+    return {
+      totals: aggregated,
+      dailyTrend,
+      messagesByTimeframe
+    }
+  }, [data, startDate, endDate])
 
   if (loading) {
     return (
@@ -65,7 +128,10 @@ export default function Dashboard() {
     )
   }
 
-  const { totals, followupStats, shiftStats, messagesByTimeframe, followupDailyTrend, commentStats } = data
+  const { shiftStats } = data
+  const totals = filteredData?.totals || {}
+  const dailyTrend = filteredData?.dailyTrend || []
+  const messagesByTimeframe = filteredData?.messagesByTimeframe || []
 
   return (
     <div className="space-y-6">
@@ -74,32 +140,39 @@ export default function Dashboard() {
         <p className="text-gray-600">Chat analytics across all 26 pages</p>
       </div>
 
+      {/* Date Filter */}
+      <DateFilter
+        dateRange={data.dateRange}
+        dailyStats={data.dailyStats}
+        onFilterChange={handleFilterChange}
+      />
+
       {/* Stats Cards - Row 1: Messages & Response */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <StatCard
           title="Total Messages"
-          value={formatNumber(totals?.messages)}
-          subtitle={`From ${formatNumber(totals?.conversations)} conversations`}
+          value={formatNumber(totals.messages)}
+          subtitle={`${formatNumber(totals.incoming)} received`}
           icon="💬"
           color="blue"
         />
         <StatCard
           title="Chat Response Time"
-          value={formatDuration(totals?.avgResponseTime)}
+          value={formatDuration(totals.avgResponseTime)}
           subtitle="Average response"
           icon="⚡"
           color="purple"
         />
         <StatCard
           title="Total Sessions"
-          value={formatNumber(totals?.sessions)}
-          subtitle={`Across ${totals?.pages || 0} pages`}
+          value={formatNumber(totals.sessions)}
+          subtitle={`Across ${data.totals?.pages || 0} pages`}
           icon="📊"
           color="green"
         />
         <StatCard
           title="Total Comments"
-          value={formatNumber(commentStats?.total)}
+          value={formatNumber(totals.comments)}
           subtitle="All page comments"
           icon="💭"
           color="orange"
@@ -110,21 +183,21 @@ export default function Dashboard() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <StatCard
           title="Follow-up Comments"
-          value={formatNumber(followupStats?.commentsWithReplies)}
+          value={formatNumber(totals.withReplies)}
           subtitle="Comments with replies"
           icon="🔄"
           color="pink"
         />
         <StatCard
           title="Reply to Comment"
-          value={formatNumber(followupStats?.totalReplies)}
+          value={formatNumber(totals.replies)}
           subtitle="Total page replies"
           icon="↩️"
           color="green"
         />
         <StatCard
           title="Hidden Comments"
-          value={formatNumber(followupStats?.hiddenCount)}
+          value={formatNumber(totals.hidden)}
           subtitle="Moderated/hidden"
           icon="🚫"
           color="red"
@@ -166,11 +239,11 @@ export default function Dashboard() {
       </div>
 
       {/* Follow-up Trend */}
-      {followupDailyTrend && followupDailyTrend.length > 0 && (
+      {dailyTrend && dailyTrend.length > 0 && (
         <div className="bg-white rounded-xl shadow-lg p-6">
-          <h3 className="font-semibold text-gray-800 mb-4">Daily Comment Activity (Last 7 Days)</h3>
+          <h3 className="font-semibold text-gray-800 mb-4">Daily Comment Activity</h3>
           <ResponsiveContainer width="100%" height={250}>
-            <LineChart data={followupDailyTrend}>
+            <LineChart data={dailyTrend}>
               <XAxis dataKey="date" />
               <YAxis />
               <Tooltip formatter={(value) => formatNumber(value)} />

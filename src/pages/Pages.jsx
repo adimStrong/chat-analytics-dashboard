@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts'
+import DateFilter from '../components/DateFilter'
 
 function formatNumber(value) {
   if (value === null || value === undefined) return '0'
@@ -26,14 +27,30 @@ export default function Pages() {
   const [sortBy, setSortBy] = useState('messages')
   const [sortOrder, setSortOrder] = useState('desc')
   const [filterCategory, setFilterCategory] = useState('all')
+  const [startDate, setStartDate] = useState('')
+  const [endDate, setEndDate] = useState('')
 
   useEffect(() => {
     fetch('/data/analytics.json')
       .then(res => res.json())
-      .then(setData)
+      .then(d => {
+        setData(d)
+        // Set default to all time
+        if (d.dateRange) {
+          setStartDate(d.dateRange.minDate)
+          setEndDate(d.dateRange.maxDate)
+        }
+      })
       .catch(err => console.error('Error loading data:', err))
       .finally(() => setLoading(false))
   }, [])
+
+  const handleFilterChange = (start, end) => {
+    setStartDate(start)
+    setEndDate(end)
+    // Note: Page-level data is currently not filterable by date
+    // This is for UI consistency with other pages
+  }
 
   if (loading) {
     return (
@@ -87,6 +104,18 @@ export default function Pages() {
       <div>
         <h2 className="text-2xl font-bold text-gray-800">Page Analytics</h2>
         <p className="text-gray-600">Performance metrics by category and page</p>
+      </div>
+
+      {/* Date Filter */}
+      <DateFilter
+        dateRange={data.dateRange}
+        dailyStats={data.dailyStats}
+        onFilterChange={handleFilterChange}
+      />
+
+      {/* Note about page data */}
+      <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 text-blue-800 text-sm">
+        Note: Page-level statistics show all-time data. Date filtering applies to Dashboard, Messages, and Shifts pages.
       </div>
 
       {/* Category Summary Cards */}

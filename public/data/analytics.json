@@ -1,51 +1,51 @@
 {
   "totals": {
     "pages": 26,
-    "messages": 6689,
-    "sessions": 3790,
-    "conversations": 1146,
+    "messages": 7192,
+    "sessions": 3973,
+    "conversations": 1179,
     "comments": 105389,
-    "avgResponseTime": 6266.1,
-    "avgSessionDuration": "760.3"
+    "avgResponseTime": 5416.8,
+    "avgSessionDuration": "763.5"
   },
   "shiftStats": [
     {
       "shift": "Morning",
-      "sessions": 2134,
-      "avgResponseTime": 4172.4,
-      "avgDuration": "318.4"
+      "sessions": 2213,
+      "avgResponseTime": 3649.3,
+      "avgDuration": "335.7"
     },
     {
       "shift": "Mid",
-      "sessions": 761,
-      "avgResponseTime": 8670.4,
-      "avgDuration": "234.8"
+      "sessions": 782,
+      "avgResponseTime": 7958.9,
+      "avgDuration": "242.3"
     },
     {
       "shift": "Evening",
-      "sessions": 895,
-      "avgResponseTime": 7719.1,
-      "avgDuration": "331.4"
+      "sessions": 978,
+      "avgResponseTime": 6339.8,
+      "avgDuration": "370.8"
     }
   ],
   "shiftMessages": [
     {
       "shift": "Morning",
-      "messages": 3827,
-      "incoming": 2763,
-      "outgoing": 1064
+      "messages": 4134,
+      "incoming": 2934,
+      "outgoing": 1200
     },
     {
       "shift": "Mid",
-      "messages": 1220,
-      "incoming": 778,
-      "outgoing": 442
+      "messages": 1297,
+      "incoming": 818,
+      "outgoing": 479
     },
     {
       "shift": "Evening",
-      "messages": 1642,
-      "incoming": 1046,
-      "outgoing": 596
+      "messages": 1761,
+      "incoming": 1102,
+      "outgoing": 659
     }
   ],
   "shiftComments": [
@@ -74,7 +74,7 @@
   "topPages": [
     {
       "name": "Juan365",
-      "messages": 4135
+      "messages": 4638
     },
     {
       "name": "Juana Babe Ashley",
@@ -118,10 +118,10 @@
       "pageId": "580104038511364",
       "name": "Juan365",
       "category": "Juan365",
-      "messages": 4135,
-      "sessions": 750,
-      "avgResponseTime": 214.8,
-      "avgDuration": "789.2",
+      "messages": 4638,
+      "sessions": 933,
+      "avgResponseTime": 204.8,
+      "avgDuration": "784.8",
       "comments": 0
     },
     {
@@ -387,10 +387,10 @@
     {
       "category": "Juan365",
       "pageCount": 5,
-      "messages": 4407,
-      "sessions": 979,
+      "messages": 4920,
+      "sessions": 1178,
       "comments": 94109,
-      "avgResponseTime": 13033.7
+      "avgResponseTime": 13030.4
     },
     {
       "category": "Juana Babe",
@@ -419,10 +419,10 @@
     },
     {
       "category": "Juan365",
-      "Morning": 2356,
-      "Mid": 813,
-      "Evening": 1238,
-      "total": 4407
+      "Morning": 2660,
+      "Mid": 896,
+      "Evening": 1381,
+      "total": 4937
     },
     {
       "category": "Juana Babe",
@@ -450,19 +450,19 @@
     },
     {
       "date": "12/31",
-      "messages": 119
+      "messages": 137
     },
     {
       "date": "01/01",
-      "messages": 108
+      "messages": 115
     },
     {
       "date": "01/02",
-      "messages": 95
+      "messages": 105
     },
     {
       "date": "01/03",
-      "messages": 352
+      "messages": 664
     },
     {
       "date": "01/04",
@@ -470,12 +470,12 @@
     },
     {
       "date": "01/05",
-      "messages": 469
+      "messages": 474
     }
   ],
   "messageStats": {
-    "incoming": 4591,
-    "outgoing": 2105
+    "incoming": 4871,
+    "outgoing": 2355
   },
   "commentStats": {
     "total": 105389,
@@ -486,87 +486,87 @@
   "hourlyDistribution": [
     {
       "hour": 0,
-      "messages": 145
+      "messages": 150
     },
     {
       "hour": 1,
-      "messages": 291
-    },
-    {
-      "hour": 2,
-      "messages": 146
-    },
-    {
-      "hour": 3,
-      "messages": 136
-    },
-    {
-      "hour": 4,
-      "messages": 325
-    },
-    {
-      "hour": 5,
-      "messages": 347
-    },
-    {
-      "hour": 6,
       "messages": 294
     },
     {
+      "hour": 2,
+      "messages": 152
+    },
+    {
+      "hour": 3,
+      "messages": 144
+    },
+    {
+      "hour": 4,
+      "messages": 352
+    },
+    {
+      "hour": 5,
+      "messages": 427
+    },
+    {
+      "hour": 6,
+      "messages": 322
+    },
+    {
       "hour": 7,
-      "messages": 438
-    },
-    {
-      "hour": 8,
-      "messages": 884
-    },
-    {
-      "hour": 9,
-      "messages": 512
-    },
-    {
-      "hour": 10,
       "messages": 461
     },
     {
+      "hour": 8,
+      "messages": 900
+    },
+    {
+      "hour": 9,
+      "messages": 572
+    },
+    {
+      "hour": 10,
+      "messages": 490
+    },
+    {
       "hour": 11,
-      "messages": 331
+      "messages": 362
     },
     {
       "hour": 12,
-      "messages": 449
+      "messages": 498
     },
     {
       "hour": 13,
-      "messages": 465
+      "messages": 533
     },
     {
       "hour": 14,
-      "messages": 338
+      "messages": 343
     },
     {
       "hour": 15,
-      "messages": 231
+      "messages": 248
     },
     {
       "hour": 16,
-      "messages": 215
+      "messages": 237
     },
     {
       "hour": 17,
-      "messages": 166
+      "messages": 183
     },
     {
       "hour": 18,
-      "messages": 69
+      "messages": 72
     },
     {
       "hour": 19,
-      "messages": 76
+      "messages": 81
     },
     {
       "hour": 20,
-      "messages": 39
+      "messages": 53
     },
     {
       "hour": 21,
@@ -574,11 +574,11 @@
     },
     {
       "hour": 22,
-      "messages": 134
+      "messages": 136
     },
     {
       "hour": 23,
-      "messages": 118
+      "messages": 130
     }
   ],
   "followupStats": {
@@ -639,25 +639,2671 @@
   "messagesByTimeframe": [
     {
       "shift": "Morning",
-      "total": 3834,
-      "received": 2767,
-      "sent": 1067,
+      "total": 4138,
+      "received": 2937,
+      "sent": 1201,
       "avgResponse": null
     },
     {
       "shift": "Mid",
-      "total": 1220,
-      "received": 778,
-      "sent": 442,
+      "total": 1303,
+      "received": 820,
+      "sent": 483,
       "avgResponse": null
     },
     {
       "shift": "Evening",
-      "total": 1642,
-      "received": 1046,
-      "sent": 596,
+      "total": 1788,
+      "received": 1115,
+      "sent": 673,
       "avgResponse": null
     }
   ],
-  "lastSync": "2026-01-05T19:02:11.310294"
+  "dailyStats": [
+    {
+      "date": "2025-10-07",
+      "messages": 8,
+      "incoming": 5,
+      "outgoing": 3,
+      "comments": 238,
+      "hidden": 8,
+      "replies": 8,
+      "withReplies": 5,
+      "sessions": 6,
+      "avgResponseTime": 2.0,
+      "avgDuration": "42.7"
+    },
+    {
+      "date": "2025-10-08",
+      "messages": 7,
+      "incoming": 7,
+      "outgoing": 0,
+      "comments": 270,
+      "hidden": 12,
+      "replies": 42,
+      "withReplies": 11,
+      "sessions": 10,
+      "avgResponseTime": null,
+      "avgDuration": "19.2"
+    },
+    {
+      "date": "2025-10-09",
+      "messages": 20,
+      "incoming": 10,
+      "outgoing": 10,
+      "comments": 225,
+      "hidden": 23,
+      "replies": 20,
+      "withReplies": 9,
+      "sessions": 12,
+      "avgResponseTime": 5162.9,
+      "avgDuration": "79.7"
+    },
+    {
+      "date": "2025-10-10",
+      "messages": 16,
+      "incoming": 9,
+      "outgoing": 7,
+      "comments": 343,
+      "hidden": 6,
+      "replies": 27,
+      "withReplies": 19,
+      "sessions": 4,
+      "avgResponseTime": 39.8,
+      "avgDuration": "415.0"
+    },
+    {
+      "date": "2025-10-11",
+      "messages": 28,
+      "incoming": 16,
+      "outgoing": 12,
+      "comments": 259,
+      "hidden": 6,
+      "replies": 7,
+      "withReplies": 4,
+      "sessions": 15,
+      "avgResponseTime": 18.5,
+      "avgDuration": "67.8"
+    },
+    {
+      "date": "2025-10-12",
+      "messages": 16,
+      "incoming": 13,
+      "outgoing": 3,
+      "comments": 254,
+      "hidden": 9,
+      "replies": 34,
+      "withReplies": 30,
+      "sessions": 8,
+      "avgResponseTime": 81.0,
+      "avgDuration": "220.0"
+    },
+    {
+      "date": "2025-10-13",
+      "messages": 42,
+      "incoming": 33,
+      "outgoing": 9,
+      "comments": 368,
+      "hidden": 8,
+      "replies": 41,
+      "withReplies": 33,
+      "sessions": 23,
+      "avgResponseTime": 22232.7,
+      "avgDuration": "280.3"
+    },
+    {
+      "date": "2025-10-14",
+      "messages": 21,
+      "incoming": 15,
+      "outgoing": 6,
+      "comments": 315,
+      "hidden": 24,
+      "replies": 21,
+      "withReplies": 12,
+      "sessions": 10,
+      "avgResponseTime": 7391.3,
+      "avgDuration": "1470.8"
+    },
+    {
+      "date": "2025-10-15",
+      "messages": 66,
+      "incoming": 53,
+      "outgoing": 13,
+      "comments": 465,
+      "hidden": 19,
+      "replies": 50,
+      "withReplies": 38,
+      "sessions": 48,
+      "avgResponseTime": 9646.1,
+      "avgDuration": "354.9"
+    },
+    {
+      "date": "2025-10-16",
+      "messages": 18,
+      "incoming": 11,
+      "outgoing": 7,
+      "comments": 221,
+      "hidden": 7,
+      "replies": 18,
+      "withReplies": 15,
+      "sessions": 8,
+      "avgResponseTime": 58.5,
+      "avgDuration": "140.4"
+    },
+    {
+      "date": "2025-10-17",
+      "messages": 10,
+      "incoming": 7,
+      "outgoing": 3,
+      "comments": 349,
+      "hidden": 8,
+      "replies": 30,
+      "withReplies": 23,
+      "sessions": 5,
+      "avgResponseTime": 50.5,
+      "avgDuration": "275.2"
+    },
+    {
+      "date": "2025-10-18",
+      "messages": 39,
+      "incoming": 31,
+      "outgoing": 8,
+      "comments": 384,
+      "hidden": 24,
+      "replies": 8,
+      "withReplies": 6,
+      "sessions": 24,
+      "avgResponseTime": 111.5,
+      "avgDuration": "666.7"
+    },
+    {
+      "date": "2025-10-19",
+      "messages": 38,
+      "incoming": 24,
+      "outgoing": 14,
+      "comments": 250,
+      "hidden": 19,
+      "replies": 30,
+      "withReplies": 22,
+      "sessions": 34,
+      "avgResponseTime": 2854.3,
+      "avgDuration": "257.3"
+    },
+    {
+      "date": "2025-10-20",
+      "messages": 43,
+      "incoming": 32,
+      "outgoing": 11,
+      "comments": 354,
+      "hidden": 21,
+      "replies": 33,
+      "withReplies": 18,
+      "sessions": 52,
+      "avgResponseTime": 25982.7,
+      "avgDuration": "269.2"
+    },
+    {
+      "date": "2025-10-21",
+      "messages": 11,
+      "incoming": 11,
+      "outgoing": 0,
+      "comments": 300,
+      "hidden": 23,
+      "replies": 4,
+      "withReplies": 4,
+      "sessions": 22,
+      "avgResponseTime": null,
+      "avgDuration": null
+    },
+    {
+      "date": "2025-10-22",
+      "messages": 48,
+      "incoming": 40,
+      "outgoing": 8,
+      "comments": 213,
+      "hidden": 17,
+      "replies": 12,
+      "withReplies": 7,
+      "sessions": 51,
+      "avgResponseTime": 37706.0,
+      "avgDuration": "263.8"
+    },
+    {
+      "date": "2025-10-23",
+      "messages": 40,
+      "incoming": 34,
+      "outgoing": 6,
+      "comments": 336,
+      "hidden": 12,
+      "replies": 24,
+      "withReplies": 21,
+      "sessions": 42,
+      "avgResponseTime": 36687.5,
+      "avgDuration": "90.5"
+    },
+    {
+      "date": "2025-10-24",
+      "messages": 18,
+      "incoming": 10,
+      "outgoing": 8,
+      "comments": 316,
+      "hidden": 21,
+      "replies": 1,
+      "withReplies": 1,
+      "sessions": 15,
+      "avgResponseTime": 30661.7,
+      "avgDuration": "412.1"
+    },
+    {
+      "date": "2025-10-25",
+      "messages": 12,
+      "incoming": 11,
+      "outgoing": 1,
+      "comments": 329,
+      "hidden": 26,
+      "replies": 15,
+      "withReplies": 11,
+      "sessions": 12,
+      "avgResponseTime": 2.0,
+      "avgDuration": "387.5"
+    },
+    {
+      "date": "2025-10-26",
+      "messages": 34,
+      "incoming": 31,
+      "outgoing": 3,
+      "comments": 332,
+      "hidden": 9,
+      "replies": 9,
+      "withReplies": 6,
+      "sessions": 58,
+      "avgResponseTime": 14289.3,
+      "avgDuration": "26.0"
+    },
+    {
+      "date": "2025-10-27",
+      "messages": 63,
+      "incoming": 45,
+      "outgoing": 18,
+      "comments": 258,
+      "hidden": 16,
+      "replies": 7,
+      "withReplies": 4,
+      "sessions": 40,
+      "avgResponseTime": 12945.5,
+      "avgDuration": "357.0"
+    },
+    {
+      "date": "2025-10-28",
+      "messages": 28,
+      "incoming": 18,
+      "outgoing": 10,
+      "comments": 279,
+      "hidden": 16,
+      "replies": 11,
+      "withReplies": 4,
+      "sessions": 30,
+      "avgResponseTime": 17666.2,
+      "avgDuration": "23.9"
+    },
+    {
+      "date": "2025-10-29",
+      "messages": 26,
+      "incoming": 18,
+      "outgoing": 8,
+      "comments": 480,
+      "hidden": 7,
+      "replies": 7,
+      "withReplies": 7,
+      "sessions": 16,
+      "avgResponseTime": 123.2,
+      "avgDuration": "103.6"
+    },
+    {
+      "date": "2025-10-30",
+      "messages": 45,
+      "incoming": 35,
+      "outgoing": 10,
+      "comments": 248,
+      "hidden": 20,
+      "replies": 11,
+      "withReplies": 9,
+      "sessions": 14,
+      "avgResponseTime": 22914.4,
+      "avgDuration": "418.1"
+    },
+    {
+      "date": "2025-10-31",
+      "messages": 27,
+      "incoming": 18,
+      "outgoing": 9,
+      "comments": 252,
+      "hidden": 13,
+      "replies": 11,
+      "withReplies": 9,
+      "sessions": 20,
+      "avgResponseTime": 27020.3,
+      "avgDuration": "259.5"
+    },
+    {
+      "date": "2025-11-01",
+      "messages": 35,
+      "incoming": 23,
+      "outgoing": 12,
+      "comments": 327,
+      "hidden": 38,
+      "replies": 15,
+      "withReplies": 12,
+      "sessions": 8,
+      "avgResponseTime": 11349.5,
+      "avgDuration": "807.0"
+    },
+    {
+      "date": "2025-11-02",
+      "messages": 32,
+      "incoming": 22,
+      "outgoing": 10,
+      "comments": 432,
+      "hidden": 42,
+      "replies": 23,
+      "withReplies": 19,
+      "sessions": 20,
+      "avgResponseTime": 1968.2,
+      "avgDuration": "199.9"
+    },
+    {
+      "date": "2025-11-03",
+      "messages": 31,
+      "incoming": 23,
+      "outgoing": 8,
+      "comments": 261,
+      "hidden": 35,
+      "replies": 23,
+      "withReplies": 9,
+      "sessions": 23,
+      "avgResponseTime": 3160.4,
+      "avgDuration": "144.0"
+    },
+    {
+      "date": "2025-11-04",
+      "messages": 62,
+      "incoming": 47,
+      "outgoing": 15,
+      "comments": 282,
+      "hidden": 40,
+      "replies": 7,
+      "withReplies": 7,
+      "sessions": 13,
+      "avgResponseTime": 157.1,
+      "avgDuration": "585.2"
+    },
+    {
+      "date": "2025-11-05",
+      "messages": 55,
+      "incoming": 47,
+      "outgoing": 8,
+      "comments": 305,
+      "hidden": 33,
+      "replies": 17,
+      "withReplies": 12,
+      "sessions": 44,
+      "avgResponseTime": 85.0,
+      "avgDuration": "86.6"
+    },
+    {
+      "date": "2025-11-06",
+      "messages": 38,
+      "incoming": 31,
+      "outgoing": 7,
+      "comments": 396,
+      "hidden": 46,
+      "replies": 21,
+      "withReplies": 14,
+      "sessions": 29,
+      "avgResponseTime": 19101.9,
+      "avgDuration": "643.3"
+    },
+    {
+      "date": "2025-11-07",
+      "messages": 15,
+      "incoming": 13,
+      "outgoing": 2,
+      "comments": 302,
+      "hidden": 38,
+      "replies": 5,
+      "withReplies": 5,
+      "sessions": 18,
+      "avgResponseTime": 19301.0,
+      "avgDuration": "9.9"
+    },
+    {
+      "date": "2025-11-08",
+      "messages": 30,
+      "incoming": 25,
+      "outgoing": 5,
+      "comments": 293,
+      "hidden": 41,
+      "replies": 18,
+      "withReplies": 12,
+      "sessions": 25,
+      "avgResponseTime": 2984.6,
+      "avgDuration": "66.2"
+    },
+    {
+      "date": "2025-11-09",
+      "messages": 16,
+      "incoming": 12,
+      "outgoing": 4,
+      "comments": 320,
+      "hidden": 42,
+      "replies": 20,
+      "withReplies": 20,
+      "sessions": 14,
+      "avgResponseTime": 957.8,
+      "avgDuration": "1133.7"
+    },
+    {
+      "date": "2025-11-10",
+      "messages": 7,
+      "incoming": 4,
+      "outgoing": 3,
+      "comments": 410,
+      "hidden": 50,
+      "replies": 26,
+      "withReplies": 16,
+      "sessions": 6,
+      "avgResponseTime": 28074.3,
+      "avgDuration": "552.3"
+    },
+    {
+      "date": "2025-11-11",
+      "messages": 9,
+      "incoming": 7,
+      "outgoing": 2,
+      "comments": 336,
+      "hidden": 44,
+      "replies": 12,
+      "withReplies": 5,
+      "sessions": 7,
+      "avgResponseTime": 2.0,
+      "avgDuration": "576.6"
+    },
+    {
+      "date": "2025-11-12",
+      "messages": 89,
+      "incoming": 77,
+      "outgoing": 12,
+      "comments": 199,
+      "hidden": 40,
+      "replies": 5,
+      "withReplies": 4,
+      "sessions": 40,
+      "avgResponseTime": 52.7,
+      "avgDuration": "421.7"
+    },
+    {
+      "date": "2025-11-13",
+      "messages": 28,
+      "incoming": 26,
+      "outgoing": 2,
+      "comments": 347,
+      "hidden": 55,
+      "replies": 15,
+      "withReplies": 14,
+      "sessions": 26,
+      "avgResponseTime": 22655.0,
+      "avgDuration": "225.6"
+    },
+    {
+      "date": "2025-11-14",
+      "messages": 36,
+      "incoming": 26,
+      "outgoing": 10,
+      "comments": 212,
+      "hidden": 31,
+      "replies": 8,
+      "withReplies": 8,
+      "sessions": 17,
+      "avgResponseTime": 21575.8,
+      "avgDuration": "699.5"
+    },
+    {
+      "date": "2025-11-15",
+      "messages": 90,
+      "incoming": 73,
+      "outgoing": 17,
+      "comments": 335,
+      "hidden": 75,
+      "replies": 47,
+      "withReplies": 27,
+      "sessions": 28,
+      "avgResponseTime": 59.5,
+      "avgDuration": "270.3"
+    },
+    {
+      "date": "2025-11-16",
+      "messages": 1,
+      "incoming": 1,
+      "outgoing": 0,
+      "comments": 316,
+      "hidden": 54,
+      "replies": 6,
+      "withReplies": 4,
+      "sessions": 2,
+      "avgResponseTime": null,
+      "avgDuration": null
+    },
+    {
+      "date": "2025-11-17",
+      "messages": 56,
+      "incoming": 38,
+      "outgoing": 18,
+      "comments": 343,
+      "hidden": 26,
+      "replies": 8,
+      "withReplies": 5,
+      "sessions": 42,
+      "avgResponseTime": 7334.4,
+      "avgDuration": "169.8"
+    },
+    {
+      "date": "2025-11-18",
+      "messages": 92,
+      "incoming": 53,
+      "outgoing": 39,
+      "comments": 287,
+      "hidden": 28,
+      "replies": 14,
+      "withReplies": 10,
+      "sessions": 76,
+      "avgResponseTime": 9555.4,
+      "avgDuration": "408.9"
+    },
+    {
+      "date": "2025-11-19",
+      "messages": 32,
+      "incoming": 26,
+      "outgoing": 6,
+      "comments": 219,
+      "hidden": 19,
+      "replies": 12,
+      "withReplies": 10,
+      "sessions": 35,
+      "avgResponseTime": 14805.2,
+      "avgDuration": "634.4"
+    },
+    {
+      "date": "2025-11-20",
+      "messages": 56,
+      "incoming": 38,
+      "outgoing": 18,
+      "comments": 393,
+      "hidden": 36,
+      "replies": 27,
+      "withReplies": 25,
+      "sessions": 49,
+      "avgResponseTime": 8426.8,
+      "avgDuration": "296.1"
+    },
+    {
+      "date": "2025-11-21",
+      "messages": 80,
+      "incoming": 54,
+      "outgoing": 26,
+      "comments": 286,
+      "hidden": 36,
+      "replies": 10,
+      "withReplies": 9,
+      "sessions": 47,
+      "avgResponseTime": 13360.5,
+      "avgDuration": "404.9"
+    },
+    {
+      "date": "2025-11-22",
+      "messages": 34,
+      "incoming": 27,
+      "outgoing": 7,
+      "comments": 346,
+      "hidden": 33,
+      "replies": 26,
+      "withReplies": 19,
+      "sessions": 12,
+      "avgResponseTime": 80.3,
+      "avgDuration": "280.1"
+    },
+    {
+      "date": "2025-11-23",
+      "messages": 49,
+      "incoming": 35,
+      "outgoing": 14,
+      "comments": 385,
+      "hidden": 24,
+      "replies": 6,
+      "withReplies": 5,
+      "sessions": 38,
+      "avgResponseTime": 12600.6,
+      "avgDuration": "290.7"
+    },
+    {
+      "date": "2025-11-24",
+      "messages": 51,
+      "incoming": 42,
+      "outgoing": 9,
+      "comments": 313,
+      "hidden": 30,
+      "replies": 26,
+      "withReplies": 25,
+      "sessions": 49,
+      "avgResponseTime": 15240.2,
+      "avgDuration": "382.9"
+    },
+    {
+      "date": "2025-11-25",
+      "messages": 37,
+      "incoming": 30,
+      "outgoing": 7,
+      "comments": 265,
+      "hidden": 26,
+      "replies": 24,
+      "withReplies": 18,
+      "sessions": 30,
+      "avgResponseTime": 6296.6,
+      "avgDuration": "173.5"
+    },
+    {
+      "date": "2025-11-26",
+      "messages": 48,
+      "incoming": 34,
+      "outgoing": 14,
+      "comments": 283,
+      "hidden": 40,
+      "replies": 8,
+      "withReplies": 8,
+      "sessions": 32,
+      "avgResponseTime": 16819.4,
+      "avgDuration": "446.7"
+    },
+    {
+      "date": "2025-11-27",
+      "messages": 9,
+      "incoming": 7,
+      "outgoing": 2,
+      "comments": 54,
+      "hidden": 8,
+      "replies": 12,
+      "withReplies": 11,
+      "sessions": 14,
+      "avgResponseTime": 3891.5,
+      "avgDuration": "433.1"
+    },
+    {
+      "date": "2025-11-28",
+      "messages": 20,
+      "incoming": 15,
+      "outgoing": 5,
+      "comments": 375,
+      "hidden": 18,
+      "replies": 19,
+      "withReplies": 19,
+      "sessions": 27,
+      "avgResponseTime": 10492.5,
+      "avgDuration": "928.2"
+    },
+    {
+      "date": "2025-11-29",
+      "messages": 19,
+      "incoming": 13,
+      "outgoing": 6,
+      "comments": 286,
+      "hidden": 19,
+      "replies": 23,
+      "withReplies": 20,
+      "sessions": 15,
+      "avgResponseTime": 6.9,
+      "avgDuration": "446.1"
+    },
+    {
+      "date": "2025-11-30",
+      "messages": 81,
+      "incoming": 46,
+      "outgoing": 35,
+      "comments": 390,
+      "hidden": 36,
+      "replies": 18,
+      "withReplies": 10,
+      "sessions": 43,
+      "avgResponseTime": 11954.8,
+      "avgDuration": "378.3"
+    },
+    {
+      "date": "2025-12-01",
+      "messages": 37,
+      "incoming": 29,
+      "outgoing": 8,
+      "comments": 403,
+      "hidden": 36,
+      "replies": 9,
+      "withReplies": 6,
+      "sessions": 29,
+      "avgResponseTime": 10.0,
+      "avgDuration": "150.7"
+    },
+    {
+      "date": "2025-12-02",
+      "messages": 34,
+      "incoming": 22,
+      "outgoing": 12,
+      "comments": 326,
+      "hidden": 28,
+      "replies": 18,
+      "withReplies": 16,
+      "sessions": 29,
+      "avgResponseTime": 127.0,
+      "avgDuration": "119.7"
+    },
+    {
+      "date": "2025-12-03",
+      "messages": 43,
+      "incoming": 36,
+      "outgoing": 7,
+      "comments": 353,
+      "hidden": 45,
+      "replies": 41,
+      "withReplies": 35,
+      "sessions": 30,
+      "avgResponseTime": 51.0,
+      "avgDuration": "206.3"
+    },
+    {
+      "date": "2025-12-04",
+      "messages": 37,
+      "incoming": 23,
+      "outgoing": 14,
+      "comments": 511,
+      "hidden": 56,
+      "replies": 22,
+      "withReplies": 17,
+      "sessions": 23,
+      "avgResponseTime": 86.9,
+      "avgDuration": "135.9"
+    },
+    {
+      "date": "2025-12-05",
+      "messages": 45,
+      "incoming": 27,
+      "outgoing": 18,
+      "comments": 456,
+      "hidden": 46,
+      "replies": 31,
+      "withReplies": 21,
+      "sessions": 12,
+      "avgResponseTime": 63.2,
+      "avgDuration": "1001.7"
+    },
+    {
+      "date": "2025-12-06",
+      "messages": 99,
+      "incoming": 66,
+      "outgoing": 33,
+      "comments": 351,
+      "hidden": 44,
+      "replies": 23,
+      "withReplies": 21,
+      "sessions": 51,
+      "avgResponseTime": 11565.2,
+      "avgDuration": "242.2"
+    },
+    {
+      "date": "2025-12-07",
+      "messages": 66,
+      "incoming": 49,
+      "outgoing": 17,
+      "comments": 5990,
+      "hidden": 184,
+      "replies": 707,
+      "withReplies": 191,
+      "sessions": 46,
+      "avgResponseTime": 5178.9,
+      "avgDuration": "557.8"
+    },
+    {
+      "date": "2025-12-08",
+      "messages": 68,
+      "incoming": 55,
+      "outgoing": 13,
+      "comments": 4425,
+      "hidden": 130,
+      "replies": 382,
+      "withReplies": 67,
+      "sessions": 61,
+      "avgResponseTime": 99.3,
+      "avgDuration": "381.0"
+    },
+    {
+      "date": "2025-12-09",
+      "messages": 67,
+      "incoming": 56,
+      "outgoing": 11,
+      "comments": 4719,
+      "hidden": 150,
+      "replies": 402,
+      "withReplies": 98,
+      "sessions": 49,
+      "avgResponseTime": 26410.3,
+      "avgDuration": "401.4"
+    },
+    {
+      "date": "2025-12-10",
+      "messages": 53,
+      "incoming": 43,
+      "outgoing": 10,
+      "comments": 6164,
+      "hidden": 155,
+      "replies": 393,
+      "withReplies": 133,
+      "sessions": 39,
+      "avgResponseTime": 303.9,
+      "avgDuration": "350.6"
+    },
+    {
+      "date": "2025-12-11",
+      "messages": 57,
+      "incoming": 41,
+      "outgoing": 16,
+      "comments": 4817,
+      "hidden": 118,
+      "replies": 595,
+      "withReplies": 109,
+      "sessions": 37,
+      "avgResponseTime": 187.1,
+      "avgDuration": "200.8"
+    },
+    {
+      "date": "2025-12-12",
+      "messages": 86,
+      "incoming": 72,
+      "outgoing": 14,
+      "comments": 4874,
+      "hidden": 330,
+      "replies": 478,
+      "withReplies": 126,
+      "sessions": 46,
+      "avgResponseTime": 122.8,
+      "avgDuration": "254.3"
+    },
+    {
+      "date": "2025-12-13",
+      "messages": 53,
+      "incoming": 47,
+      "outgoing": 6,
+      "comments": 5278,
+      "hidden": 110,
+      "replies": 1065,
+      "withReplies": 207,
+      "sessions": 45,
+      "avgResponseTime": 2394.4,
+      "avgDuration": "115.6"
+    },
+    {
+      "date": "2025-12-14",
+      "messages": 82,
+      "incoming": 60,
+      "outgoing": 22,
+      "comments": 5673,
+      "hidden": 305,
+      "replies": 543,
+      "withReplies": 114,
+      "sessions": 51,
+      "avgResponseTime": 65.3,
+      "avgDuration": "365.9"
+    },
+    {
+      "date": "2025-12-15",
+      "messages": 12,
+      "incoming": 10,
+      "outgoing": 2,
+      "comments": 271,
+      "hidden": 40,
+      "replies": 10,
+      "withReplies": 9,
+      "sessions": 11,
+      "avgResponseTime": 12.0,
+      "avgDuration": "25.4"
+    },
+    {
+      "date": "2025-12-16",
+      "messages": 23,
+      "incoming": 19,
+      "outgoing": 4,
+      "comments": 428,
+      "hidden": 35,
+      "replies": 16,
+      "withReplies": 10,
+      "sessions": 26,
+      "avgResponseTime": 233.5,
+      "avgDuration": "331.3"
+    },
+    {
+      "date": "2025-12-17",
+      "messages": 67,
+      "incoming": 51,
+      "outgoing": 16,
+      "comments": 3092,
+      "hidden": 113,
+      "replies": 202,
+      "withReplies": 55,
+      "sessions": 17,
+      "avgResponseTime": 52.8,
+      "avgDuration": "1233.6"
+    },
+    {
+      "date": "2025-12-18",
+      "messages": 118,
+      "incoming": 72,
+      "outgoing": 46,
+      "comments": 417,
+      "hidden": 89,
+      "replies": 10,
+      "withReplies": 8,
+      "sessions": 24,
+      "avgResponseTime": 1462.0,
+      "avgDuration": "1802.6"
+    },
+    {
+      "date": "2025-12-19",
+      "messages": 83,
+      "incoming": 52,
+      "outgoing": 31,
+      "comments": 3750,
+      "hidden": 39,
+      "replies": 372,
+      "withReplies": 148,
+      "sessions": 18,
+      "avgResponseTime": 143.2,
+      "avgDuration": "1070.4"
+    },
+    {
+      "date": "2025-12-20",
+      "messages": 102,
+      "incoming": 60,
+      "outgoing": 42,
+      "comments": 515,
+      "hidden": 51,
+      "replies": 39,
+      "withReplies": 28,
+      "sessions": 29,
+      "avgResponseTime": 162.9,
+      "avgDuration": "761.0"
+    },
+    {
+      "date": "2025-12-21",
+      "messages": 37,
+      "incoming": 33,
+      "outgoing": 4,
+      "comments": 404,
+      "hidden": 38,
+      "replies": 34,
+      "withReplies": 22,
+      "sessions": 56,
+      "avgResponseTime": 14.6,
+      "avgDuration": "58.9"
+    },
+    {
+      "date": "2025-12-22",
+      "messages": 78,
+      "incoming": 50,
+      "outgoing": 28,
+      "comments": 2372,
+      "hidden": 58,
+      "replies": 151,
+      "withReplies": 84,
+      "sessions": 67,
+      "avgResponseTime": 10741.5,
+      "avgDuration": "358.6"
+    },
+    {
+      "date": "2025-12-23",
+      "messages": 87,
+      "incoming": 60,
+      "outgoing": 27,
+      "comments": 538,
+      "hidden": 54,
+      "replies": 51,
+      "withReplies": 33,
+      "sessions": 61,
+      "avgResponseTime": 2847.0,
+      "avgDuration": "248.7"
+    },
+    {
+      "date": "2025-12-24",
+      "messages": 110,
+      "incoming": 97,
+      "outgoing": 13,
+      "comments": 300,
+      "hidden": 24,
+      "replies": 54,
+      "withReplies": 38,
+      "sessions": 152,
+      "avgResponseTime": 156.8,
+      "avgDuration": "77.4"
+    },
+    {
+      "date": "2025-12-25",
+      "messages": 103,
+      "incoming": 97,
+      "outgoing": 6,
+      "comments": 258,
+      "hidden": 36,
+      "replies": 30,
+      "withReplies": 19,
+      "sessions": 156,
+      "avgResponseTime": 24263.0,
+      "avgDuration": "117.5"
+    },
+    {
+      "date": "2025-12-26",
+      "messages": 131,
+      "incoming": 98,
+      "outgoing": 33,
+      "comments": 2293,
+      "hidden": 55,
+      "replies": 107,
+      "withReplies": 57,
+      "sessions": 127,
+      "avgResponseTime": 8450.8,
+      "avgDuration": "77.3"
+    },
+    {
+      "date": "2025-12-27",
+      "messages": 86,
+      "incoming": 59,
+      "outgoing": 27,
+      "comments": 2373,
+      "hidden": 64,
+      "replies": 195,
+      "withReplies": 94,
+      "sessions": 79,
+      "avgResponseTime": 425.1,
+      "avgDuration": "192.3"
+    },
+    {
+      "date": "2025-12-28",
+      "messages": 86,
+      "incoming": 73,
+      "outgoing": 13,
+      "comments": 2115,
+      "hidden": 78,
+      "replies": 185,
+      "withReplies": 105,
+      "sessions": 78,
+      "avgResponseTime": 286.4,
+      "avgDuration": "235.7"
+    },
+    {
+      "date": "2025-12-29",
+      "messages": 144,
+      "incoming": 90,
+      "outgoing": 54,
+      "comments": 2178,
+      "hidden": 49,
+      "replies": 205,
+      "withReplies": 94,
+      "sessions": 74,
+      "avgResponseTime": 8498.6,
+      "avgDuration": "189.0"
+    },
+    {
+      "date": "2025-12-30",
+      "messages": 126,
+      "incoming": 87,
+      "outgoing": 39,
+      "comments": 340,
+      "hidden": 58,
+      "replies": 71,
+      "withReplies": 47,
+      "sessions": 71,
+      "avgResponseTime": 4278.5,
+      "avgDuration": "242.0"
+    },
+    {
+      "date": "2025-12-31",
+      "messages": 137,
+      "incoming": 87,
+      "outgoing": 50,
+      "comments": 301,
+      "hidden": 26,
+      "replies": 61,
+      "withReplies": 46,
+      "sessions": 105,
+      "avgResponseTime": 504.3,
+      "avgDuration": "210.3"
+    },
+    {
+      "date": "2026-01-01",
+      "messages": 115,
+      "incoming": 71,
+      "outgoing": 44,
+      "comments": 331,
+      "hidden": 33,
+      "replies": 34,
+      "withReplies": 24,
+      "sessions": 87,
+      "avgResponseTime": 4046.2,
+      "avgDuration": "232.8"
+    },
+    {
+      "date": "2026-01-02",
+      "messages": 105,
+      "incoming": 68,
+      "outgoing": 37,
+      "comments": 3632,
+      "hidden": 45,
+      "replies": 273,
+      "withReplies": 147,
+      "sessions": 60,
+      "avgResponseTime": 934.8,
+      "avgDuration": "599.3"
+    },
+    {
+      "date": "2026-01-03",
+      "messages": 667,
+      "incoming": 367,
+      "outgoing": 300,
+      "comments": 5223,
+      "hidden": 79,
+      "replies": 273,
+      "withReplies": 132,
+      "sessions": 142,
+      "avgResponseTime": 1470.8,
+      "avgDuration": "523.0"
+    },
+    {
+      "date": "2026-01-04",
+      "messages": 886,
+      "incoming": 507,
+      "outgoing": 379,
+      "comments": 3424,
+      "hidden": 43,
+      "replies": 427,
+      "withReplies": 164,
+      "sessions": 158,
+      "avgResponseTime": 1676.9,
+      "avgDuration": "661.7"
+    },
+    {
+      "date": "2026-01-05",
+      "messages": 474,
+      "incoming": 263,
+      "outgoing": 211,
+      "comments": 364,
+      "hidden": 22,
+      "replies": 20,
+      "withReplies": 16,
+      "sessions": 135,
+      "avgResponseTime": 226.6,
+      "avgDuration": "672.5"
+    }
+  ],
+  "dailyShiftStats": {
+    "2025-10-07": {
+      "Morning": {
+        "messages": 6,
+        "incoming": 4,
+        "outgoing": 2
+      },
+      "Mid": {
+        "messages": 2,
+        "incoming": 1,
+        "outgoing": 1
+      },
+      "Evening": {}
+    },
+    "2025-10-08": {
+      "Morning": {
+        "messages": 1,
+        "incoming": 1,
+        "outgoing": 0
+      },
+      "Mid": {
+        "messages": 3,
+        "incoming": 3,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 3,
+        "incoming": 3,
+        "outgoing": 0
+      }
+    },
+    "2025-10-09": {
+      "Morning": {
+        "messages": 1,
+        "incoming": 1,
+        "outgoing": 0
+      },
+      "Mid": {
+        "messages": 5,
+        "incoming": 3,
+        "outgoing": 2
+      },
+      "Evening": {
+        "messages": 14,
+        "incoming": 6,
+        "outgoing": 8
+      }
+    },
+    "2025-10-10": {
+      "Morning": {},
+      "Mid": {},
+      "Evening": {
+        "messages": 16,
+        "incoming": 9,
+        "outgoing": 7
+      }
+    },
+    "2025-10-11": {
+      "Morning": {
+        "messages": 22,
+        "incoming": 10,
+        "outgoing": 12
+      },
+      "Mid": {
+        "messages": 2,
+        "incoming": 2,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 4,
+        "incoming": 4,
+        "outgoing": 0
+      }
+    },
+    "2025-10-12": {
+      "Morning": {
+        "messages": 7,
+        "incoming": 6,
+        "outgoing": 1
+      },
+      "Mid": {
+        "messages": 4,
+        "incoming": 2,
+        "outgoing": 2
+      },
+      "Evening": {
+        "messages": 5,
+        "incoming": 5,
+        "outgoing": 0
+      }
+    },
+    "2025-10-13": {
+      "Morning": {
+        "messages": 26,
+        "incoming": 22,
+        "outgoing": 4
+      },
+      "Mid": {
+        "messages": 3,
+        "incoming": 2,
+        "outgoing": 1
+      },
+      "Evening": {
+        "messages": 13,
+        "incoming": 9,
+        "outgoing": 4
+      }
+    },
+    "2025-10-14": {
+      "Morning": {},
+      "Mid": {
+        "messages": 4,
+        "incoming": 4,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 17,
+        "incoming": 11,
+        "outgoing": 6
+      }
+    },
+    "2025-10-15": {
+      "Morning": {
+        "messages": 59,
+        "incoming": 48,
+        "outgoing": 11
+      },
+      "Mid": {
+        "messages": 4,
+        "incoming": 3,
+        "outgoing": 1
+      },
+      "Evening": {
+        "messages": 3,
+        "incoming": 2,
+        "outgoing": 1
+      }
+    },
+    "2025-10-16": {
+      "Morning": {
+        "messages": 12,
+        "incoming": 7,
+        "outgoing": 5
+      },
+      "Mid": {
+        "messages": 1,
+        "incoming": 1,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 5,
+        "incoming": 3,
+        "outgoing": 2
+      }
+    },
+    "2025-10-17": {
+      "Morning": {
+        "messages": 10,
+        "incoming": 7,
+        "outgoing": 3
+      },
+      "Mid": {},
+      "Evening": {}
+    },
+    "2025-10-18": {
+      "Morning": {
+        "messages": 29,
+        "incoming": 25,
+        "outgoing": 4
+      },
+      "Mid": {
+        "messages": 10,
+        "incoming": 6,
+        "outgoing": 4
+      },
+      "Evening": {}
+    },
+    "2025-10-19": {
+      "Morning": {
+        "messages": 6,
+        "incoming": 5,
+        "outgoing": 1
+      },
+      "Mid": {
+        "messages": 23,
+        "incoming": 12,
+        "outgoing": 11
+      },
+      "Evening": {
+        "messages": 9,
+        "incoming": 7,
+        "outgoing": 2
+      }
+    },
+    "2025-10-20": {
+      "Morning": {
+        "messages": 22,
+        "incoming": 20,
+        "outgoing": 2
+      },
+      "Mid": {
+        "messages": 17,
+        "incoming": 10,
+        "outgoing": 7
+      },
+      "Evening": {
+        "messages": 4,
+        "incoming": 2,
+        "outgoing": 2
+      }
+    },
+    "2025-10-21": {
+      "Morning": {
+        "messages": 8,
+        "incoming": 8,
+        "outgoing": 0
+      },
+      "Mid": {},
+      "Evening": {
+        "messages": 3,
+        "incoming": 3,
+        "outgoing": 0
+      }
+    },
+    "2025-10-22": {
+      "Morning": {
+        "messages": 36,
+        "incoming": 33,
+        "outgoing": 3
+      },
+      "Mid": {
+        "messages": 8,
+        "incoming": 5,
+        "outgoing": 3
+      },
+      "Evening": {
+        "messages": 4,
+        "incoming": 2,
+        "outgoing": 2
+      }
+    },
+    "2025-10-23": {
+      "Morning": {
+        "messages": 26,
+        "incoming": 24,
+        "outgoing": 2
+      },
+      "Mid": {
+        "messages": 10,
+        "incoming": 8,
+        "outgoing": 2
+      },
+      "Evening": {
+        "messages": 4,
+        "incoming": 2,
+        "outgoing": 2
+      }
+    },
+    "2025-10-24": {
+      "Morning": {
+        "messages": 6,
+        "incoming": 4,
+        "outgoing": 2
+      },
+      "Mid": {
+        "messages": 5,
+        "incoming": 3,
+        "outgoing": 2
+      },
+      "Evening": {
+        "messages": 7,
+        "incoming": 3,
+        "outgoing": 4
+      }
+    },
+    "2025-10-25": {
+      "Morning": {
+        "messages": 7,
+        "incoming": 6,
+        "outgoing": 1
+      },
+      "Mid": {
+        "messages": 3,
+        "incoming": 3,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 2,
+        "incoming": 2,
+        "outgoing": 0
+      }
+    },
+    "2025-10-26": {
+      "Morning": {
+        "messages": 27,
+        "incoming": 27,
+        "outgoing": 0
+      },
+      "Mid": {
+        "messages": 5,
+        "incoming": 2,
+        "outgoing": 3
+      },
+      "Evening": {
+        "messages": 2,
+        "incoming": 2,
+        "outgoing": 0
+      }
+    },
+    "2025-10-27": {
+      "Morning": {
+        "messages": 25,
+        "incoming": 22,
+        "outgoing": 3
+      },
+      "Mid": {
+        "messages": 5,
+        "incoming": 3,
+        "outgoing": 2
+      },
+      "Evening": {
+        "messages": 33,
+        "incoming": 20,
+        "outgoing": 13
+      }
+    },
+    "2025-10-28": {
+      "Morning": {
+        "messages": 6,
+        "incoming": 6,
+        "outgoing": 0
+      },
+      "Mid": {
+        "messages": 8,
+        "incoming": 3,
+        "outgoing": 5
+      },
+      "Evening": {
+        "messages": 14,
+        "incoming": 9,
+        "outgoing": 5
+      }
+    },
+    "2025-10-29": {
+      "Morning": {
+        "messages": 7,
+        "incoming": 4,
+        "outgoing": 3
+      },
+      "Mid": {
+        "messages": 1,
+        "incoming": 1,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 18,
+        "incoming": 13,
+        "outgoing": 5
+      }
+    },
+    "2025-10-30": {
+      "Morning": {
+        "messages": 15,
+        "incoming": 10,
+        "outgoing": 5
+      },
+      "Mid": {
+        "messages": 30,
+        "incoming": 25,
+        "outgoing": 5
+      },
+      "Evening": {}
+    },
+    "2025-10-31": {
+      "Morning": {
+        "messages": 4,
+        "incoming": 2,
+        "outgoing": 2
+      },
+      "Mid": {
+        "messages": 4,
+        "incoming": 3,
+        "outgoing": 1
+      },
+      "Evening": {
+        "messages": 19,
+        "incoming": 13,
+        "outgoing": 6
+      }
+    },
+    "2025-11-01": {
+      "Morning": {
+        "messages": 4,
+        "incoming": 3,
+        "outgoing": 1
+      },
+      "Mid": {
+        "messages": 11,
+        "incoming": 8,
+        "outgoing": 3
+      },
+      "Evening": {
+        "messages": 20,
+        "incoming": 12,
+        "outgoing": 8
+      }
+    },
+    "2025-11-02": {
+      "Morning": {
+        "messages": 27,
+        "incoming": 19,
+        "outgoing": 8
+      },
+      "Mid": {
+        "messages": 1,
+        "incoming": 0,
+        "outgoing": 1
+      },
+      "Evening": {
+        "messages": 4,
+        "incoming": 3,
+        "outgoing": 1
+      }
+    },
+    "2025-11-03": {
+      "Morning": {
+        "messages": 11,
+        "incoming": 10,
+        "outgoing": 1
+      },
+      "Mid": {
+        "messages": 1,
+        "incoming": 1,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 19,
+        "incoming": 12,
+        "outgoing": 7
+      }
+    },
+    "2025-11-04": {
+      "Morning": {
+        "messages": 21,
+        "incoming": 16,
+        "outgoing": 5
+      },
+      "Mid": {},
+      "Evening": {
+        "messages": 41,
+        "incoming": 31,
+        "outgoing": 10
+      }
+    },
+    "2025-11-05": {
+      "Morning": {
+        "messages": 35,
+        "incoming": 35,
+        "outgoing": 0
+      },
+      "Mid": {},
+      "Evening": {
+        "messages": 20,
+        "incoming": 12,
+        "outgoing": 8
+      }
+    },
+    "2025-11-06": {
+      "Morning": {
+        "messages": 35,
+        "incoming": 30,
+        "outgoing": 5
+      },
+      "Mid": {
+        "messages": 1,
+        "incoming": 1,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 2,
+        "incoming": 0,
+        "outgoing": 2
+      }
+    },
+    "2025-11-07": {
+      "Morning": {
+        "messages": 11,
+        "incoming": 11,
+        "outgoing": 0
+      },
+      "Mid": {
+        "messages": 1,
+        "incoming": 0,
+        "outgoing": 1
+      },
+      "Evening": {
+        "messages": 3,
+        "incoming": 2,
+        "outgoing": 1
+      }
+    },
+    "2025-11-08": {
+      "Morning": {
+        "messages": 28,
+        "incoming": 24,
+        "outgoing": 4
+      },
+      "Mid": {},
+      "Evening": {
+        "messages": 2,
+        "incoming": 1,
+        "outgoing": 1
+      }
+    },
+    "2025-11-09": {
+      "Morning": {
+        "messages": 1,
+        "incoming": 0,
+        "outgoing": 1
+      },
+      "Mid": {
+        "messages": 13,
+        "incoming": 11,
+        "outgoing": 2
+      },
+      "Evening": {
+        "messages": 2,
+        "incoming": 1,
+        "outgoing": 1
+      }
+    },
+    "2025-11-10": {
+      "Morning": {
+        "messages": 3,
+        "incoming": 2,
+        "outgoing": 1
+      },
+      "Mid": {
+        "messages": 1,
+        "incoming": 0,
+        "outgoing": 1
+      },
+      "Evening": {
+        "messages": 3,
+        "incoming": 2,
+        "outgoing": 1
+      }
+    },
+    "2025-11-11": {
+      "Morning": {
+        "messages": 9,
+        "incoming": 7,
+        "outgoing": 2
+      },
+      "Mid": {},
+      "Evening": {}
+    },
+    "2025-11-12": {
+      "Morning": {
+        "messages": 84,
+        "incoming": 74,
+        "outgoing": 10
+      },
+      "Mid": {
+        "messages": 3,
+        "incoming": 2,
+        "outgoing": 1
+      },
+      "Evening": {
+        "messages": 2,
+        "incoming": 1,
+        "outgoing": 1
+      }
+    },
+    "2025-11-13": {
+      "Morning": {
+        "messages": 22,
+        "incoming": 21,
+        "outgoing": 1
+      },
+      "Mid": {
+        "messages": 5,
+        "incoming": 5,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 1,
+        "incoming": 0,
+        "outgoing": 1
+      }
+    },
+    "2025-11-14": {
+      "Morning": {
+        "messages": 12,
+        "incoming": 11,
+        "outgoing": 1
+      },
+      "Mid": {},
+      "Evening": {
+        "messages": 24,
+        "incoming": 15,
+        "outgoing": 9
+      }
+    },
+    "2025-11-15": {
+      "Morning": {
+        "messages": 44,
+        "incoming": 38,
+        "outgoing": 6
+      },
+      "Mid": {},
+      "Evening": {
+        "messages": 46,
+        "incoming": 35,
+        "outgoing": 11
+      }
+    },
+    "2025-11-16": {
+      "Morning": {},
+      "Mid": {
+        "messages": 1,
+        "incoming": 1,
+        "outgoing": 0
+      },
+      "Evening": {}
+    },
+    "2025-11-17": {
+      "Morning": {
+        "messages": 44,
+        "incoming": 31,
+        "outgoing": 13
+      },
+      "Mid": {
+        "messages": 2,
+        "incoming": 1,
+        "outgoing": 1
+      },
+      "Evening": {
+        "messages": 10,
+        "incoming": 6,
+        "outgoing": 4
+      }
+    },
+    "2025-11-18": {
+      "Morning": {
+        "messages": 46,
+        "incoming": 33,
+        "outgoing": 13
+      },
+      "Mid": {
+        "messages": 23,
+        "incoming": 11,
+        "outgoing": 12
+      },
+      "Evening": {
+        "messages": 23,
+        "incoming": 9,
+        "outgoing": 14
+      }
+    },
+    "2025-11-19": {
+      "Morning": {
+        "messages": 18,
+        "incoming": 17,
+        "outgoing": 1
+      },
+      "Mid": {
+        "messages": 4,
+        "incoming": 4,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 10,
+        "incoming": 5,
+        "outgoing": 5
+      }
+    },
+    "2025-11-20": {
+      "Morning": {
+        "messages": 46,
+        "incoming": 34,
+        "outgoing": 12
+      },
+      "Mid": {
+        "messages": 7,
+        "incoming": 3,
+        "outgoing": 4
+      },
+      "Evening": {
+        "messages": 3,
+        "incoming": 1,
+        "outgoing": 2
+      }
+    },
+    "2025-11-21": {
+      "Morning": {
+        "messages": 57,
+        "incoming": 44,
+        "outgoing": 13
+      },
+      "Mid": {
+        "messages": 4,
+        "incoming": 3,
+        "outgoing": 1
+      },
+      "Evening": {
+        "messages": 19,
+        "incoming": 7,
+        "outgoing": 12
+      }
+    },
+    "2025-11-22": {
+      "Morning": {
+        "messages": 18,
+        "incoming": 15,
+        "outgoing": 3
+      },
+      "Mid": {
+        "messages": 16,
+        "incoming": 12,
+        "outgoing": 4
+      },
+      "Evening": {}
+    },
+    "2025-11-23": {
+      "Morning": {
+        "messages": 36,
+        "incoming": 28,
+        "outgoing": 8
+      },
+      "Mid": {
+        "messages": 1,
+        "incoming": 0,
+        "outgoing": 1
+      },
+      "Evening": {
+        "messages": 12,
+        "incoming": 7,
+        "outgoing": 5
+      }
+    },
+    "2025-11-24": {
+      "Morning": {
+        "messages": 41,
+        "incoming": 37,
+        "outgoing": 4
+      },
+      "Mid": {
+        "messages": 5,
+        "incoming": 2,
+        "outgoing": 3
+      },
+      "Evening": {
+        "messages": 5,
+        "incoming": 3,
+        "outgoing": 2
+      }
+    },
+    "2025-11-25": {
+      "Morning": {
+        "messages": 30,
+        "incoming": 25,
+        "outgoing": 5
+      },
+      "Mid": {
+        "messages": 3,
+        "incoming": 1,
+        "outgoing": 2
+      },
+      "Evening": {
+        "messages": 4,
+        "incoming": 4,
+        "outgoing": 0
+      }
+    },
+    "2025-11-26": {
+      "Morning": {
+        "messages": 20,
+        "incoming": 18,
+        "outgoing": 2
+      },
+      "Mid": {
+        "messages": 13,
+        "incoming": 8,
+        "outgoing": 5
+      },
+      "Evening": {
+        "messages": 15,
+        "incoming": 8,
+        "outgoing": 7
+      }
+    },
+    "2025-11-27": {
+      "Morning": {},
+      "Mid": {
+        "messages": 1,
+        "incoming": 1,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 8,
+        "incoming": 6,
+        "outgoing": 2
+      }
+    },
+    "2025-11-28": {
+      "Morning": {
+        "messages": 12,
+        "incoming": 11,
+        "outgoing": 1
+      },
+      "Mid": {
+        "messages": 1,
+        "incoming": 1,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 7,
+        "incoming": 3,
+        "outgoing": 4
+      }
+    },
+    "2025-11-29": {
+      "Morning": {
+        "messages": 1,
+        "incoming": 1,
+        "outgoing": 0
+      },
+      "Mid": {
+        "messages": 7,
+        "incoming": 6,
+        "outgoing": 1
+      },
+      "Evening": {
+        "messages": 11,
+        "incoming": 6,
+        "outgoing": 5
+      }
+    },
+    "2025-11-30": {
+      "Morning": {
+        "messages": 43,
+        "incoming": 30,
+        "outgoing": 13
+      },
+      "Mid": {
+        "messages": 32,
+        "incoming": 15,
+        "outgoing": 17
+      },
+      "Evening": {
+        "messages": 6,
+        "incoming": 1,
+        "outgoing": 5
+      }
+    },
+    "2025-12-01": {
+      "Morning": {
+        "messages": 25,
+        "incoming": 21,
+        "outgoing": 4
+      },
+      "Mid": {
+        "messages": 9,
+        "incoming": 5,
+        "outgoing": 4
+      },
+      "Evening": {
+        "messages": 3,
+        "incoming": 3,
+        "outgoing": 0
+      }
+    },
+    "2025-12-02": {
+      "Morning": {
+        "messages": 27,
+        "incoming": 19,
+        "outgoing": 8
+      },
+      "Mid": {
+        "messages": 1,
+        "incoming": 1,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 6,
+        "incoming": 2,
+        "outgoing": 4
+      }
+    },
+    "2025-12-03": {
+      "Morning": {
+        "messages": 40,
+        "incoming": 34,
+        "outgoing": 6
+      },
+      "Mid": {
+        "messages": 1,
+        "incoming": 1,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 2,
+        "incoming": 1,
+        "outgoing": 1
+      }
+    },
+    "2025-12-04": {
+      "Morning": {
+        "messages": 18,
+        "incoming": 11,
+        "outgoing": 7
+      },
+      "Mid": {
+        "messages": 3,
+        "incoming": 2,
+        "outgoing": 1
+      },
+      "Evening": {
+        "messages": 16,
+        "incoming": 10,
+        "outgoing": 6
+      }
+    },
+    "2025-12-05": {
+      "Morning": {
+        "messages": 37,
+        "incoming": 22,
+        "outgoing": 15
+      },
+      "Mid": {
+        "messages": 2,
+        "incoming": 2,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 6,
+        "incoming": 3,
+        "outgoing": 3
+      }
+    },
+    "2025-12-06": {
+      "Morning": {
+        "messages": 58,
+        "incoming": 41,
+        "outgoing": 17
+      },
+      "Mid": {
+        "messages": 27,
+        "incoming": 17,
+        "outgoing": 10
+      },
+      "Evening": {
+        "messages": 14,
+        "incoming": 8,
+        "outgoing": 6
+      }
+    },
+    "2025-12-07": {
+      "Morning": {
+        "messages": 59,
+        "incoming": 44,
+        "outgoing": 15
+      },
+      "Mid": {
+        "messages": 5,
+        "incoming": 3,
+        "outgoing": 2
+      },
+      "Evening": {
+        "messages": 2,
+        "incoming": 2,
+        "outgoing": 0
+      }
+    },
+    "2025-12-08": {
+      "Morning": {
+        "messages": 35,
+        "incoming": 31,
+        "outgoing": 4
+      },
+      "Mid": {
+        "messages": 2,
+        "incoming": 2,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 31,
+        "incoming": 22,
+        "outgoing": 9
+      }
+    },
+    "2025-12-09": {
+      "Morning": {
+        "messages": 47,
+        "incoming": 45,
+        "outgoing": 2
+      },
+      "Mid": {
+        "messages": 1,
+        "incoming": 1,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 19,
+        "incoming": 10,
+        "outgoing": 9
+      }
+    },
+    "2025-12-10": {
+      "Morning": {
+        "messages": 51,
+        "incoming": 42,
+        "outgoing": 9
+      },
+      "Mid": {
+        "messages": 2,
+        "incoming": 1,
+        "outgoing": 1
+      },
+      "Evening": {}
+    },
+    "2025-12-11": {
+      "Morning": {
+        "messages": 38,
+        "incoming": 29,
+        "outgoing": 9
+      },
+      "Mid": {
+        "messages": 2,
+        "incoming": 2,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 17,
+        "incoming": 10,
+        "outgoing": 7
+      }
+    },
+    "2025-12-12": {
+      "Morning": {
+        "messages": 73,
+        "incoming": 63,
+        "outgoing": 10
+      },
+      "Mid": {
+        "messages": 3,
+        "incoming": 2,
+        "outgoing": 1
+      },
+      "Evening": {
+        "messages": 10,
+        "incoming": 7,
+        "outgoing": 3
+      }
+    },
+    "2025-12-13": {
+      "Morning": {
+        "messages": 47,
+        "incoming": 42,
+        "outgoing": 5
+      },
+      "Mid": {
+        "messages": 1,
+        "incoming": 1,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 5,
+        "incoming": 4,
+        "outgoing": 1
+      }
+    },
+    "2025-12-14": {
+      "Morning": {
+        "messages": 49,
+        "incoming": 39,
+        "outgoing": 10
+      },
+      "Mid": {
+        "messages": 12,
+        "incoming": 8,
+        "outgoing": 4
+      },
+      "Evening": {
+        "messages": 21,
+        "incoming": 13,
+        "outgoing": 8
+      }
+    },
+    "2025-12-15": {
+      "Morning": {
+        "messages": 7,
+        "incoming": 5,
+        "outgoing": 2
+      },
+      "Mid": {
+        "messages": 4,
+        "incoming": 4,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 1,
+        "incoming": 1,
+        "outgoing": 0
+      }
+    },
+    "2025-12-16": {
+      "Morning": {
+        "messages": 10,
+        "incoming": 7,
+        "outgoing": 3
+      },
+      "Mid": {
+        "messages": 6,
+        "incoming": 6,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 7,
+        "incoming": 6,
+        "outgoing": 1
+      }
+    },
+    "2025-12-17": {
+      "Morning": {
+        "messages": 45,
+        "incoming": 32,
+        "outgoing": 13
+      },
+      "Mid": {
+        "messages": 5,
+        "incoming": 4,
+        "outgoing": 1
+      },
+      "Evening": {
+        "messages": 17,
+        "incoming": 15,
+        "outgoing": 2
+      }
+    },
+    "2025-12-18": {
+      "Morning": {
+        "messages": 76,
+        "incoming": 46,
+        "outgoing": 30
+      },
+      "Mid": {
+        "messages": 28,
+        "incoming": 18,
+        "outgoing": 10
+      },
+      "Evening": {
+        "messages": 14,
+        "incoming": 8,
+        "outgoing": 6
+      }
+    },
+    "2025-12-19": {
+      "Morning": {
+        "messages": 46,
+        "incoming": 28,
+        "outgoing": 18
+      },
+      "Mid": {},
+      "Evening": {
+        "messages": 37,
+        "incoming": 24,
+        "outgoing": 13
+      }
+    },
+    "2025-12-20": {
+      "Morning": {
+        "messages": 59,
+        "incoming": 38,
+        "outgoing": 21
+      },
+      "Mid": {
+        "messages": 12,
+        "incoming": 6,
+        "outgoing": 6
+      },
+      "Evening": {
+        "messages": 31,
+        "incoming": 16,
+        "outgoing": 15
+      }
+    },
+    "2025-12-21": {
+      "Morning": {
+        "messages": 17,
+        "incoming": 14,
+        "outgoing": 3
+      },
+      "Mid": {
+        "messages": 17,
+        "incoming": 16,
+        "outgoing": 1
+      },
+      "Evening": {
+        "messages": 3,
+        "incoming": 3,
+        "outgoing": 0
+      }
+    },
+    "2025-12-22": {
+      "Morning": {
+        "messages": 42,
+        "incoming": 24,
+        "outgoing": 18
+      },
+      "Mid": {
+        "messages": 14,
+        "incoming": 11,
+        "outgoing": 3
+      },
+      "Evening": {
+        "messages": 22,
+        "incoming": 15,
+        "outgoing": 7
+      }
+    },
+    "2025-12-23": {
+      "Morning": {
+        "messages": 38,
+        "incoming": 22,
+        "outgoing": 16
+      },
+      "Mid": {
+        "messages": 14,
+        "incoming": 14,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 35,
+        "incoming": 24,
+        "outgoing": 11
+      }
+    },
+    "2025-12-24": {
+      "Morning": {
+        "messages": 42,
+        "incoming": 40,
+        "outgoing": 2
+      },
+      "Mid": {
+        "messages": 38,
+        "incoming": 34,
+        "outgoing": 4
+      },
+      "Evening": {
+        "messages": 30,
+        "incoming": 23,
+        "outgoing": 7
+      }
+    },
+    "2025-12-25": {
+      "Morning": {
+        "messages": 50,
+        "incoming": 45,
+        "outgoing": 5
+      },
+      "Mid": {
+        "messages": 23,
+        "incoming": 23,
+        "outgoing": 0
+      },
+      "Evening": {
+        "messages": 30,
+        "incoming": 29,
+        "outgoing": 1
+      }
+    },
+    "2025-12-26": {
+      "Morning": {
+        "messages": 85,
+        "incoming": 61,
+        "outgoing": 24
+      },
+      "Mid": {
+        "messages": 13,
+        "incoming": 9,
+        "outgoing": 4
+      },
+      "Evening": {
+        "messages": 33,
+        "incoming": 28,
+        "outgoing": 5
+      }
+    },
+    "2025-12-27": {
+      "Morning": {
+        "messages": 40,
+        "incoming": 27,
+        "outgoing": 13
+      },
+      "Mid": {
+        "messages": 31,
+        "incoming": 21,
+        "outgoing": 10
+      },
+      "Evening": {
+        "messages": 15,
+        "incoming": 11,
+        "outgoing": 4
+      }
+    },
+    "2025-12-28": {
+      "Morning": {
+        "messages": 47,
+        "incoming": 41,
+        "outgoing": 6
+      },
+      "Mid": {
+        "messages": 17,
+        "incoming": 16,
+        "outgoing": 1
+      },
+      "Evening": {
+        "messages": 22,
+        "incoming": 16,
+        "outgoing": 6
+      }
+    },
+    "2025-12-29": {
+      "Morning": {
+        "messages": 66,
+        "incoming": 40,
+        "outgoing": 26
+      },
+      "Mid": {
+        "messages": 27,
+        "incoming": 17,
+        "outgoing": 10
+      },
+      "Evening": {
+        "messages": 51,
+        "incoming": 33,
+        "outgoing": 18
+      }
+    },
+    "2025-12-30": {
+      "Morning": {
+        "messages": 43,
+        "incoming": 29,
+        "outgoing": 14
+      },
+      "Mid": {
+        "messages": 33,
+        "incoming": 30,
+        "outgoing": 3
+      },
+      "Evening": {
+        "messages": 50,
+        "incoming": 28,
+        "outgoing": 22
+      }
+    },
+    "2025-12-31": {
+      "Morning": {
+        "messages": 69,
+        "incoming": 46,
+        "outgoing": 23
+      },
+      "Mid": {
+        "messages": 47,
+        "incoming": 26,
+        "outgoing": 21
+      },
+      "Evening": {
+        "messages": 21,
+        "incoming": 15,
+        "outgoing": 6
+      }
+    },
+    "2026-01-01": {
+      "Morning": {
+        "messages": 56,
+        "incoming": 36,
+        "outgoing": 20
+      },
+      "Mid": {
+        "messages": 32,
+        "incoming": 17,
+        "outgoing": 15
+      },
+      "Evening": {
+        "messages": 27,
+        "incoming": 18,
+        "outgoing": 9
+      }
+    },
+    "2026-01-02": {
+      "Morning": {
+        "messages": 58,
+        "incoming": 39,
+        "outgoing": 19
+      },
+      "Mid": {
+        "messages": 12,
+        "incoming": 7,
+        "outgoing": 5
+      },
+      "Evening": {
+        "messages": 35,
+        "incoming": 22,
+        "outgoing": 13
+      }
+    },
+    "2026-01-03": {
+      "Morning": {
+        "messages": 367,
+        "incoming": 219,
+        "outgoing": 148
+      },
+      "Mid": {
+        "messages": 143,
+        "incoming": 68,
+        "outgoing": 75
+      },
+      "Evening": {
+        "messages": 157,
+        "incoming": 80,
+        "outgoing": 77
+      }
+    },
+    "2026-01-04": {
+      "Morning": {
+        "messages": 556,
+        "incoming": 325,
+        "outgoing": 231
+      },
+      "Mid": {
+        "messages": 207,
+        "incoming": 108,
+        "outgoing": 99
+      },
+      "Evening": {
+        "messages": 123,
+        "incoming": 74,
+        "outgoing": 49
+      }
+    },
+    "2026-01-05": {
+      "Morning": {
+        "messages": 279,
+        "incoming": 153,
+        "outgoing": 126
+      },
+      "Mid": {},
+      "Evening": {
+        "messages": 195,
+        "incoming": 110,
+        "outgoing": 85
+      }
+    }
+  },
+  "dateRange": {
+    "minDate": "2025-07-26",
+    "maxDate": "2026-01-05"
+  },
+  "lastSync": "2026-01-05T19:07:09.585525"
 }

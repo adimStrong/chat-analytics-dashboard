@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts'
+import DateFilter, { filterDataByDateRange, aggregateDailyStats } from '../components/DateFilter'
 
 function formatNumber(value) {
   if (value === null || value === undefined) return '0'
@@ -22,14 +23,90 @@ const shiftConfig = {
 export default function Shifts() {
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
+  const [startDate, setStartDate] = useState('')
+  const [endDate, setEndDate] = useState('')
 
   useEffect(() => {
     fetch('/data/analytics.json')
       .then(res => res.json())
-      .then(setData)
+      .then(d => {
+        setData(d)
+        // Set default to last 7 days
+        if (d.dateRange?.maxDate) {
+          const end = new Date(d.dateRange.maxDate)
+          const start = new Date(end)
+          start.setDate(start.getDate() - 7)
+          setStartDate(start.toISOString().split('T')[0])
+          setEndDate(d.dateRange.maxDate)
+        }
+      })
       .catch(err => console.error('Error loading data:', err))
       .finally(() => setLoading(false))
   }, [])
+
+  const handleFilterChange = (start, end) => {
+    setStartDate(start)
+    setEndDate(end)
+  }
+
+  // Filter and aggregate data based on selected date range
+  const filteredData = useMemo(() => {
+    if (!data?.dailyStats) return null
+
+    const filtered = filterDataByDateRange(data.dailyStats, startDate, endDate)
+    const aggregated = aggregateDailyStats(filtered)
+
+    // Calculate shift breakdown from dailyShiftStats
+    let shiftMessages = {
+      Morning: { messages: 0, incoming: 0, outgoing: 0 },
+      Mid: { messages: 0, incoming: 0, outgoing: 0 },
+      Evening: { messages: 0, incoming: 0, outgoing: 0 }
+    }
+
+    if (data.dailyShiftStats) {
+      Object.entries(data.dailyShiftStats).forEach(([date, shifts]) => {
+        if (date >= startDate && date <= endDate) {
+          Object.entries(shifts).forEach(([shift, stats]) => {
+            if (shiftMessages[shift]) {
+              shiftMessages[shift].messages += stats.messages || 0
+              shiftMessages[shift].incoming += stats.incoming || 0
+              shiftMessages[shift].outgoing += stats.outgoing || 0
+            }
+          })
+        }
+      })
+    }
+
+    // Combine with static shift data for sessions/comments
+    const combinedShiftData = ['Morning', 'Mid', 'Evening'].map(shiftName => {
+      const shiftComments = data.shiftComments?.find(s => s.shift === shiftName) || {}
+      const shiftStats = data.shiftStats?.find(s => s.shift === shiftName) || {}
+
+      return {
+        shift: shiftName,
+        totalMessages: shiftMessages[shiftName].messages,
+        incoming: shiftMessages[shiftName].incoming,
+        outgoing: shiftMessages[shiftName].outgoing,
+        totalComments: shiftComments.total || 0,
+        hiddenComments: shiftComments.hidden || 0,
+        replies: shiftComments.replies || 0,
+        sessions: shiftStats.sessions || 0,
+        avgResponseTime: shiftStats.avgResponseTime,
+        avgDuration: shiftStats.avgDuration,
+      }
+    })
+
+    return {
+      totals: aggregated,
+      combinedShiftData,
+      shiftMessages: ['Morning', 'Mid', 'Evening'].map(shift => ({
+        shift,
+        incoming: shiftMessages[shift].incoming,
+        outgoing: shiftMessages[shift].outgoing,
+        messages: shiftMessages[shift].messages
+      }))
+    }
+  }, [data, startDate, endDate])
 
   if (loading) {
     return (
@@ -47,28 +124,9 @@ export default function Shifts() {
     )
   }
 
-  const { shiftStats, shiftMessages, shiftComments, categoryShiftStats } = data
-
-  // Combine all shift data for the cards
-  const combinedShiftData = ['Morning', 'Mid', 'Evening'].map(shiftName => {
-    const messages = shiftMessages?.find(s => s.shift === shiftName) || {}
-    const comments = shiftComments?.find(s => s.shift === shiftName) || {}
-    const stats = shiftStats?.find(s => s.shift === shiftName) || {}
-
-    return {
-      shift: shiftName,
-      totalMessages: messages.messages || 0,
-      incoming: messages.incoming || 0,
-      outgoing: messages.outgoing || 0,
-      totalComments: comments.total || 0,
-      hiddenComments: comments.hidden || 0,
-      commentsWithReplies: comments.withReplies || comments.replies ? Math.min(comments.replies || 0, comments.total || 0) : 0,
-      replies: comments.replies || 0,
-      sessions: stats.sessions || 0,
-      avgResponseTime: stats.avgResponseTime,
-      avgDuration: stats.avgDuration,
-    }
-  })
+  const { categoryShiftStats } = data
+  const combinedShiftData = filteredData?.combinedShiftData || []
+  const shiftMessages = filteredData?.shiftMessages || []
 
   return (
     <div className="space-y-6">
@@ -76,6 +134,13 @@ export default function Shifts() {
         <h2 className="text-2xl font-bold text-gray-800">Shift Analytics</h2>
         <p className="text-gray-600">Performance breakdown by shift (Morning/Mid/Evening)</p>
       </div>
+
+      {/* Date Filter */}
+      <DateFilter
+        dateRange={data.dateRange}
+        dailyStats={data.dailyStats}
+        onFilterChange={handleFilterChange}
+      />
 
       {/* Shift Time Guide */}
       <div className="bg-white rounded-xl shadow-lg p-6">
@@ -227,7 +292,7 @@ export default function Shifts() {
       {/* Category by Shift Chart */}
       {categoryShiftStats && (
         <div className="bg-white rounded-xl shadow-lg p-6">
-          <h3 className="font-semibold text-gray-800 mb-4">Messages by Category & Shift</h3>
+          <h3 className="font-semibold text-gray-800 mb-4">Messages by Category & Shift (All Time)</h3>
           <ResponsiveContainer width="100%" height={300}>
             <BarChart data={categoryShiftStats}>
               <XAxis dataKey="category" tick={{ fontSize: 11 }} />
@@ -243,7 +308,7 @@ export default function Shifts() {
       )}
 
       {/* Message Volume Comparison */}
-      {shiftMessages && (
+      {shiftMessages && shiftMessages.length > 0 && (
         <div className="bg-white rounded-xl shadow-lg p-6">
           <h3 className="font-semibold text-gray-800 mb-4">Incoming vs Outgoing by Shift</h3>
           <ResponsiveContainer width="100%" height={250}>
