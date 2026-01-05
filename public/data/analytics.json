@@ -1,134 +1,204 @@
 {
   "totals": {
     "pages": 26,
-    "messages": 606,
-    "sessions": 392,
-    "conversations": 233,
-    "comments": 361,
-    "avgResponseTime": 8362.6,
-    "avgSessionDuration": "590.7"
+    "messages": 4117,
+    "sessions": 3167,
+    "conversations": 1034,
+    "comments": 103655,
+    "avgResponseTime": 10471.4,
+    "avgSessionDuration": "696.4"
   },
   "shiftStats": [
     {
       "shift": "Morning",
-      "sessions": 156,
-      "avgResponseTime": 1674.7,
-      "avgDuration": "165.0"
+      "sessions": 1819,
+      "avgResponseTime": 7560.1,
+      "avgDuration": "238.3"
     },
     {
       "shift": "Mid",
-      "sessions": 113,
-      "avgResponseTime": 8416.1,
-      "avgDuration": "78.3"
+      "sessions": 633,
+      "avgResponseTime": 13957.8,
+      "avgDuration": "160.3"
     },
     {
       "shift": "Evening",
-      "sessions": 123,
-      "avgResponseTime": 12855.4,
-      "avgDuration": "224.7"
+      "sessions": 715,
+      "avgResponseTime": 11613.1,
+      "avgDuration": "252.6"
     }
   ],
   "shiftMessages": [
     {
       "shift": "Morning",
-      "messages": 269,
-      "incoming": 229,
-      "outgoing": 40
+      "messages": 2422,
+      "incoming": 1943,
+      "outgoing": 479
     },
     {
       "shift": "Mid",
-      "messages": 171,
-      "incoming": 134,
-      "outgoing": 37
+      "messages": 675,
+      "incoming": 492,
+      "outgoing": 183
     },
     {
       "shift": "Evening",
-      "messages": 166,
-      "incoming": 111,
-      "outgoing": 55
+      "messages": 1020,
+      "incoming": 682,
+      "outgoing": 338
     }
   ],
   "shiftComments": [
     {
       "shift": "Morning",
-      "total": 225,
-      "hidden": 0,
-      "replies": 87
+      "total": 85688,
+      "hidden": 3648,
+      "replies": 7984
     },
     {
       "shift": "Mid",
-      "total": 59,
-      "hidden": 1,
-      "replies": 18
+      "total": 6596,
+      "hidden": 953,
+      "replies": 850
     },
     {
       "shift": "Evening",
-      "total": 77,
-      "hidden": 0,
-      "replies": 30
+      "total": 11371,
+      "hidden": 1681,
+      "replies": 1602
     }
   ],
   "topPages": [
     {
+      "name": "Juan365",
+      "messages": 1563
+    },
+    {
       "name": "Juana Babe Ashley",
-      "messages": 264
+      "messages": 933
+    },
+    {
+      "name": "Juana Babe Sena",
+      "messages": 350
+    },
+    {
+      "name": "Juana Babe Zell",
+      "messages": 282
+    },
+    {
+      "name": "Juana Babe Abi",
+      "messages": 241
     },
     {
       "name": "JuanSports",
       "messages": 173
     },
     {
+      "name": "Juana Babe Jam",
+      "messages": 169
+    },
+    {
+      "name": "Juan365 Cares",
+      "messages": 153
+    },
+    {
+      "name": "Juan365 Studios",
+      "messages": 84
+    },
+    {
       "name": "Juankada Jedi",
       "messages": 53
-    },
-    {
-      "name": "Juan365 LiveStream",
-      "messages": 28
-    },
-    {
-      "name": "Juankada Ligaya",
-      "messages": 25
-    },
-    {
-      "name": "Juankada Evo",
-      "messages": 12
-    },
-    {
-      "name": "Juankada Lance",
-      "messages": 11
-    },
-    {
-      "name": "JuanKada Star",
-      "messages": 11
-    },
-    {
-      "name": "Juankada Ellise",
-      "messages": 11
-    },
-    {
-      "name": "Juankada Papa Joe",
-      "messages": 9
     }
   ],
   "pageStats": [
     {
+      "pageId": "580104038511364",
+      "name": "Juan365",
+      "category": "Juan365",
+      "messages": 1563,
+      "sessions": 241,
+      "avgResponseTime": 157.7,
+      "avgDuration": "773.6",
+      "comments": 0
+    },
+    {
       "pageId": "748765068327821",
       "name": "Juana Babe Ashley",
       "category": "Juana Babe",
-      "messages": 264,
-      "sessions": 192,
-      "avgResponseTime": 4687.0,
-      "avgDuration": "91.4",
-      "comments": 0
+      "messages": 933,
+      "sessions": 1201,
+      "avgResponseTime": 26705.8,
+      "avgDuration": "145.2",
+      "comments": 1095
+    },
+    {
+      "pageId": "807965705726273",
+      "name": "Juana Babe Sena",
+      "category": "Juana Babe",
+      "messages": 350,
+      "sessions": 416,
+      "avgResponseTime": 9809.0,
+      "avgDuration": "91.6",
+      "comments": 3765
+    },
+    {
+      "pageId": "754416584427163",
+      "name": "Juana Babe Zell",
+      "category": "Juana Babe",
+      "messages": 282,
+      "sessions": 316,
+      "avgResponseTime": 34114.2,
+      "avgDuration": "246.0",
+      "comments": 1984
+    },
+    {
+      "pageId": "747721128429855",
+      "name": "Juana Babe Abi",
+      "category": "Juana Babe",
+      "messages": 241,
+      "sessions": 280,
+      "avgResponseTime": 20971.6,
+      "avgDuration": "225.2",
+      "comments": 592
     },
     {
       "pageId": "839729525890738",
       "name": "JuanSports",
       "category": "Others",
       "messages": 173,
-      "sessions": 83,
-      "avgResponseTime": 9759.3,
-      "avgDuration": "364.0",
+      "sessions": 201,
+      "avgResponseTime": 10667.0,
+      "avgDuration": "334.6",
+      "comments": 1433
+    },
+    {
+      "pageId": "731608473377029",
+      "name": "Juana Babe Jam",
+      "category": "Juana Babe",
+      "messages": 169,
+      "sessions": 158,
+      "avgResponseTime": 2636.3,
+      "avgDuration": "287.8",
+      "comments": 1910
+    },
+    {
+      "pageId": "718958694640884",
+      "name": "Juan365 Cares",
+      "category": "Juan365",
+      "messages": 153,
+      "sessions": 75,
+      "avgResponseTime": 19613.1,
+      "avgDuration": "264.7",
+      "comments": 0
+    },
+    {
+      "pageId": "708878528972997",
+      "name": "Juan365 Studios",
+      "category": "Juan365",
+      "messages": 84,
+      "sessions": 28,
+      "avgResponseTime": 19273.5,
+      "avgDuration": "496.9",
       "comments": 0
     },
     {
@@ -136,9 +206,9 @@
       "name": "Juankada Jedi",
       "category": "Juankada Hosts",
       "messages": 53,
-      "sessions": 45,
-      "avgResponseTime": 7063.0,
-      "avgDuration": "13.4",
+      "sessions": 97,
+      "avgResponseTime": 6757.8,
+      "avgDuration": "13.3",
       "comments": 36
     },
     {
@@ -146,7 +216,7 @@
       "name": "Juan365 LiveStream",
       "category": "Juan365",
       "messages": 28,
-      "sessions": 11,
+      "sessions": 22,
       "avgResponseTime": null,
       "avgDuration": "142.9",
       "comments": 0
@@ -156,7 +226,7 @@
       "name": "Juankada Ligaya",
       "category": "Juankada Hosts",
       "messages": 25,
-      "sessions": 8,
+      "sessions": 24,
       "avgResponseTime": null,
       "avgDuration": "10.0",
       "comments": 86
@@ -166,47 +236,47 @@
       "name": "Juankada Evo",
       "category": "Juankada Hosts",
       "messages": 12,
-      "sessions": 2,
+      "sessions": 4,
       "avgResponseTime": 585.5,
       "avgDuration": "1983.0",
       "comments": 26
-    },
-    {
-      "pageId": "949473921576703",
-      "name": "JuanKada Star",
-      "category": "Juankada Hosts",
-      "messages": 11,
-      "sessions": 6,
-      "avgResponseTime": 66.0,
-      "avgDuration": "160.0",
-      "comments": 19
     },
     {
       "pageId": "882499904951305",
       "name": "Juankada Lance",
       "category": "Juankada Hosts",
       "messages": 11,
-      "sessions": 14,
+      "sessions": 28,
       "avgResponseTime": 19907.0,
       "avgDuration": "22.0",
       "comments": 55
+    },
+    {
+      "pageId": "949473921576703",
+      "name": "JuanKada Star",
+      "category": "Juankada Hosts",
+      "messages": 11,
+      "sessions": 12,
+      "avgResponseTime": 66.0,
+      "avgDuration": "160.0",
+      "comments": 19
     },
     {
       "pageId": "874648655739835",
       "name": "Juankada Ellise",
       "category": "Juankada Hosts",
       "messages": 11,
-      "sessions": 10,
+      "sessions": 20,
       "avgResponseTime": null,
       "avgDuration": "1.0",
-      "comments": 59
+      "comments": 61
     },
     {
       "pageId": "874628665737433",
       "name": "Juankada Papa Joe",
       "category": "Juankada Hosts",
       "messages": 9,
-      "sessions": 10,
+      "sessions": 20,
       "avgResponseTime": 2153.0,
       "avgDuration": "674.6",
       "comments": 35
@@ -216,65 +286,45 @@
       "name": "Juankada Alexchoozy",
       "category": "Juankada Hosts",
       "messages": 3,
-      "sessions": 1,
+      "sessions": 3,
       "avgResponseTime": 16.0,
       "avgDuration": "214.0",
-      "comments": 0
-    },
-    {
-      "pageId": "924225234111144",
-      "name": "Juankada Charm",
-      "category": "Juankada Hosts",
-      "messages": 2,
-      "sessions": 4,
-      "avgResponseTime": null,
-      "avgDuration": null,
-      "comments": 18
-    },
-    {
-      "pageId": "876401548892955",
-      "name": "Juankada Sabbie",
-      "category": "Juankada Hosts",
-      "messages": 2,
-      "sessions": 2,
-      "avgResponseTime": null,
-      "avgDuration": null,
-      "comments": 0
+      "comments": 34
     },
     {
       "pageId": "862622980275034",
       "name": "Juankada Shann",
       "category": "Juankada Hosts",
       "messages": 2,
-      "sessions": 4,
+      "sessions": 8,
       "avgResponseTime": null,
       "avgDuration": null,
       "comments": 27
     },
     {
-      "pageId": "807965705726273",
-      "name": "Juana Babe Sena",
-      "category": "Juana Babe",
-      "messages": 0,
-      "sessions": 0,
+      "pageId": "876401548892955",
+      "name": "Juankada Sabbie",
+      "category": "Juankada Hosts",
+      "messages": 2,
+      "sessions": 6,
       "avgResponseTime": null,
       "avgDuration": null,
-      "comments": 0
+      "comments": 42
     },
     {
-      "pageId": "112088047220992",
-      "name": "Juankada host Drae",
+      "pageId": "924225234111144",
+      "name": "Juankada Charm",
       "category": "Juankada Hosts",
-      "messages": 0,
-      "sessions": 0,
+      "messages": 2,
+      "sessions": 8,
       "avgResponseTime": null,
       "avgDuration": null,
-      "comments": 0
+      "comments": 18
     },
     {
-      "pageId": "305553999318966",
-      "name": "JUANKada Host Ikay",
-      "category": "Juankada Hosts",
+      "pageId": "101968408687724",
+      "name": "JuanBingo",
+      "category": "Others",
       "messages": 0,
       "sessions": 0,
       "avgResponseTime": null,
@@ -289,7 +339,27 @@
       "sessions": 0,
       "avgResponseTime": null,
       "avgDuration": null,
-      "comments": 0
+      "comments": 11
+    },
+    {
+      "pageId": "305553999318966",
+      "name": "JUANKada Host Ikay",
+      "category": "Juankada Hosts",
+      "messages": 0,
+      "sessions": 0,
+      "avgResponseTime": null,
+      "avgDuration": null,
+      "comments": 33
+    },
+    {
+      "pageId": "112088047220992",
+      "name": "Juankada host Drae",
+      "category": "Juankada Hosts",
+      "messages": 0,
+      "sessions": 0,
+      "avgResponseTime": null,
+      "avgDuration": null,
+      "comments": 16
     },
     {
       "pageId": "481447078389174",
@@ -299,77 +369,7 @@
       "sessions": 0,
       "avgResponseTime": null,
       "avgDuration": null,
-      "comments": 0
-    },
-    {
-      "pageId": "580104038511364",
-      "name": "Juan365",
-      "category": "Juan365",
-      "messages": 0,
-      "sessions": 0,
-      "avgResponseTime": null,
-      "avgDuration": null,
-      "comments": 0
-    },
-    {
-      "pageId": "708878528972997",
-      "name": "Juan365 Studios",
-      "category": "Juan365",
-      "messages": 0,
-      "sessions": 0,
-      "avgResponseTime": null,
-      "avgDuration": null,
-      "comments": 0
-    },
-    {
-      "pageId": "718958694640884",
-      "name": "Juan365 Cares",
-      "category": "Juan365",
-      "messages": 0,
-      "sessions": 0,
-      "avgResponseTime": null,
-      "avgDuration": null,
-      "comments": 0
-    },
-    {
-      "pageId": "731608473377029",
-      "name": "Juana Babe Jam",
-      "category": "Juana Babe",
-      "messages": 0,
-      "sessions": 0,
-      "avgResponseTime": null,
-      "avgDuration": null,
-      "comments": 0
-    },
-    {
-      "pageId": "747721128429855",
-      "name": "Juana Babe Abi",
-      "category": "Juana Babe",
-      "messages": 0,
-      "sessions": 0,
-      "avgResponseTime": null,
-      "avgDuration": null,
-      "comments": 0
-    },
-    {
-      "pageId": "754416584427163",
-      "name": "Juana Babe Zell",
-      "category": "Juana Babe",
-      "messages": 0,
-      "sessions": 0,
-      "avgResponseTime": null,
-      "avgDuration": null,
-      "comments": 0
-    },
-    {
-      "pageId": "101968408687724",
-      "name": "JuanBingo",
-      "category": "Others",
-      "messages": 0,
-      "sessions": 0,
-      "avgResponseTime": null,
-      "avgDuration": null,
-      "comments": 0
+      "comments": 92377
     }
   ],
   "categoryStats": [
@@ -377,33 +377,33 @@
       "category": "Juankada Hosts",
       "pageCount": 14,
       "messages": 141,
-      "sessions": 106,
-      "comments": 361,
-      "avgResponseTime": 4965.1
+      "sessions": 230,
+      "comments": 499,
+      "avgResponseTime": 4914.2
     },
     {
       "category": "Juan365",
       "pageCount": 5,
-      "messages": 28,
-      "sessions": 11,
-      "comments": 0,
-      "avgResponseTime": null
+      "messages": 1828,
+      "sessions": 366,
+      "comments": 92377,
+      "avgResponseTime": 13014.8
     },
     {
       "category": "Juana Babe",
       "pageCount": 5,
-      "messages": 264,
-      "sessions": 192,
-      "comments": 0,
-      "avgResponseTime": 4687.0
+      "messages": 1975,
+      "sessions": 2373,
+      "comments": 9346,
+      "avgResponseTime": 18847.4
     },
     {
       "category": "Others",
       "pageCount": 2,
       "messages": 173,
-      "sessions": 83,
-      "comments": 0,
-      "avgResponseTime": 9759.3
+      "sessions": 201,
+      "comments": 1433,
+      "avgResponseTime": 10667.0
     }
   ],
   "categoryShiftStats": [
@@ -416,17 +416,17 @@
     },
     {
       "category": "Juan365",
-      "Morning": 24,
-      "Mid": 3,
-      "Evening": 1,
-      "total": 28
+      "Morning": 944,
+      "Mid": 268,
+      "Evening": 616,
+      "total": 1828
     },
     {
       "category": "Juana Babe",
-      "Morning": 129,
-      "Mid": 72,
-      "Evening": 64,
-      "total": 265
+      "Morning": 1361,
+      "Mid": 311,
+      "Evening": 303,
+      "total": 1975
     },
     {
       "category": "Others",
@@ -439,144 +439,144 @@
   "dailyTrend": [
     {
       "date": "12/29",
-      "messages": 28
+      "messages": 55
     },
     {
       "date": "12/30",
-      "messages": 44
+      "messages": 99
     },
     {
       "date": "12/31",
-      "messages": 66
+      "messages": 106
     },
     {
       "date": "01/01",
-      "messages": 50
+      "messages": 69
     },
     {
       "date": "01/02",
-      "messages": 16
+      "messages": 49
     },
     {
       "date": "01/03",
-      "messages": 15
+      "messages": 69
     },
     {
       "date": "01/04",
-      "messages": 16
+      "messages": 69
     },
     {
       "date": "01/05",
-      "messages": 5
+      "messages": 355
     }
   ],
   "messageStats": {
-    "incoming": 475,
-    "outgoing": 132
+    "incoming": 3117,
+    "outgoing": 1000
   },
   "commentStats": {
-    "total": 361,
-    "hidden": 1,
-    "totalReplies": 135,
+    "total": 103655,
+    "hidden": 6282,
+    "totalReplies": 10436,
     "avgLikes": "0.0"
   },
   "hourlyDistribution": [
     {
       "hour": 0,
-      "messages": 18
+      "messages": 82
     },
     {
       "hour": 1,
-      "messages": 20
+      "messages": 151
     },
     {
       "hour": 2,
-      "messages": 35
+      "messages": 97
     },
     {
       "hour": 3,
-      "messages": 15
+      "messages": 105
     },
     {
       "hour": 4,
-      "messages": 24
+      "messages": 174
     },
     {
       "hour": 5,
-      "messages": 28
+      "messages": 236
     },
     {
       "hour": 6,
-      "messages": 16
+      "messages": 147
     },
     {
       "hour": 7,
-      "messages": 21
+      "messages": 277
     },
     {
       "hour": 8,
-      "messages": 37
+      "messages": 664
     },
     {
       "hour": 9,
-      "messages": 40
+      "messages": 419
     },
     {
       "hour": 10,
-      "messages": 48
+      "messages": 282
     },
     {
       "hour": 11,
-      "messages": 31
+      "messages": 209
     },
     {
       "hour": 12,
-      "messages": 54
+      "messages": 175
     },
     {
       "hour": 13,
-      "messages": 23
+      "messages": 249
     },
     {
       "hour": 14,
-      "messages": 44
+      "messages": 166
     },
     {
       "hour": 15,
-      "messages": 22
+      "messages": 143
     },
     {
       "hour": 16,
-      "messages": 11
+      "messages": 130
     },
     {
       "hour": 17,
-      "messages": 16
+      "messages": 59
     },
     {
       "hour": 18,
-      "messages": 19
+      "messages": 43
     },
     {
       "hour": 19,
-      "messages": 20
+      "messages": 43
     },
     {
       "hour": 20,
-      "messages": 8
+      "messages": 16
     },
     {
       "hour": 21,
-      "messages": 31
+      "messages": 75
     },
     {
       "hour": 22,
-      "messages": 18
+      "messages": 98
     },
     {
       "hour": 23,
-      "messages": 8
+      "messages": 77
     }
   ],
-  "lastSync": "2026-01-05T17:25:15.114141"
+  "lastSync": "2026-01-05T18:41:02.713234"
 }
