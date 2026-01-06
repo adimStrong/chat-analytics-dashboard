@@ -3,6 +3,8 @@ import Dashboard from './pages/Dashboard'
 import Messages from './pages/Messages'
 import Shifts from './pages/Shifts'
 import Pages from './pages/Pages'
+import Reports from './pages/Reports'
+import Users from './pages/Users'
 
 function Layout({ children }) {
   const navItems = [
@@ -10,6 +12,8 @@ function Layout({ children }) {
     { path: '/messages', label: 'Messages', icon: '💬' },
     { path: '/shifts', label: 'Shifts', icon: '🕐' },
     { path: '/pages', label: 'Pages', icon: '📄' },
+    { path: '/reports', label: 'Reports', icon: '📋' },
+    { path: '/users', label: 'Users', icon: '👥' },
   ]
 
   return (
@@ -58,6 +62,8 @@ function App() {
           <Route path="/messages" element={<Messages />} />
           <Route path="/shifts" element={<Shifts />} />
           <Route path="/pages" element={<Pages />} />
+          <Route path="/reports" element={<Reports />} />
+          <Route path="/users" element={<Users />} />
         </Routes>
       </Layout>
     </BrowserRouter>
