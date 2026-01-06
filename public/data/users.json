@@ -1,0 +1,3322 @@
+{
+  "generated_at": "2026-01-06T14:50:05.994754",
+  "total_users": 315,
+  "known_users": 314,
+  "unknown_comment_count": 155183,
+  "allCommenters": [
+    {
+      "userId": "111068231797452",
+      "name": "Veng Nicolas",
+      "commentCount": 420,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-07T08:25:24",
+      "lastComment": "2025-12-18T08:07:01"
+    },
+    {
+      "userId": "427110124152735",
+      "name": "Sabel Labs",
+      "commentCount": 255,
+      "pagesCommented": 8,
+      "firstComment": "2025-12-10T07:50:03",
+      "lastComment": "2026-01-05T12:51:22"
+    },
+    {
+      "userId": "580104038511364",
+      "name": "Juan365",
+      "commentCount": 141,
+      "pagesCommented": 4,
+      "firstComment": "2025-12-07T10:02:08",
+      "lastComment": "2026-01-06T01:26:17"
+    },
+    {
+      "userId": "895603626965361",
+      "name": "BebeLabz A.",
+      "commentCount": 112,
+      "pagesCommented": 3,
+      "firstComment": "2025-11-21T11:07:45",
+      "lastComment": "2026-01-05T11:37:18"
+    },
+    {
+      "userId": "807965705726273",
+      "name": "Juana Babe Sena",
+      "commentCount": 100,
+      "pagesCommented": 5,
+      "firstComment": "2025-09-17T15:53:12",
+      "lastComment": "2026-01-05T23:38:05"
+    },
+    {
+      "userId": "101968408687724",
+      "name": "JuanBingo",
+      "commentCount": 88,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-03T07:55:03",
+      "lastComment": "2026-01-06T04:09:26"
+    },
+    {
+      "userId": "897960886734144",
+      "name": "Juankada Alexchoozy",
+      "commentCount": 73,
+      "pagesCommented": 10,
+      "firstComment": "2025-12-11T04:28:35",
+      "lastComment": "2026-01-06T02:34:17"
+    },
+    {
+      "userId": "848879278318663",
+      "name": "Dr. Halibugin",
+      "commentCount": 67,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-27T07:43:21",
+      "lastComment": "2026-01-04T12:22:16"
+    },
+    {
+      "userId": "816378131569757",
+      "name": "Pikachou",
+      "commentCount": 53,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T08:56:06",
+      "lastComment": "2026-01-05T11:45:43"
+    },
+    {
+      "userId": "839829862556787",
+      "name": "Tsubaki Gold",
+      "commentCount": 51,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-09T08:21:46",
+      "lastComment": "2026-01-05T11:44:40"
+    },
+    {
+      "userId": "708878528972997",
+      "name": "Juan365 Studios",
+      "commentCount": 47,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-12T12:04:22",
+      "lastComment": "2026-01-05T17:30:34"
+    },
+    {
+      "userId": "481447078389174",
+      "name": "Juan365 Live Stream",
+      "commentCount": 45,
+      "pagesCommented": 2,
+      "firstComment": "2025-09-19T07:46:49",
+      "lastComment": "2026-01-05T10:59:35"
+    },
+    {
+      "userId": "839729525890738",
+      "name": "JuanSports",
+      "commentCount": 42,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-17T08:53:04",
+      "lastComment": "2026-01-04T06:33:54"
+    },
+    {
+      "userId": "916977931480275",
+      "name": "PALDO KING",
+      "commentCount": 40,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:28:28",
+      "lastComment": "2026-01-05T12:45:25"
+    },
+    {
+      "userId": "110393272101980",
+      "name": "Mimah Estelah",
+      "commentCount": 39,
+      "pagesCommented": 2,
+      "firstComment": "2025-08-17T22:17:18",
+      "lastComment": "2025-11-09T05:41:19"
+    },
+    {
+      "userId": "952444144610590",
+      "name": "Juan Axcel",
+      "commentCount": 38,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-11T08:38:43",
+      "lastComment": "2026-01-05T12:51:26"
+    },
+    {
+      "userId": "826916843844872",
+      "name": "Juanchochi",
+      "commentCount": 37,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:22:13",
+      "lastComment": "2026-01-05T12:00:23"
+    },
+    {
+      "userId": "886999644501228",
+      "name": "Achiching",
+      "commentCount": 36,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T08:55:29",
+      "lastComment": "2026-01-05T11:37:09"
+    },
+    {
+      "userId": "794222977114046",
+      "name": "Juanababe mylabs",
+      "commentCount": 34,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:07:04",
+      "lastComment": "2026-01-05T11:30:56"
+    },
+    {
+      "userId": "814576181719553",
+      "name": "Toshiro",
+      "commentCount": 34,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-08T14:55:45",
+      "lastComment": "2026-01-04T12:09:01"
+    },
+    {
+      "userId": "854471897742065",
+      "name": "Mugi",
+      "commentCount": 34,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-10T07:56:26",
+      "lastComment": "2026-01-05T12:33:52"
+    },
+    {
+      "userId": "765252523347437",
+      "name": "Baby Girl Mylabs",
+      "commentCount": 33,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T08:15:59",
+      "lastComment": "2026-01-04T12:17:24"
+    },
+    {
+      "userId": "782805601587948",
+      "name": "Jakes",
+      "commentCount": 33,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:05:01",
+      "lastComment": "2026-01-05T11:28:37"
+    },
+    {
+      "userId": "747721128429855",
+      "name": "Juana Babe Abi",
+      "commentCount": 30,
+      "pagesCommented": 7,
+      "firstComment": "2025-09-20T16:00:11",
+      "lastComment": "2026-01-04T05:50:48"
+    },
+    {
+      "userId": "637881052752437",
+      "name": "Juan365 Agents",
+      "commentCount": 30,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-14T13:14:04",
+      "lastComment": "2025-12-18T03:14:16"
+    },
+    {
+      "userId": "883999614801871",
+      "name": "JuanAcces",
+      "commentCount": 29,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-13T08:28:25",
+      "lastComment": "2026-01-05T12:56:00"
+    },
+    {
+      "userId": "307539579114790",
+      "name": "All legit site online casino's",
+      "commentCount": 28,
+      "pagesCommented": 2,
+      "firstComment": "2025-11-14T08:06:36",
+      "lastComment": "2026-01-05T12:18:04"
+    },
+    {
+      "userId": "649011251619570",
+      "name": "Joyfiles",
+      "commentCount": 28,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-14T08:11:10",
+      "lastComment": "2025-12-30T06:46:07"
+    },
+    {
+      "userId": "104630609353355",
+      "name": "Jessell",
+      "commentCount": 28,
+      "pagesCommented": 2,
+      "firstComment": "2025-11-02T23:16:09",
+      "lastComment": "2026-01-05T15:48:32"
+    },
+    {
+      "userId": "788736034331719",
+      "name": "Mugiwara",
+      "commentCount": 28,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-10T08:00:25",
+      "lastComment": "2026-01-04T11:17:44"
+    },
+    {
+      "userId": "892255410632142",
+      "name": "Queen Ashley",
+      "commentCount": 28,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T07:40:27",
+      "lastComment": "2026-01-04T11:06:16"
+    },
+    {
+      "userId": "927370847106754",
+      "name": "Juankada Evo",
+      "commentCount": 28,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-19T09:09:44",
+      "lastComment": "2026-01-04T03:26:02"
+    },
+    {
+      "userId": "843577848841707",
+      "name": "Paldong Wawiks",
+      "commentCount": 27,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:30:40",
+      "lastComment": "2026-01-05T12:46:36"
+    },
+    {
+      "userId": "542632538938846",
+      "name": "PALDO PALDO",
+      "commentCount": 27,
+      "pagesCommented": 2,
+      "firstComment": "2025-10-30T06:06:32",
+      "lastComment": "2026-01-06T02:44:20"
+    },
+    {
+      "userId": "904893616034032",
+      "name": "juancho",
+      "commentCount": 27,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:25:07",
+      "lastComment": "2026-01-05T12:02:44"
+    },
+    {
+      "userId": "877245315475737",
+      "name": "wakanda",
+      "commentCount": 26,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-09T09:43:44",
+      "lastComment": "2026-01-04T11:14:40"
+    },
+    {
+      "userId": "754416584427163",
+      "name": "Juana Babe Zell",
+      "commentCount": 26,
+      "pagesCommented": 3,
+      "firstComment": "2025-10-12T06:08:22",
+      "lastComment": "2025-12-24T16:29:04"
+    },
+    {
+      "userId": "840547209140018",
+      "name": "Sena BabyGirl",
+      "commentCount": 24,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:16:53",
+      "lastComment": "2026-01-03T13:01:45"
+    },
+    {
+      "userId": "875150985682292",
+      "name": "Maxwin",
+      "commentCount": 24,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:32:28",
+      "lastComment": "2026-01-05T12:47:54"
+    },
+    {
+      "userId": "590009037536459",
+      "name": "AGYcasino88",
+      "commentCount": 24,
+      "pagesCommented": 2,
+      "firstComment": "2025-11-20T13:03:49",
+      "lastComment": "2025-12-18T14:34:31"
+    },
+    {
+      "userId": "906986725829737",
+      "name": "Jake all The way",
+      "commentCount": 23,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:09:00",
+      "lastComment": "2026-01-05T11:33:22"
+    },
+    {
+      "userId": "883845621473283",
+      "name": "Mais Con yelo",
+      "commentCount": 22,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T08:46:25",
+      "lastComment": "2026-01-04T12:21:58"
+    },
+    {
+      "userId": "861425510386799",
+      "name": "BRASO MErs",
+      "commentCount": 22,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-11T11:29:36",
+      "lastComment": "2026-01-04T12:25:52"
+    },
+    {
+      "userId": "724499037421876",
+      "name": "boss madam",
+      "commentCount": 21,
+      "pagesCommented": 3,
+      "firstComment": "2025-11-01T06:05:10",
+      "lastComment": "2026-01-03T13:15:05"
+    },
+    {
+      "userId": "780538205145852",
+      "name": "casino online ",
+      "commentCount": 20,
+      "pagesCommented": 2,
+      "firstComment": "2025-09-29T07:15:11",
+      "lastComment": "2026-01-02T07:25:55"
+    },
+    {
+      "userId": "101591122304221",
+      "name": "Ruben balagso irrebaria",
+      "commentCount": 20,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-01T06:39:20",
+      "lastComment": "2026-01-03T18:04:53"
+    },
+    {
+      "userId": "753856447820261",
+      "name": "Daisuki toshi",
+      "commentCount": 20,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-09T09:24:32",
+      "lastComment": "2026-01-04T12:14:00"
+    },
+    {
+      "userId": "832583829935738",
+      "name": "JMC17",
+      "commentCount": 20,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:15:44",
+      "lastComment": "2026-01-04T11:11:16"
+    },
+    {
+      "userId": "791722154035102",
+      "name": "marcus mecus",
+      "commentCount": 19,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:12:52",
+      "lastComment": "2025-12-17T07:56:41"
+    },
+    {
+      "userId": "944439405412611",
+      "name": "LanceBi",
+      "commentCount": 18,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-10T08:13:08",
+      "lastComment": "2025-12-17T07:59:40"
+    },
+    {
+      "userId": "136254382908007",
+      "name": "gambling online casino ",
+      "commentCount": 18,
+      "pagesCommented": 3,
+      "firstComment": "2025-12-10T15:51:36",
+      "lastComment": "2026-01-05T20:32:20"
+    },
+    {
+      "userId": "746269178581052",
+      "name": "RENZKo",
+      "commentCount": 17,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-04T08:54:30",
+      "lastComment": "2026-01-01T01:40:03"
+    },
+    {
+      "userId": "2371383173104056",
+      "name": "CYN CHAN SU",
+      "commentCount": 16,
+      "pagesCommented": 2,
+      "firstComment": "2025-08-31T22:20:08",
+      "lastComment": "2026-01-02T12:18:38"
+    },
+    {
+      "userId": "797036730158492",
+      "name": "Jadce",
+      "commentCount": 16,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-07T13:03:30",
+      "lastComment": "2026-01-05T23:38:09"
+    },
+    {
+      "userId": "103051358979982",
+      "name": "Kabangis Tv",
+      "commentCount": 16,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-01T04:35:47",
+      "lastComment": "2026-01-02T10:16:41"
+    },
+    {
+      "userId": "987628181092728",
+      "name": "JUANGreat",
+      "commentCount": 15,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-29T09:50:16",
+      "lastComment": "2026-01-05T11:48:20"
+    },
+    {
+      "userId": "922622270933019",
+      "name": "boss maganda Agent casino online ",
+      "commentCount": 15,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-21T13:01:17",
+      "lastComment": "2026-01-03T08:04:18"
+    },
+    {
+      "userId": "984358468085445",
+      "name": "JuanDos",
+      "commentCount": 15,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-26T09:21:33",
+      "lastComment": "2026-01-04T12:03:05"
+    },
+    {
+      "userId": "327188653819665",
+      "name": "rhon",
+      "commentCount": 15,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-30T04:54:20",
+      "lastComment": "2025-11-30T04:58:34"
+    },
+    {
+      "userId": "1640592739524740",
+      "name": "Tenie's Tapestries",
+      "commentCount": 15,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-22T03:14:25",
+      "lastComment": "2025-12-08T08:14:50"
+    },
+    {
+      "userId": "381702898368299",
+      "name": "Marie's Personal blog ",
+      "commentCount": 15,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-08T12:27:24",
+      "lastComment": "2025-12-11T08:51:28"
+    },
+    {
+      "userId": "964684223393856",
+      "name": "JuanSinko",
+      "commentCount": 14,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-02T12:14:18",
+      "lastComment": "2026-01-05T12:05:31"
+    },
+    {
+      "userId": "784832001384138",
+      "name": "7GAME super legit ",
+      "commentCount": 14,
+      "pagesCommented": 1,
+      "firstComment": "2025-10-31T11:09:17",
+      "lastComment": "2026-01-03T07:49:06"
+    },
+    {
+      "userId": "856741267532622",
+      "name": "JuanTress",
+      "commentCount": 14,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-02T11:15:31",
+      "lastComment": "2026-01-04T12:04:35"
+    },
+    {
+      "userId": "438356876032290",
+      "name": "Upline Ella",
+      "commentCount": 14,
+      "pagesCommented": 3,
+      "firstComment": "2025-12-26T09:43:49",
+      "lastComment": "2025-12-30T08:24:34"
+    },
+    {
+      "userId": "796975573508333",
+      "name": "Sei Llanes",
+      "commentCount": 14,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-09T15:08:02",
+      "lastComment": "2026-01-02T12:55:37"
+    },
+    {
+      "userId": "105934959254081",
+      "name": "Minibet",
+      "commentCount": 13,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-15T14:57:29",
+      "lastComment": "2025-11-15T14:57:59"
+    },
+    {
+      "userId": "591221357406341",
+      "name": "scatter gamer",
+      "commentCount": 13,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-28T10:46:14",
+      "lastComment": "2026-01-06T02:43:10"
+    },
+    {
+      "userId": "908907765636803",
+      "name": "Juan Tama",
+      "commentCount": 13,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-09T09:40:05",
+      "lastComment": "2026-01-05T12:24:45"
+    },
+    {
+      "userId": "102683632848198",
+      "name": "Gerasmo Pedra",
+      "commentCount": 12,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-11T07:18:09",
+      "lastComment": "2026-01-02T23:51:24"
+    },
+    {
+      "userId": "748765068327821",
+      "name": "Juana Babe Ashley",
+      "commentCount": 12,
+      "pagesCommented": 2,
+      "firstComment": "2025-11-09T14:32:44",
+      "lastComment": "2026-01-03T11:36:30"
+    },
+    {
+      "userId": "555913674279701",
+      "name": "Therapy0.6",
+      "commentCount": 11,
+      "pagesCommented": 2,
+      "firstComment": "2025-11-02T12:27:56",
+      "lastComment": "2025-12-29T05:15:20"
+    },
+    {
+      "userId": "877447158774140",
+      "name": "AH77",
+      "commentCount": 11,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-05T05:09:00",
+      "lastComment": "2025-12-08T05:11:44"
+    },
+    {
+      "userId": "760410247158812",
+      "name": "PHSKY",
+      "commentCount": 11,
+      "pagesCommented": 1,
+      "firstComment": "2025-09-15T09:44:38",
+      "lastComment": "2025-12-25T08:16:38"
+    },
+    {
+      "userId": "862622980275034",
+      "name": "Juankada Shann",
+      "commentCount": 10,
+      "pagesCommented": 5,
+      "firstComment": "2025-12-22T10:32:06",
+      "lastComment": "2026-01-05T10:34:43"
+    },
+    {
+      "userId": "933524759840891",
+      "name": "Laylay Braso",
+      "commentCount": 10,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-09T08:41:58",
+      "lastComment": "2026-01-05T11:19:32"
+    },
+    {
+      "userId": "110372218637278",
+      "name": "Handy bert",
+      "commentCount": 10,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-11T01:34:01",
+      "lastComment": "2026-01-05T11:39:43"
+    },
+    {
+      "userId": "933067516556969",
+      "name": "JuanApat",
+      "commentCount": 10,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-02T12:05:12",
+      "lastComment": "2026-01-05T12:25:51"
+    },
+    {
+      "userId": "108679458612240",
+      "name": "Allen's CookingChambahan",
+      "commentCount": 10,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-23T16:46:12",
+      "lastComment": "2025-12-29T08:37:11"
+    },
+    {
+      "userId": "819307124607048",
+      "name": "Bebe Race",
+      "commentCount": 9,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-09T09:39:01",
+      "lastComment": "2026-01-05T12:21:54"
+    },
+    {
+      "userId": "600682666470196",
+      "name": "Agent from casino online ",
+      "commentCount": 9,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-02T07:32:34",
+      "lastComment": "2026-01-03T07:37:03"
+    },
+    {
+      "userId": "106012009183789",
+      "name": "Marites Pa More",
+      "commentCount": 9,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-06T14:48:42",
+      "lastComment": "2026-01-02T23:56:13"
+    },
+    {
+      "userId": "874628665737433",
+      "name": "Juankada Papa Joe",
+      "commentCount": 9,
+      "pagesCommented": 4,
+      "firstComment": "2025-12-02T02:34:52",
+      "lastComment": "2026-01-05T08:54:34"
+    },
+    {
+      "userId": "117508894651510",
+      "name": "Live sa pinas",
+      "commentCount": 8,
+      "pagesCommented": 2,
+      "firstComment": "2025-09-21T00:53:32",
+      "lastComment": "2025-12-23T09:27:01"
+    },
+    {
+      "userId": "505572189316537",
+      "name": "1969",
+      "commentCount": 8,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-08T04:44:58",
+      "lastComment": "2026-01-02T00:05:57"
+    },
+    {
+      "userId": "568396133030751",
+      "name": "91PH",
+      "commentCount": 8,
+      "pagesCommented": 2,
+      "firstComment": "2025-11-05T13:00:27",
+      "lastComment": "2025-11-12T23:50:15"
+    },
+    {
+      "userId": "719090694628787",
+      "name": "JLJL3 AGENT ",
+      "commentCount": 8,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-01T03:22:12",
+      "lastComment": "2025-11-11T10:27:21"
+    },
+    {
+      "userId": "919507207909713",
+      "name": "AngeVlog",
+      "commentCount": 7,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-15T06:52:35",
+      "lastComment": "2025-12-16T12:56:03"
+    },
+    {
+      "userId": "110414071990967",
+      "name": "Maguibuano Family",
+      "commentCount": 7,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-11T00:43:16",
+      "lastComment": "2025-12-28T07:25:42"
+    },
+    {
+      "userId": "857367467467699",
+      "name": "JuanKembot",
+      "commentCount": 7,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-14T08:10:57",
+      "lastComment": "2025-12-17T08:01:21"
+    },
+    {
+      "userId": "770186759510848",
+      "name": "Paldo",
+      "commentCount": 7,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-23T23:24:37",
+      "lastComment": "2025-12-09T04:37:16"
+    },
+    {
+      "userId": "869265719612594",
+      "name": "JuanSais",
+      "commentCount": 7,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-03T11:35:47",
+      "lastComment": "2026-01-05T12:09:54"
+    },
+    {
+      "userId": "25654430127576929",
+      "name": "Francine Lee",
+      "commentCount": 7,
+      "pagesCommented": 1,
+      "firstComment": "2025-10-06T03:57:43",
+      "lastComment": "2025-10-18T12:25:45"
+    },
+    {
+      "userId": "305553999318966",
+      "name": "JUANKada Host Ikay",
+      "commentCount": 6,
+      "pagesCommented": 4,
+      "firstComment": "2025-12-22T23:16:16",
+      "lastComment": "2026-01-01T07:32:51"
+    },
+    {
+      "userId": "871818316012776",
+      "name": "Super Ace",
+      "commentCount": 6,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T19:00:25",
+      "lastComment": "2025-12-09T04:07:08"
+    },
+    {
+      "userId": "871874286018393",
+      "name": "JUANdakks",
+      "commentCount": 6,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-29T09:41:11",
+      "lastComment": "2026-01-04T12:26:46"
+    },
+    {
+      "userId": "826216380580859",
+      "name": "Leslie May",
+      "commentCount": 6,
+      "pagesCommented": 3,
+      "firstComment": "2025-11-23T06:26:05",
+      "lastComment": "2025-12-10T07:59:55"
+    },
+    {
+      "userId": "879002041956752",
+      "name": "ABC8",
+      "commentCount": 6,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-03T22:54:50",
+      "lastComment": "2025-12-28T08:04:29"
+    },
+    {
+      "userId": "104682941134949",
+      "name": "Jadiel maurice sunrise silver",
+      "commentCount": 6,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-08T08:19:16",
+      "lastComment": "2025-12-08T08:25:57"
+    },
+    {
+      "userId": "492207827319140",
+      "name": "Phmacao legit casino",
+      "commentCount": 5,
+      "pagesCommented": 3,
+      "firstComment": "2025-12-26T11:12:25",
+      "lastComment": "2025-12-26T11:17:05"
+    },
+    {
+      "userId": "914588645074135",
+      "name": "JuanSyete",
+      "commentCount": 5,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-04T11:41:48",
+      "lastComment": "2026-01-05T12:28:26"
+    },
+    {
+      "userId": "959243183930083",
+      "name": "Juankada Ligaya",
+      "commentCount": 5,
+      "pagesCommented": 3,
+      "firstComment": "2025-12-23T10:14:44",
+      "lastComment": "2026-01-03T11:38:12"
+    },
+    {
+      "userId": "106610175138372",
+      "name": "Debunker PH",
+      "commentCount": 5,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-12T07:26:59",
+      "lastComment": "2025-12-14T04:21:26"
+    },
+    {
+      "userId": "882499904951305",
+      "name": "Juankada Lance",
+      "commentCount": 5,
+      "pagesCommented": 3,
+      "firstComment": "2025-12-27T17:58:24",
+      "lastComment": "2026-01-05T13:36:46"
+    },
+    {
+      "userId": "592035304003887",
+      "name": "Templated",
+      "commentCount": 5,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-27T07:52:37",
+      "lastComment": "2025-12-27T08:05:49"
+    },
+    {
+      "userId": "25270517782641217",
+      "name": "Francine Lee",
+      "commentCount": 5,
+      "pagesCommented": 1,
+      "firstComment": "2025-09-29T16:12:01",
+      "lastComment": "2025-10-14T05:46:03"
+    },
+    {
+      "userId": "741068122413371",
+      "name": "Kazuki blog",
+      "commentCount": 5,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-10T19:40:09",
+      "lastComment": "2025-12-15T13:35:43"
+    },
+    {
+      "userId": "623136654216600",
+      "name": "PALDO",
+      "commentCount": 5,
+      "pagesCommented": 2,
+      "firstComment": "2025-11-03T10:46:15",
+      "lastComment": "2025-11-05T09:49:20"
+    },
+    {
+      "userId": "111029483930038",
+      "name": "Andrea",
+      "commentCount": 5,
+      "pagesCommented": 2,
+      "firstComment": "2025-11-27T13:21:19",
+      "lastComment": "2026-01-01T07:30:45"
+    },
+    {
+      "userId": "759507623901713",
+      "name": "John Aris T Roc",
+      "commentCount": 5,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-16T10:30:13",
+      "lastComment": "2026-01-05T08:26:59"
+    },
+    {
+      "userId": "698392516701322",
+      "name": "TK666.Com",
+      "commentCount": 4,
+      "pagesCommented": 2,
+      "firstComment": "2025-11-21T01:54:30",
+      "lastComment": "2026-01-03T08:42:53"
+    },
+    {
+      "userId": "952228721303743",
+      "name": "Juantoes",
+      "commentCount": 4,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-05T11:22:47",
+      "lastComment": "2026-01-05T11:24:59"
+    },
+    {
+      "userId": "810087498850255",
+      "name": "Silent man",
+      "commentCount": 4,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-11T09:13:06",
+      "lastComment": "2026-01-01T05:56:12"
+    },
+    {
+      "userId": "111741498471287",
+      "name": "Cheeze",
+      "commentCount": 4,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T12:52:30",
+      "lastComment": "2025-12-07T17:44:20"
+    },
+    {
+      "userId": "873890669146378",
+      "name": "Dixon mayaz",
+      "commentCount": 4,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-13T08:18:06",
+      "lastComment": "2026-01-04T11:54:04"
+    },
+    {
+      "userId": "105157121357303",
+      "name": "Shantahl Direct Sales International",
+      "commentCount": 4,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-02T13:01:54",
+      "lastComment": "2025-12-11T12:02:50"
+    },
+    {
+      "userId": "125436253985362",
+      "name": "Onlines catter",
+      "commentCount": 4,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-07T10:57:29",
+      "lastComment": "2025-12-07T11:53:41"
+    },
+    {
+      "userId": "721675127703044",
+      "name": "Padua family",
+      "commentCount": 3,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-10T20:29:00",
+      "lastComment": "2026-01-02T22:49:00"
+    },
+    {
+      "userId": "100475426272928",
+      "name": "bjdino habal jr.",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-04T12:07:32",
+      "lastComment": "2026-01-04T12:07:41"
+    },
+    {
+      "userId": "101565094779016",
+      "name": "Pangontra habak tsaliko for sale iba pa",
+      "commentCount": 3,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-28T09:44:58",
+      "lastComment": "2026-01-04T19:15:30"
+    },
+    {
+      "userId": "103381142767057",
+      "name": "PauL S.",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-25T07:59:08",
+      "lastComment": "2025-11-26T03:29:02"
+    },
+    {
+      "userId": "103836692526149",
+      "name": "ahssha",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-06T11:53:20",
+      "lastComment": "2025-12-06T11:55:24"
+    },
+    {
+      "userId": "104941015638355",
+      "name": "Mamertz Magbanua",
+      "commentCount": 3,
+      "pagesCommented": 2,
+      "firstComment": "2025-11-18T18:19:03",
+      "lastComment": "2025-11-22T14:21:47"
+    },
+    {
+      "userId": "109736964760593",
+      "name": "DjGames",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-28T15:01:57",
+      "lastComment": "2026-01-05T12:03:04"
+    },
+    {
+      "userId": "109945665213692",
+      "name": "Sabel Lalabs",
+      "commentCount": 3,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-11T05:52:02",
+      "lastComment": "2025-12-11T07:33:15"
+    },
+    {
+      "userId": "110913298507777",
+      "name": "jessies official ",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-04T11:47:04",
+      "lastComment": "2026-01-05T01:45:04"
+    },
+    {
+      "userId": "120587471006137",
+      "name": "khulot vlogs",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-08T17:34:25",
+      "lastComment": "2025-12-19T12:37:53"
+    },
+    {
+      "userId": "122101202666003641",
+      "name": "A45.Com",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-06T09:42:10",
+      "lastComment": "2025-12-21T06:23:57"
+    },
+    {
+      "userId": "1407912162836498",
+      "name": "Jljlph",
+      "commentCount": 3,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-10T23:53:18",
+      "lastComment": "2025-12-12T14:27:04"
+    },
+    {
+      "userId": "25621923897436608",
+      "name": "Francine Lee",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-10-09T02:56:17",
+      "lastComment": "2025-10-17T10:46:28"
+    },
+    {
+      "userId": "296035150261529",
+      "name": "MoodScape",
+      "commentCount": 3,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-17T09:50:10",
+      "lastComment": "2025-12-25T12:26:36"
+    },
+    {
+      "userId": "312415871963133",
+      "name": "BET WIN 777 on-line gaming",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-30T14:17:42",
+      "lastComment": "2025-12-03T01:58:46"
+    },
+    {
+      "userId": "331516978104577",
+      "name": "Paps 02",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-21T01:16:56",
+      "lastComment": "2025-11-21T01:23:32"
+    },
+    {
+      "userId": "368652356982916",
+      "name": "Mankis",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-26T14:54:24",
+      "lastComment": "2026-01-02T16:41:53"
+    },
+    {
+      "userId": "379087375287549",
+      "name": "Ser Geybin & Elma",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-30T08:01:35",
+      "lastComment": "2025-12-30T13:28:40"
+    },
+    {
+      "userId": "396019376926396",
+      "name": "depazi rey tv",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-12T10:19:14",
+      "lastComment": "2025-12-12T10:21:00"
+    },
+    {
+      "userId": "520904847765783",
+      "name": "Inday tapings 0.3",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-04T12:37:54",
+      "lastComment": "2026-01-06T01:18:16"
+    },
+    {
+      "userId": "643850722149658",
+      "name": "Online Casino Games",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-11T16:58:43",
+      "lastComment": "2025-12-13T14:28:38"
+    },
+    {
+      "userId": "644668025399266",
+      "name": "Real-Life Insights",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-28T09:15:15",
+      "lastComment": "2025-12-28T09:16:02"
+    },
+    {
+      "userId": "659299587264566",
+      "name": "Angeline",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-30T21:56:17",
+      "lastComment": "2025-12-09T21:12:57"
+    },
+    {
+      "userId": "731608473377029",
+      "name": "Juana Babe Jam",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-26T08:58:44",
+      "lastComment": "2026-01-02T11:02:09"
+    },
+    {
+      "userId": "787773477755559",
+      "name": "Kadil omer",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-25T14:32:50",
+      "lastComment": "2025-12-28T10:38:42"
+    },
+    {
+      "userId": "807276072469390",
+      "name": "Free Earning Apps",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-12T04:56:48",
+      "lastComment": "2025-12-13T01:04:41"
+    },
+    {
+      "userId": "837787582758937",
+      "name": "beautiful link Agent ",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-06T11:37:51",
+      "lastComment": "2025-12-14T09:23:05"
+    },
+    {
+      "userId": "846569271870270",
+      "name": "PONN",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-05T13:10:23",
+      "lastComment": "2025-12-07T13:23:56"
+    },
+    {
+      "userId": "847317478472741",
+      "name": "LEGIT Agent",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-09T09:31:38",
+      "lastComment": "2025-12-10T00:15:18"
+    },
+    {
+      "userId": "857396740799727",
+      "name": "clear yurie official tv 0.5",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-28T03:24:33",
+      "lastComment": "2026-01-04T04:22:02"
+    },
+    {
+      "userId": "865735116614219",
+      "name": "Lester Navarro Bernil vlog",
+      "commentCount": 3,
+      "pagesCommented": 2,
+      "firstComment": "2025-11-26T13:36:02",
+      "lastComment": "2025-12-22T09:19:13"
+    },
+    {
+      "userId": "874648655739835",
+      "name": "Juankada Ellise",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-29T13:15:11",
+      "lastComment": "2025-12-31T17:56:59"
+    },
+    {
+      "userId": "887713141083571",
+      "name": "Makoy makoy",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-15T02:48:07",
+      "lastComment": "2025-11-17T02:01:44"
+    },
+    {
+      "userId": "899686746567302",
+      "name": "Juanpaks",
+      "commentCount": 3,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-05T11:20:29",
+      "lastComment": "2026-01-05T11:21:11"
+    },
+    {
+      "userId": "904982559353951",
+      "name": "Wala akong ngalan.",
+      "commentCount": 3,
+      "pagesCommented": 3,
+      "firstComment": "2025-11-23T04:35:28",
+      "lastComment": "2025-11-23T04:41:38"
+    },
+    {
+      "userId": "830235363510312",
+      "name": "Gleno Baclea-an",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-18T08:08:41",
+      "lastComment": "2025-12-18T08:11:18"
+    },
+    {
+      "userId": "831470103381081",
+      "name": "Triple CrowN PLuS ",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-01T13:15:18",
+      "lastComment": "2025-12-01T13:19:11"
+    },
+    {
+      "userId": "107338388278928",
+      "name": "Baby clothes and essentials",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-10-06T08:22:28",
+      "lastComment": "2025-10-06T08:24:32"
+    },
+    {
+      "userId": "633867773150822",
+      "name": "Online VIDEO GAMES",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-03T17:59:35",
+      "lastComment": "2026-01-03T17:59:40"
+    },
+    {
+      "userId": "106422201081950",
+      "name": "Honeycelle galvan surplus",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-08T14:36:41",
+      "lastComment": "2025-12-27T10:09:07"
+    },
+    {
+      "userId": "106097998929269",
+      "name": "Bernadette",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-16T12:39:00",
+      "lastComment": "2025-12-18T05:40:40"
+    },
+    {
+      "userId": "657577080777883",
+      "name": "Diana claude",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-16T08:16:30",
+      "lastComment": "2025-11-17T00:54:34"
+    },
+    {
+      "userId": "949473921576703",
+      "name": "JuanKada Star",
+      "commentCount": 2,
+      "pagesCommented": 2,
+      "firstComment": "2026-01-05T21:39:41",
+      "lastComment": "2026-01-06T02:52:29"
+    },
+    {
+      "userId": "781983215003456",
+      "name": "\u09aa\u09cd\u09b0\u09c7\u09ae",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-08T12:02:05",
+      "lastComment": "2025-12-08T12:02:07"
+    },
+    {
+      "userId": "888544924337961",
+      "name": "Kuya Juan Legit",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-11T08:33:12",
+      "lastComment": "2026-01-04T12:20:53"
+    },
+    {
+      "userId": "935896189598683",
+      "name": "MaxWin",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T06:02:05",
+      "lastComment": "2025-12-07T08:17:48"
+    },
+    {
+      "userId": "661444603710241",
+      "name": "onexbet Philippines sports games ",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-30T15:39:14",
+      "lastComment": "2026-01-02T13:15:55"
+    },
+    {
+      "userId": "431859346669957",
+      "name": "mypage",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-04T15:31:20",
+      "lastComment": "2025-11-04T15:31:22"
+    },
+    {
+      "userId": "104857269210231",
+      "name": "NelceLtv",
+      "commentCount": 2,
+      "pagesCommented": 2,
+      "firstComment": "2025-11-07T02:49:26",
+      "lastComment": "2025-12-17T06:50:13"
+    },
+    {
+      "userId": "787619167759895",
+      "name": "Ddplus CasinoOfficial",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-03T03:24:05",
+      "lastComment": "2025-12-03T03:30:23"
+    },
+    {
+      "userId": "844038965465688",
+      "name": "JL55 LINK",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-27T16:49:55",
+      "lastComment": "2025-12-29T11:54:41"
+    },
+    {
+      "userId": "101678028419933",
+      "name": "Nida Affiliate Agent",
+      "commentCount": 2,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-22T11:23:20",
+      "lastComment": "2025-12-28T21:43:31"
+    },
+    {
+      "userId": "847112111808495",
+      "name": "ljno vlog",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-11T15:25:05",
+      "lastComment": "2025-11-11T16:27:13"
+    },
+    {
+      "userId": "101536002794740",
+      "name": "JanNo Vlog",
+      "commentCount": 2,
+      "pagesCommented": 2,
+      "firstComment": "2025-11-28T02:02:21",
+      "lastComment": "2025-11-28T02:04:11"
+    },
+    {
+      "userId": "100141988561608",
+      "name": "Darling Vlog",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-15T12:27:34",
+      "lastComment": "2025-11-15T12:28:08"
+    },
+    {
+      "userId": "110128348150379",
+      "name": "Divain rank",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-24T01:26:57",
+      "lastComment": "2025-12-17T23:59:51"
+    },
+    {
+      "userId": "941242222404858",
+      "name": "casino online groups ",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-03T00:08:22",
+      "lastComment": "2026-01-03T00:12:48"
+    },
+    {
+      "userId": "683206334865791",
+      "name": "CCZZ online casino",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-16T08:12:34",
+      "lastComment": "2025-11-16T23:39:58"
+    },
+    {
+      "userId": "109421904981004",
+      "name": "Ricardo Mandaragat",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-03T14:15:09",
+      "lastComment": "2026-01-05T09:34:22"
+    },
+    {
+      "userId": "748643008328156",
+      "name": "Nikka Salabo",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-25T04:07:20",
+      "lastComment": "2025-12-25T08:20:46"
+    },
+    {
+      "userId": "471761419354839",
+      "name": "AdartsE Vlogs",
+      "commentCount": 2,
+      "pagesCommented": 2,
+      "firstComment": "2025-09-20T05:27:03",
+      "lastComment": "2025-09-20T05:27:53"
+    },
+    {
+      "userId": "920450844486578",
+      "name": "Brinx Credit to Cash Services - Cebu",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-17T17:48:55",
+      "lastComment": "2025-12-17T17:49:10"
+    },
+    {
+      "userId": "794570473745501",
+      "name": "Elsa vlog",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-11T18:21:05",
+      "lastComment": "2025-12-11T18:22:40"
+    },
+    {
+      "userId": "102295765589646",
+      "name": "\ud835\ude484\ud835\ude630\ud835\ude57\ud835\ude64 \ud835\ude65\ud835\ude61\ud835\ude56\ud835\ude6e\ud835\ude68",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-05T16:07:52",
+      "lastComment": "2026-01-05T16:14:52"
+    },
+    {
+      "userId": "720196364520322",
+      "name": "Arnil Into",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-25T23:57:16",
+      "lastComment": "2025-12-26T00:13:13"
+    },
+    {
+      "userId": "1362961887137648",
+      "name": "Page ni Dudz",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-16T14:55:32",
+      "lastComment": "2025-12-18T01:34:48"
+    },
+    {
+      "userId": "539933412544863",
+      "name": "Rentoy's page",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-11T10:58:57",
+      "lastComment": "2025-12-11T11:03:02"
+    },
+    {
+      "userId": "690618950796906",
+      "name": "scatter time",
+      "commentCount": 2,
+      "pagesCommented": 2,
+      "firstComment": "2025-11-13T07:36:36",
+      "lastComment": "2025-11-13T07:40:33"
+    },
+    {
+      "userId": "102051106102302",
+      "name": "Rene tv channel",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-22T19:47:50",
+      "lastComment": "2025-12-22T19:50:02"
+    },
+    {
+      "userId": "25650754737851499",
+      "name": "Francine Lee",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-09-25T20:08:29",
+      "lastComment": "2025-10-09T03:11:34"
+    },
+    {
+      "userId": "511818535358226",
+      "name": "Kuya Arnel#Blog TV",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-16T01:55:31",
+      "lastComment": "2025-11-16T01:55:47"
+    },
+    {
+      "userId": "256267717567914",
+      "name": "Fashionista Artist Management",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-30T12:51:01",
+      "lastComment": "2025-12-30T14:45:28"
+    },
+    {
+      "userId": "108198515678125",
+      "name": "Nisha Queen",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-26T10:03:00",
+      "lastComment": "2026-01-05T09:41:38"
+    },
+    {
+      "userId": "390364940835685",
+      "name": "\u099a\u09be \u09aa\u09cd\u09b0\u09c7\u09ae\u09bf \u30c4",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-29T07:08:58",
+      "lastComment": "2025-11-29T07:09:40"
+    },
+    {
+      "userId": "642669772262829",
+      "name": "Agent ayalyn",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-03T15:19:36",
+      "lastComment": "2025-11-03T15:23:07"
+    },
+    {
+      "userId": "972316235955084",
+      "name": "Swerte man Blogs",
+      "commentCount": 2,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-24T08:13:25",
+      "lastComment": "2025-12-24T08:14:59"
+    },
+    {
+      "userId": "767771893076169",
+      "name": "TK11",
+      "commentCount": 2,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-12T17:03:39",
+      "lastComment": "2025-12-12T17:05:50"
+    },
+    {
+      "userId": "486481637887516",
+      "name": "Betting Master",
+      "commentCount": 2,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-10T15:53:17",
+      "lastComment": "2025-12-11T20:11:19"
+    },
+    {
+      "userId": "650153141519815",
+      "name": "Scatter GAMES Videos",
+      "commentCount": 2,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-20T23:08:17",
+      "lastComment": "2025-12-21T03:47:35"
+    },
+    {
+      "userId": "765472633322094",
+      "name": "It's Gamer",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-20T15:29:31",
+      "lastComment": "2025-12-20T15:29:31"
+    },
+    {
+      "userId": "247340773861068",
+      "name": "Joshua Buendia",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-05T14:59:11",
+      "lastComment": "2026-01-05T14:59:11"
+    },
+    {
+      "userId": "778750125314490",
+      "name": "signages maker",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-16T09:55:17",
+      "lastComment": "2025-12-16T09:55:17"
+    },
+    {
+      "userId": "2246638158940433",
+      "name": "EDWIN Painting WORKS",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-10-22T04:24:01",
+      "lastComment": "2025-10-22T04:24:01"
+    },
+    {
+      "userId": "782500434956505",
+      "name": "Jane Mary's VLOG",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-14T03:00:13",
+      "lastComment": "2025-12-14T03:00:13"
+    },
+    {
+      "userId": "219245747927760",
+      "name": "Jmp mix blog",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-11T03:09:45",
+      "lastComment": "2025-12-11T03:09:45"
+    },
+    {
+      "userId": "212501955283359",
+      "name": "Boss dex",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-31T10:30:51",
+      "lastComment": "2025-12-31T10:30:51"
+    },
+    {
+      "userId": "1590485327929692",
+      "name": "Chikletz Family",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-25T10:32:20",
+      "lastComment": "2025-12-25T10:32:20"
+    },
+    {
+      "userId": "153515187835810",
+      "name": "Japorms.tv",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-12T09:48:20",
+      "lastComment": "2025-12-12T09:48:20"
+    },
+    {
+      "userId": "1520703368045803",
+      "name": "Alex Medina - Events Host",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-22T09:22:17",
+      "lastComment": "2025-12-22T09:22:17"
+    },
+    {
+      "userId": "141440245713292",
+      "name": "Melchor De La Cruz",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-03T11:59:05",
+      "lastComment": "2026-01-03T11:59:05"
+    },
+    {
+      "userId": "102019392979890",
+      "name": "simple PR",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-15T09:49:11",
+      "lastComment": "2025-11-15T09:49:11"
+    },
+    {
+      "userId": "125779277281272",
+      "name": "Angel agustin",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-11T09:57:01",
+      "lastComment": "2025-11-11T09:57:01"
+    },
+    {
+      "userId": "122098300442002410",
+      "name": "Tambayan ni Kuya",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-25T04:54:39",
+      "lastComment": "2025-12-25T04:54:39"
+    },
+    {
+      "userId": "120930440923250",
+      "name": "Team RANZ UNISA ",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-26T08:06:50",
+      "lastComment": "2025-12-26T08:06:50"
+    },
+    {
+      "userId": "117402664667292",
+      "name": "Lakwatirang Mangyan",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-21T22:23:01",
+      "lastComment": "2025-12-21T22:23:01"
+    },
+    {
+      "userId": "114708661707162",
+      "name": "\u0e40\u0e15\u0e37\u0e2d\u0e19\u0e20\u0e31\u0e22\u0e1e\u0e34\u0e1a\u0e31\u0e15\u0e34\u0e1d\u0e19\u0e1f\u0e49\u0e32\u0e2d\u0e32\u0e01\u0e32\u0e28",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-10-18T08:28:55",
+      "lastComment": "2025-10-18T08:28:55"
+    },
+    {
+      "userId": "113970894119583",
+      "name": "Angel Mendoza",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-03T11:16:42",
+      "lastComment": "2026-01-03T11:16:42"
+    },
+    {
+      "userId": "113491406014614",
+      "name": "Johngel talus Quiachon",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-30T09:24:42",
+      "lastComment": "2025-12-30T09:24:42"
+    },
+    {
+      "userId": "832012746670976",
+      "name": "Teacher Mira",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-13T03:45:39",
+      "lastComment": "2025-12-13T03:45:39"
+    },
+    {
+      "userId": "113137931601002",
+      "name": "Master Dama",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-09T13:35:09",
+      "lastComment": "2025-12-09T13:35:09"
+    },
+    {
+      "userId": "112856468463914",
+      "name": "Courtside Crib",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-03T10:15:16",
+      "lastComment": "2025-12-03T10:15:16"
+    },
+    {
+      "userId": "112772605178100",
+      "name": "Dongzval VLOG",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-16T12:43:46",
+      "lastComment": "2025-12-16T12:43:46"
+    },
+    {
+      "userId": "110927431598232",
+      "name": "Lola, s happy store",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-01T01:17:20",
+      "lastComment": "2026-01-01T01:17:20"
+    },
+    {
+      "userId": "841506992389624",
+      "name": "Buenas Plus Philippines",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-01T17:38:43",
+      "lastComment": "2026-01-01T17:38:43"
+    },
+    {
+      "userId": "110369215073480",
+      "name": "Abby philbras",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-04T02:40:40",
+      "lastComment": "2026-01-04T02:40:40"
+    },
+    {
+      "userId": "109858038567486",
+      "name": "Flashback11",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-08-25T17:33:03",
+      "lastComment": "2025-08-25T17:33:03"
+    },
+    {
+      "userId": "109430960948607",
+      "name": "Cezil",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-29T17:55:04",
+      "lastComment": "2025-12-29T17:55:04"
+    },
+    {
+      "userId": "100789255409818",
+      "name": "Jon",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-30T12:28:18",
+      "lastComment": "2025-12-30T12:28:18"
+    },
+    {
+      "userId": "858606287343265",
+      "name": "Juankada Jedi",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-04T03:37:37",
+      "lastComment": "2026-01-04T03:37:37"
+    },
+    {
+      "userId": "860335240486047",
+      "name": "Richard L partosa",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-12T12:37:45",
+      "lastComment": "2025-12-12T12:37:45"
+    },
+    {
+      "userId": "108918121708551",
+      "name": "Reys vlog",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-30T07:18:28",
+      "lastComment": "2025-11-30T07:18:28"
+    },
+    {
+      "userId": "108787175630483",
+      "name": "RSA",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-09T14:50:37",
+      "lastComment": "2025-12-09T14:50:37"
+    },
+    {
+      "userId": "100367912674464",
+      "name": "\u09ae\u09be\u099c\u09be\u09b0 \u09a7\u09be\u0981\u09a7\u09be\u09b0 \u09ad\u09bf\u09a1\u09bf\u0993",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-06T04:58:18",
+      "lastComment": "2026-01-06T04:58:18"
+    },
+    {
+      "userId": "866226206566087",
+      "name": "PLAY NOW",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-14T15:07:54",
+      "lastComment": "2025-11-14T15:07:54"
+    },
+    {
+      "userId": "108729322059150",
+      "name": "90s",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-21T13:12:25",
+      "lastComment": "2025-12-21T13:12:25"
+    },
+    {
+      "userId": "108221635588232",
+      "name": "Philamy Villanueva Armada",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-09-21T13:56:23",
+      "lastComment": "2025-09-21T13:56:23"
+    },
+    {
+      "userId": "108052632205033",
+      "name": "Battle Through The Heavens Season 5",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-16T04:05:31",
+      "lastComment": "2025-12-16T04:05:31"
+    },
+    {
+      "userId": "108027905163553",
+      "name": "P\u00f8p\u00fal\u00e5r M\u00fa\u00df\u00ed\u00e7 Lyr\u00ed\u00e7\u00df",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-05T08:50:55",
+      "lastComment": "2026-01-05T08:50:55"
+    },
+    {
+      "userId": "107638519056489",
+      "name": "Ding gie",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-13T22:52:04",
+      "lastComment": "2025-12-13T22:52:04"
+    },
+    {
+      "userId": "876401548892955",
+      "name": "Juankada Sabbie",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-04T09:30:53",
+      "lastComment": "2026-01-04T09:30:53"
+    },
+    {
+      "userId": "877091935492521",
+      "name": "Jonjon",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-17T15:08:20",
+      "lastComment": "2025-12-17T15:08:20"
+    },
+    {
+      "userId": "107592952087664",
+      "name": "Eiipmop Rolab",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-25T08:54:36",
+      "lastComment": "2025-12-25T08:54:36"
+    },
+    {
+      "userId": "107133708655105",
+      "name": "Edcuenman",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-10T13:19:08",
+      "lastComment": "2025-12-10T13:19:08"
+    },
+    {
+      "userId": "105897952390582",
+      "name": "Biyahe ni Dan Vlog",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-18T12:15:56",
+      "lastComment": "2025-12-18T12:15:56"
+    },
+    {
+      "userId": "105735788538568",
+      "name": "Bengs Page",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-10T16:57:59",
+      "lastComment": "2025-12-10T16:57:59"
+    },
+    {
+      "userId": "100344363126633",
+      "name": "Efren Ulpina JR ",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-12T03:57:57",
+      "lastComment": "2025-12-12T03:57:57"
+    },
+    {
+      "userId": "889900227540788",
+      "name": "639club",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-14T11:00:24",
+      "lastComment": "2025-12-14T11:00:24"
+    },
+    {
+      "userId": "890352310833660",
+      "name": "tobebs",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-17T13:45:47",
+      "lastComment": "2025-12-17T13:45:47"
+    },
+    {
+      "userId": "105120871885616",
+      "name": "Nh\u00c5vz Rhuss",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-03T15:19:03",
+      "lastComment": "2026-01-03T15:19:03"
+    },
+    {
+      "userId": "104699458504690",
+      "name": "Markie Vlogs",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-27T07:17:30",
+      "lastComment": "2025-12-27T07:17:30"
+    },
+    {
+      "userId": "100242582493762",
+      "name": "ReaCh Daily",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-18T18:20:11",
+      "lastComment": "2025-11-18T18:20:11"
+    },
+    {
+      "userId": "900070173195747",
+      "name": "badrudinaman719",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-17T08:29:53",
+      "lastComment": "2025-12-17T08:29:53"
+    },
+    {
+      "userId": "903390426183690",
+      "name": "Kitty lopez",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-25T08:58:13",
+      "lastComment": "2025-11-25T08:58:13"
+    },
+    {
+      "userId": "104665538422432",
+      "name": "See photos",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-29T15:26:30",
+      "lastComment": "2025-12-29T15:26:30"
+    },
+    {
+      "userId": "905325115993193",
+      "name": "JLHQ",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-10T07:39:10",
+      "lastComment": "2025-12-10T07:39:10"
+    },
+    {
+      "userId": "104414498453613",
+      "name": "Salty Mamii",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-14T09:20:17",
+      "lastComment": "2025-12-14T09:20:17"
+    },
+    {
+      "userId": "104246011439715",
+      "name": "Katuwaan lang",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-11T07:42:17",
+      "lastComment": "2025-12-11T07:42:17"
+    },
+    {
+      "userId": "104064575015146",
+      "name": "DR Star Win",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-26T00:55:52",
+      "lastComment": "2025-11-26T00:55:52"
+    },
+    {
+      "userId": "103763141945193",
+      "name": "AB DUL",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-12T08:11:03",
+      "lastComment": "2025-12-12T08:11:03"
+    },
+    {
+      "userId": "103584395842855",
+      "name": "Satanas",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-02T14:17:37",
+      "lastComment": "2025-12-02T14:17:37"
+    },
+    {
+      "userId": "103239772504724",
+      "name": "Mhyrna",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-05T02:51:49",
+      "lastComment": "2025-11-05T02:51:49"
+    },
+    {
+      "userId": "521729291012874",
+      "name": "anie gaming ",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-02T11:37:47",
+      "lastComment": "2026-01-02T11:37:47"
+    },
+    {
+      "userId": "528763166981954",
+      "name": "Marcelo alsong jr",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-26T11:28:12",
+      "lastComment": "2025-12-26T11:28:12"
+    },
+    {
+      "userId": "514867735051021",
+      "name": "YEZ Gamer",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-10T11:28:13",
+      "lastComment": "2025-12-10T11:28:13"
+    },
+    {
+      "userId": "543418568851993",
+      "name": "Gnoside24",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-09T15:51:41",
+      "lastComment": "2025-12-09T15:51:41"
+    },
+    {
+      "userId": "552102911316590",
+      "name": "construction blogs",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-10T13:21:41",
+      "lastComment": "2025-12-10T13:21:41"
+    },
+    {
+      "userId": "558051214054871",
+      "name": "MA 3L",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-23T13:11:11",
+      "lastComment": "2025-11-23T13:11:11"
+    },
+    {
+      "userId": "558976760635178",
+      "name": "Caberfam ",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-09T17:37:16",
+      "lastComment": "2025-12-09T17:37:16"
+    },
+    {
+      "userId": "563108166893571",
+      "name": "Pasiaw VLOG",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-01T07:45:31",
+      "lastComment": "2025-12-01T07:45:31"
+    },
+    {
+      "userId": "566492089888412",
+      "name": "We provide ph/nemuel aborlan palawan",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-08T22:37:22",
+      "lastComment": "2025-12-08T22:37:22"
+    },
+    {
+      "userId": "568225599699917",
+      "name": "bacalso VLOGs",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-08T17:09:57",
+      "lastComment": "2025-12-08T17:09:57"
+    },
+    {
+      "userId": "509215025601752",
+      "name": "KUYA ED.2.0",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-23T04:45:55",
+      "lastComment": "2025-12-23T04:45:55"
+    },
+    {
+      "userId": "474707989052280",
+      "name": "tabang vlog",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-02T13:04:43",
+      "lastComment": "2026-01-02T13:04:43"
+    },
+    {
+      "userId": "587936354395705",
+      "name": "PH MACAO Affiliate",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-17T16:14:10",
+      "lastComment": "2025-12-17T16:14:10"
+    },
+    {
+      "userId": "433589173165698",
+      "name": "Moneca vlogs",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-20T12:02:25",
+      "lastComment": "2025-11-20T12:02:25"
+    },
+    {
+      "userId": "605171979357109",
+      "name": "cecille ",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-22T01:20:22",
+      "lastComment": "2025-12-22T01:20:22"
+    },
+    {
+      "userId": "608559269013932",
+      "name": "Matang Araw Edwino putong",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-15T11:05:38",
+      "lastComment": "2025-12-15T11:05:38"
+    },
+    {
+      "userId": "614846265040929",
+      "name": "kamanok tv",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-10T10:31:40",
+      "lastComment": "2025-12-10T10:31:40"
+    },
+    {
+      "userId": "619339671255232",
+      "name": "Myrna Qui\u00f1o Page",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-09-16T14:18:22",
+      "lastComment": "2025-09-16T14:18:22"
+    },
+    {
+      "userId": "431339180055182",
+      "name": "AXEL",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-14T10:09:55",
+      "lastComment": "2025-12-14T10:09:55"
+    },
+    {
+      "userId": "630503753478647",
+      "name": "Plumbing Basong Tv",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-13T19:53:53",
+      "lastComment": "2025-12-13T19:53:53"
+    },
+    {
+      "userId": "632270703294259",
+      "name": "LODI & PH-Game",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-20T10:02:22",
+      "lastComment": "2025-11-20T10:02:22"
+    },
+    {
+      "userId": "636896616173796",
+      "name": "about construction worker and fisher man",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-18T07:14:11",
+      "lastComment": "2025-12-18T07:14:11"
+    },
+    {
+      "userId": "410776508791195",
+      "name": "zyra paulite",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-08T07:55:16",
+      "lastComment": "2025-11-08T07:55:16"
+    },
+    {
+      "userId": "1021806931336462",
+      "name": "Casino Agent Ph",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-06T02:12:38",
+      "lastComment": "2026-01-06T02:12:38"
+    },
+    {
+      "userId": "644483382075573",
+      "name": "Ernegen vlog",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-02T14:18:50",
+      "lastComment": "2026-01-02T14:18:50"
+    },
+    {
+      "userId": "644657162066380",
+      "name": "Nickvalstv.vlog",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-09-16T09:32:19",
+      "lastComment": "2025-09-16T09:32:19"
+    },
+    {
+      "userId": "406467059225694",
+      "name": "Batang hamog",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-23T05:48:11",
+      "lastComment": "2025-12-23T05:48:11"
+    },
+    {
+      "userId": "656921044181671",
+      "name": "Wan muhammad",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-16T05:15:33",
+      "lastComment": "2025-12-16T05:15:33"
+    },
+    {
+      "userId": "678827875323887",
+      "name": "Basic Cleaning for Laundry Machines ",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-03T12:44:24",
+      "lastComment": "2025-12-03T12:44:24"
+    },
+    {
+      "userId": "683545638174469",
+      "name": "Melvin mahinay vlog",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-12T02:26:53",
+      "lastComment": "2025-12-12T02:26:53"
+    },
+    {
+      "userId": "698232296697944",
+      "name": "Jonasmotovlog",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-14T07:32:26",
+      "lastComment": "2025-12-14T07:32:26"
+    },
+    {
+      "userId": "700160849840093",
+      "name": "Ram-castillo",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-16T17:35:01",
+      "lastComment": "2025-12-16T17:35:01"
+    },
+    {
+      "userId": "701411049726871",
+      "name": "Phei",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-16T20:24:46",
+      "lastComment": "2025-12-16T20:24:46"
+    },
+    {
+      "userId": "703599359513298",
+      "name": "pambato",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-20T08:51:30",
+      "lastComment": "2025-12-20T08:51:30"
+    },
+    {
+      "userId": "703838472803438",
+      "name": "HR Recruitment",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-11T13:19:17",
+      "lastComment": "2025-12-11T13:19:17"
+    },
+    {
+      "userId": "706877005840673",
+      "name": "Tusek Vibes",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-29T00:19:57",
+      "lastComment": "2025-12-29T00:19:57"
+    },
+    {
+      "userId": "708290079039964",
+      "name": "Taya777 ",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-04T07:01:42",
+      "lastComment": "2026-01-04T07:01:42"
+    },
+    {
+      "userId": "374923425713257",
+      "name": "wengrolcute40 ",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-08-18T14:05:19",
+      "lastComment": "2025-08-18T14:05:19"
+    },
+    {
+      "userId": "709836135551848",
+      "name": "Grace Gaming",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-08T03:19:48",
+      "lastComment": "2025-11-08T03:19:48"
+    },
+    {
+      "userId": "357707587421761",
+      "name": "Anchee's Page",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-08-20T15:31:39",
+      "lastComment": "2025-08-20T15:31:39"
+    },
+    {
+      "userId": "721224727743708",
+      "name": "Juana Babe Abi",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-09-01T06:07:02",
+      "lastComment": "2025-09-01T06:07:02"
+    },
+    {
+      "userId": "721404257732885",
+      "name": "GDDynasty88",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-15T17:05:50",
+      "lastComment": "2025-12-15T17:05:50"
+    },
+    {
+      "userId": "100108639586902",
+      "name": "Mariel Artezuela",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-19T02:07:25",
+      "lastComment": "2025-12-19T02:07:25"
+    },
+    {
+      "userId": "317247171469293",
+      "name": "Chamisis",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-10-29T08:29:18",
+      "lastComment": "2025-10-29T08:29:18"
+    },
+    {
+      "userId": "727182627355594",
+      "name": "Pag-ibig ko'y ikaw",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-09-14T00:36:43",
+      "lastComment": "2025-09-14T00:36:43"
+    },
+    {
+      "userId": "937521842770552",
+      "name": "myBiz",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-09T12:17:19",
+      "lastComment": "2025-12-09T12:17:19"
+    },
+    {
+      "userId": "732981773239183",
+      "name": "Alexa Dagamon",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-24T13:09:16",
+      "lastComment": "2025-12-24T13:09:16"
+    },
+    {
+      "userId": "740117205851175",
+      "name": "Lovy Peti",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-09-06T03:39:26",
+      "lastComment": "2025-09-06T03:39:26"
+    },
+    {
+      "userId": "307953002409122",
+      "name": "Payaman tayo.",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-04T23:33:11",
+      "lastComment": "2026-01-04T23:33:11"
+    },
+    {
+      "userId": "296436376894528",
+      "name": "Josefina Reyes",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-15T03:06:32",
+      "lastComment": "2025-12-15T03:06:32"
+    },
+    {
+      "userId": "295997846941148",
+      "name": "pentans",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-08-21T15:11:53",
+      "lastComment": "2025-08-21T15:11:53"
+    },
+    {
+      "userId": "294147833782711",
+      "name": "Kuya Borss",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-20T02:13:21",
+      "lastComment": "2025-12-20T02:13:21"
+    },
+    {
+      "userId": "749108821617187",
+      "name": "NeonSpire Casino",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-24T10:16:56",
+      "lastComment": "2025-11-24T10:16:56"
+    },
+    {
+      "userId": "277512428776954",
+      "name": "Bee Healthy",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-24T16:33:39",
+      "lastComment": "2025-12-24T16:33:39"
+    },
+    {
+      "userId": "275630192305502",
+      "name": "Fun & information",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-12T11:09:08",
+      "lastComment": "2025-12-12T11:09:08"
+    },
+    {
+      "userId": "254088281131636",
+      "name": "LeoBeefy2.0",
+      "commentCount": 1,
+      "pagesCommented": 1,
+      "firstComment": "2025-09-16T01:56:53",
+      "lastComment": "2025-09-16T01:56:53"
+    }
+  ],
+  "topCommenters": [
+    {
+      "userId": "111068231797452",
+      "name": "Veng Nicolas",
+      "commentCount": 420,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-07T08:25:24",
+      "lastComment": "2025-12-18T08:07:01"
+    },
+    {
+      "userId": "427110124152735",
+      "name": "Sabel Labs",
+      "commentCount": 255,
+      "pagesCommented": 8,
+      "firstComment": "2025-12-10T07:50:03",
+      "lastComment": "2026-01-05T12:51:22"
+    },
+    {
+      "userId": "580104038511364",
+      "name": "Juan365",
+      "commentCount": 141,
+      "pagesCommented": 4,
+      "firstComment": "2025-12-07T10:02:08",
+      "lastComment": "2026-01-06T01:26:17"
+    },
+    {
+      "userId": "895603626965361",
+      "name": "BebeLabz A.",
+      "commentCount": 112,
+      "pagesCommented": 3,
+      "firstComment": "2025-11-21T11:07:45",
+      "lastComment": "2026-01-05T11:37:18"
+    },
+    {
+      "userId": "807965705726273",
+      "name": "Juana Babe Sena",
+      "commentCount": 100,
+      "pagesCommented": 5,
+      "firstComment": "2025-09-17T15:53:12",
+      "lastComment": "2026-01-05T23:38:05"
+    },
+    {
+      "userId": "101968408687724",
+      "name": "JuanBingo",
+      "commentCount": 88,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-03T07:55:03",
+      "lastComment": "2026-01-06T04:09:26"
+    },
+    {
+      "userId": "897960886734144",
+      "name": "Juankada Alexchoozy",
+      "commentCount": 73,
+      "pagesCommented": 10,
+      "firstComment": "2025-12-11T04:28:35",
+      "lastComment": "2026-01-06T02:34:17"
+    },
+    {
+      "userId": "848879278318663",
+      "name": "Dr. Halibugin",
+      "commentCount": 67,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-27T07:43:21",
+      "lastComment": "2026-01-04T12:22:16"
+    },
+    {
+      "userId": "816378131569757",
+      "name": "Pikachou",
+      "commentCount": 53,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T08:56:06",
+      "lastComment": "2026-01-05T11:45:43"
+    },
+    {
+      "userId": "839829862556787",
+      "name": "Tsubaki Gold",
+      "commentCount": 51,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-09T08:21:46",
+      "lastComment": "2026-01-05T11:44:40"
+    },
+    {
+      "userId": "708878528972997",
+      "name": "Juan365 Studios",
+      "commentCount": 47,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-12T12:04:22",
+      "lastComment": "2026-01-05T17:30:34"
+    },
+    {
+      "userId": "481447078389174",
+      "name": "Juan365 Live Stream",
+      "commentCount": 45,
+      "pagesCommented": 2,
+      "firstComment": "2025-09-19T07:46:49",
+      "lastComment": "2026-01-05T10:59:35"
+    },
+    {
+      "userId": "839729525890738",
+      "name": "JuanSports",
+      "commentCount": 42,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-17T08:53:04",
+      "lastComment": "2026-01-04T06:33:54"
+    },
+    {
+      "userId": "916977931480275",
+      "name": "PALDO KING",
+      "commentCount": 40,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:28:28",
+      "lastComment": "2026-01-05T12:45:25"
+    },
+    {
+      "userId": "110393272101980",
+      "name": "Mimah Estelah",
+      "commentCount": 39,
+      "pagesCommented": 2,
+      "firstComment": "2025-08-17T22:17:18",
+      "lastComment": "2025-11-09T05:41:19"
+    },
+    {
+      "userId": "952444144610590",
+      "name": "Juan Axcel",
+      "commentCount": 38,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-11T08:38:43",
+      "lastComment": "2026-01-05T12:51:26"
+    },
+    {
+      "userId": "826916843844872",
+      "name": "Juanchochi",
+      "commentCount": 37,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:22:13",
+      "lastComment": "2026-01-05T12:00:23"
+    },
+    {
+      "userId": "886999644501228",
+      "name": "Achiching",
+      "commentCount": 36,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T08:55:29",
+      "lastComment": "2026-01-05T11:37:09"
+    },
+    {
+      "userId": "794222977114046",
+      "name": "Juanababe mylabs",
+      "commentCount": 34,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:07:04",
+      "lastComment": "2026-01-05T11:30:56"
+    },
+    {
+      "userId": "814576181719553",
+      "name": "Toshiro",
+      "commentCount": 34,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-08T14:55:45",
+      "lastComment": "2026-01-04T12:09:01"
+    },
+    {
+      "userId": "854471897742065",
+      "name": "Mugi",
+      "commentCount": 34,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-10T07:56:26",
+      "lastComment": "2026-01-05T12:33:52"
+    },
+    {
+      "userId": "765252523347437",
+      "name": "Baby Girl Mylabs",
+      "commentCount": 33,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T08:15:59",
+      "lastComment": "2026-01-04T12:17:24"
+    },
+    {
+      "userId": "782805601587948",
+      "name": "Jakes",
+      "commentCount": 33,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:05:01",
+      "lastComment": "2026-01-05T11:28:37"
+    },
+    {
+      "userId": "747721128429855",
+      "name": "Juana Babe Abi",
+      "commentCount": 30,
+      "pagesCommented": 7,
+      "firstComment": "2025-09-20T16:00:11",
+      "lastComment": "2026-01-04T05:50:48"
+    },
+    {
+      "userId": "637881052752437",
+      "name": "Juan365 Agents",
+      "commentCount": 30,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-14T13:14:04",
+      "lastComment": "2025-12-18T03:14:16"
+    },
+    {
+      "userId": "883999614801871",
+      "name": "JuanAcces",
+      "commentCount": 29,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-13T08:28:25",
+      "lastComment": "2026-01-05T12:56:00"
+    },
+    {
+      "userId": "307539579114790",
+      "name": "All legit site online casino's",
+      "commentCount": 28,
+      "pagesCommented": 2,
+      "firstComment": "2025-11-14T08:06:36",
+      "lastComment": "2026-01-05T12:18:04"
+    },
+    {
+      "userId": "649011251619570",
+      "name": "Joyfiles",
+      "commentCount": 28,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-14T08:11:10",
+      "lastComment": "2025-12-30T06:46:07"
+    },
+    {
+      "userId": "104630609353355",
+      "name": "Jessell",
+      "commentCount": 28,
+      "pagesCommented": 2,
+      "firstComment": "2025-11-02T23:16:09",
+      "lastComment": "2026-01-05T15:48:32"
+    },
+    {
+      "userId": "788736034331719",
+      "name": "Mugiwara",
+      "commentCount": 28,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-10T08:00:25",
+      "lastComment": "2026-01-04T11:17:44"
+    },
+    {
+      "userId": "892255410632142",
+      "name": "Queen Ashley",
+      "commentCount": 28,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T07:40:27",
+      "lastComment": "2026-01-04T11:06:16"
+    },
+    {
+      "userId": "927370847106754",
+      "name": "Juankada Evo",
+      "commentCount": 28,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-19T09:09:44",
+      "lastComment": "2026-01-04T03:26:02"
+    },
+    {
+      "userId": "843577848841707",
+      "name": "Paldong Wawiks",
+      "commentCount": 27,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:30:40",
+      "lastComment": "2026-01-05T12:46:36"
+    },
+    {
+      "userId": "542632538938846",
+      "name": "PALDO PALDO",
+      "commentCount": 27,
+      "pagesCommented": 2,
+      "firstComment": "2025-10-30T06:06:32",
+      "lastComment": "2026-01-06T02:44:20"
+    },
+    {
+      "userId": "904893616034032",
+      "name": "juancho",
+      "commentCount": 27,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:25:07",
+      "lastComment": "2026-01-05T12:02:44"
+    },
+    {
+      "userId": "877245315475737",
+      "name": "wakanda",
+      "commentCount": 26,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-09T09:43:44",
+      "lastComment": "2026-01-04T11:14:40"
+    },
+    {
+      "userId": "754416584427163",
+      "name": "Juana Babe Zell",
+      "commentCount": 26,
+      "pagesCommented": 3,
+      "firstComment": "2025-10-12T06:08:22",
+      "lastComment": "2025-12-24T16:29:04"
+    },
+    {
+      "userId": "840547209140018",
+      "name": "Sena BabyGirl",
+      "commentCount": 24,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:16:53",
+      "lastComment": "2026-01-03T13:01:45"
+    },
+    {
+      "userId": "875150985682292",
+      "name": "Maxwin",
+      "commentCount": 24,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:32:28",
+      "lastComment": "2026-01-05T12:47:54"
+    },
+    {
+      "userId": "590009037536459",
+      "name": "AGYcasino88",
+      "commentCount": 24,
+      "pagesCommented": 2,
+      "firstComment": "2025-11-20T13:03:49",
+      "lastComment": "2025-12-18T14:34:31"
+    },
+    {
+      "userId": "906986725829737",
+      "name": "Jake all The way",
+      "commentCount": 23,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:09:00",
+      "lastComment": "2026-01-05T11:33:22"
+    },
+    {
+      "userId": "883845621473283",
+      "name": "Mais Con yelo",
+      "commentCount": 22,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T08:46:25",
+      "lastComment": "2026-01-04T12:21:58"
+    },
+    {
+      "userId": "861425510386799",
+      "name": "BRASO MErs",
+      "commentCount": 22,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-11T11:29:36",
+      "lastComment": "2026-01-04T12:25:52"
+    },
+    {
+      "userId": "724499037421876",
+      "name": "boss madam",
+      "commentCount": 21,
+      "pagesCommented": 3,
+      "firstComment": "2025-11-01T06:05:10",
+      "lastComment": "2026-01-03T13:15:05"
+    },
+    {
+      "userId": "780538205145852",
+      "name": "casino online ",
+      "commentCount": 20,
+      "pagesCommented": 2,
+      "firstComment": "2025-09-29T07:15:11",
+      "lastComment": "2026-01-02T07:25:55"
+    },
+    {
+      "userId": "101591122304221",
+      "name": "Ruben balagso irrebaria",
+      "commentCount": 20,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-01T06:39:20",
+      "lastComment": "2026-01-03T18:04:53"
+    },
+    {
+      "userId": "753856447820261",
+      "name": "Daisuki toshi",
+      "commentCount": 20,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-09T09:24:32",
+      "lastComment": "2026-01-04T12:14:00"
+    },
+    {
+      "userId": "832583829935738",
+      "name": "JMC17",
+      "commentCount": 20,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:15:44",
+      "lastComment": "2026-01-04T11:11:16"
+    },
+    {
+      "userId": "791722154035102",
+      "name": "marcus mecus",
+      "commentCount": 19,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T09:12:52",
+      "lastComment": "2025-12-17T07:56:41"
+    },
+    {
+      "userId": "944439405412611",
+      "name": "LanceBi",
+      "commentCount": 18,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-10T08:13:08",
+      "lastComment": "2025-12-17T07:59:40"
+    },
+    {
+      "userId": "136254382908007",
+      "name": "gambling online casino ",
+      "commentCount": 18,
+      "pagesCommented": 3,
+      "firstComment": "2025-12-10T15:51:36",
+      "lastComment": "2026-01-05T20:32:20"
+    },
+    {
+      "userId": "746269178581052",
+      "name": "RENZKo",
+      "commentCount": 17,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-04T08:54:30",
+      "lastComment": "2026-01-01T01:40:03"
+    },
+    {
+      "userId": "2371383173104056",
+      "name": "CYN CHAN SU",
+      "commentCount": 16,
+      "pagesCommented": 2,
+      "firstComment": "2025-08-31T22:20:08",
+      "lastComment": "2026-01-02T12:18:38"
+    },
+    {
+      "userId": "797036730158492",
+      "name": "Jadce",
+      "commentCount": 16,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-07T13:03:30",
+      "lastComment": "2026-01-05T23:38:09"
+    },
+    {
+      "userId": "103051358979982",
+      "name": "Kabangis Tv",
+      "commentCount": 16,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-01T04:35:47",
+      "lastComment": "2026-01-02T10:16:41"
+    },
+    {
+      "userId": "987628181092728",
+      "name": "JUANGreat",
+      "commentCount": 15,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-29T09:50:16",
+      "lastComment": "2026-01-05T11:48:20"
+    },
+    {
+      "userId": "922622270933019",
+      "name": "boss maganda Agent casino online ",
+      "commentCount": 15,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-21T13:01:17",
+      "lastComment": "2026-01-03T08:04:18"
+    },
+    {
+      "userId": "984358468085445",
+      "name": "JuanDos",
+      "commentCount": 15,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-26T09:21:33",
+      "lastComment": "2026-01-04T12:03:05"
+    },
+    {
+      "userId": "327188653819665",
+      "name": "rhon",
+      "commentCount": 15,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-30T04:54:20",
+      "lastComment": "2025-11-30T04:58:34"
+    },
+    {
+      "userId": "1640592739524740",
+      "name": "Tenie's Tapestries",
+      "commentCount": 15,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-22T03:14:25",
+      "lastComment": "2025-12-08T08:14:50"
+    },
+    {
+      "userId": "381702898368299",
+      "name": "Marie's Personal blog ",
+      "commentCount": 15,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-08T12:27:24",
+      "lastComment": "2025-12-11T08:51:28"
+    },
+    {
+      "userId": "964684223393856",
+      "name": "JuanSinko",
+      "commentCount": 14,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-02T12:14:18",
+      "lastComment": "2026-01-05T12:05:31"
+    },
+    {
+      "userId": "784832001384138",
+      "name": "7GAME super legit ",
+      "commentCount": 14,
+      "pagesCommented": 1,
+      "firstComment": "2025-10-31T11:09:17",
+      "lastComment": "2026-01-03T07:49:06"
+    },
+    {
+      "userId": "856741267532622",
+      "name": "JuanTress",
+      "commentCount": 14,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-02T11:15:31",
+      "lastComment": "2026-01-04T12:04:35"
+    },
+    {
+      "userId": "438356876032290",
+      "name": "Upline Ella",
+      "commentCount": 14,
+      "pagesCommented": 3,
+      "firstComment": "2025-12-26T09:43:49",
+      "lastComment": "2025-12-30T08:24:34"
+    },
+    {
+      "userId": "796975573508333",
+      "name": "Sei Llanes",
+      "commentCount": 14,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-09T15:08:02",
+      "lastComment": "2026-01-02T12:55:37"
+    },
+    {
+      "userId": "105934959254081",
+      "name": "Minibet",
+      "commentCount": 13,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-15T14:57:29",
+      "lastComment": "2025-11-15T14:57:59"
+    },
+    {
+      "userId": "591221357406341",
+      "name": "scatter gamer",
+      "commentCount": 13,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-28T10:46:14",
+      "lastComment": "2026-01-06T02:43:10"
+    },
+    {
+      "userId": "908907765636803",
+      "name": "Juan Tama",
+      "commentCount": 13,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-09T09:40:05",
+      "lastComment": "2026-01-05T12:24:45"
+    },
+    {
+      "userId": "102683632848198",
+      "name": "Gerasmo Pedra",
+      "commentCount": 12,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-11T07:18:09",
+      "lastComment": "2026-01-02T23:51:24"
+    },
+    {
+      "userId": "748765068327821",
+      "name": "Juana Babe Ashley",
+      "commentCount": 12,
+      "pagesCommented": 2,
+      "firstComment": "2025-11-09T14:32:44",
+      "lastComment": "2026-01-03T11:36:30"
+    },
+    {
+      "userId": "555913674279701",
+      "name": "Therapy0.6",
+      "commentCount": 11,
+      "pagesCommented": 2,
+      "firstComment": "2025-11-02T12:27:56",
+      "lastComment": "2025-12-29T05:15:20"
+    },
+    {
+      "userId": "877447158774140",
+      "name": "AH77",
+      "commentCount": 11,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-05T05:09:00",
+      "lastComment": "2025-12-08T05:11:44"
+    },
+    {
+      "userId": "760410247158812",
+      "name": "PHSKY",
+      "commentCount": 11,
+      "pagesCommented": 1,
+      "firstComment": "2025-09-15T09:44:38",
+      "lastComment": "2025-12-25T08:16:38"
+    },
+    {
+      "userId": "862622980275034",
+      "name": "Juankada Shann",
+      "commentCount": 10,
+      "pagesCommented": 5,
+      "firstComment": "2025-12-22T10:32:06",
+      "lastComment": "2026-01-05T10:34:43"
+    },
+    {
+      "userId": "933524759840891",
+      "name": "Laylay Braso",
+      "commentCount": 10,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-09T08:41:58",
+      "lastComment": "2026-01-05T11:19:32"
+    },
+    {
+      "userId": "110372218637278",
+      "name": "Handy bert",
+      "commentCount": 10,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-11T01:34:01",
+      "lastComment": "2026-01-05T11:39:43"
+    },
+    {
+      "userId": "933067516556969",
+      "name": "JuanApat",
+      "commentCount": 10,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-02T12:05:12",
+      "lastComment": "2026-01-05T12:25:51"
+    },
+    {
+      "userId": "108679458612240",
+      "name": "Allen's CookingChambahan",
+      "commentCount": 10,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-23T16:46:12",
+      "lastComment": "2025-12-29T08:37:11"
+    },
+    {
+      "userId": "819307124607048",
+      "name": "Bebe Race",
+      "commentCount": 9,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-09T09:39:01",
+      "lastComment": "2026-01-05T12:21:54"
+    },
+    {
+      "userId": "600682666470196",
+      "name": "Agent from casino online ",
+      "commentCount": 9,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-02T07:32:34",
+      "lastComment": "2026-01-03T07:37:03"
+    },
+    {
+      "userId": "106012009183789",
+      "name": "Marites Pa More",
+      "commentCount": 9,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-06T14:48:42",
+      "lastComment": "2026-01-02T23:56:13"
+    },
+    {
+      "userId": "874628665737433",
+      "name": "Juankada Papa Joe",
+      "commentCount": 9,
+      "pagesCommented": 4,
+      "firstComment": "2025-12-02T02:34:52",
+      "lastComment": "2026-01-05T08:54:34"
+    },
+    {
+      "userId": "117508894651510",
+      "name": "Live sa pinas",
+      "commentCount": 8,
+      "pagesCommented": 2,
+      "firstComment": "2025-09-21T00:53:32",
+      "lastComment": "2025-12-23T09:27:01"
+    },
+    {
+      "userId": "505572189316537",
+      "name": "1969",
+      "commentCount": 8,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-08T04:44:58",
+      "lastComment": "2026-01-02T00:05:57"
+    },
+    {
+      "userId": "568396133030751",
+      "name": "91PH",
+      "commentCount": 8,
+      "pagesCommented": 2,
+      "firstComment": "2025-11-05T13:00:27",
+      "lastComment": "2025-11-12T23:50:15"
+    },
+    {
+      "userId": "719090694628787",
+      "name": "JLJL3 AGENT ",
+      "commentCount": 8,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-01T03:22:12",
+      "lastComment": "2025-11-11T10:27:21"
+    },
+    {
+      "userId": "919507207909713",
+      "name": "AngeVlog",
+      "commentCount": 7,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-15T06:52:35",
+      "lastComment": "2025-12-16T12:56:03"
+    },
+    {
+      "userId": "110414071990967",
+      "name": "Maguibuano Family",
+      "commentCount": 7,
+      "pagesCommented": 2,
+      "firstComment": "2025-12-11T00:43:16",
+      "lastComment": "2025-12-28T07:25:42"
+    },
+    {
+      "userId": "857367467467699",
+      "name": "JuanKembot",
+      "commentCount": 7,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-14T08:10:57",
+      "lastComment": "2025-12-17T08:01:21"
+    },
+    {
+      "userId": "770186759510848",
+      "name": "Paldo",
+      "commentCount": 7,
+      "pagesCommented": 1,
+      "firstComment": "2025-11-23T23:24:37",
+      "lastComment": "2025-12-09T04:37:16"
+    },
+    {
+      "userId": "869265719612594",
+      "name": "JuanSais",
+      "commentCount": 7,
+      "pagesCommented": 1,
+      "firstComment": "2026-01-03T11:35:47",
+      "lastComment": "2026-01-05T12:09:54"
+    },
+    {
+      "userId": "25654430127576929",
+      "name": "Francine Lee",
+      "commentCount": 7,
+      "pagesCommented": 1,
+      "firstComment": "2025-10-06T03:57:43",
+      "lastComment": "2025-10-18T12:25:45"
+    },
+    {
+      "userId": "305553999318966",
+      "name": "JUANKada Host Ikay",
+      "commentCount": 6,
+      "pagesCommented": 4,
+      "firstComment": "2025-12-22T23:16:16",
+      "lastComment": "2026-01-01T07:32:51"
+    },
+    {
+      "userId": "871818316012776",
+      "name": "Super Ace",
+      "commentCount": 6,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-07T19:00:25",
+      "lastComment": "2025-12-09T04:07:08"
+    },
+    {
+      "userId": "871874286018393",
+      "name": "JUANdakks",
+      "commentCount": 6,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-29T09:41:11",
+      "lastComment": "2026-01-04T12:26:46"
+    },
+    {
+      "userId": "826216380580859",
+      "name": "Leslie May",
+      "commentCount": 6,
+      "pagesCommented": 3,
+      "firstComment": "2025-11-23T06:26:05",
+      "lastComment": "2025-12-10T07:59:55"
+    },
+    {
+      "userId": "879002041956752",
+      "name": "ABC8",
+      "commentCount": 6,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-03T22:54:50",
+      "lastComment": "2025-12-28T08:04:29"
+    },
+    {
+      "userId": "104682941134949",
+      "name": "Jadiel maurice sunrise silver",
+      "commentCount": 6,
+      "pagesCommented": 1,
+      "firstComment": "2025-12-08T08:19:16",
+      "lastComment": "2025-12-08T08:25:57"
+    },
+    {
+      "userId": "492207827319140",
+      "name": "Phmacao legit casino",
+      "commentCount": 5,
+      "pagesCommented": 3,
+      "firstComment": "2025-12-26T11:12:25",
+      "lastComment": "2025-12-26T11:17:05"
+    }
+  ]
+}

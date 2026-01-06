@@ -1,0 +1,226 @@
+{
+  "last_sync": "2026-01-06T14:50:05.149744",
+  "today": {
+    "date": "2026-01-06",
+    "messages": 0,
+    "sessions": 0,
+    "vs_yesterday": {
+      "messages_pct": -100.0,
+      "sessions_pct": -100.0
+    }
+  },
+  "this_week": {
+    "week_start": "2026-01-05",
+    "messages": 1014,
+    "sessions": 149,
+    "vs_last_week": {
+      "messages_pct": -79.0,
+      "sessions_pct": -88.0
+    }
+  },
+  "this_month": {
+    "month": "2026-01",
+    "month_name": "January 2026",
+    "messages": 5017,
+    "sessions": 1092,
+    "vs_last_month": {
+      "messages_pct": 515.6,
+      "sessions_pct": 267.7
+    }
+  },
+  "top_pages": {
+    "today": [
+      {
+        "page": "JuanKada Star",
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "page": "Juankada Charm",
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "page": "Juankada Shann",
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "page": "Juankada Evo",
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "page": "Juankada Papa Joe",
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "page": "Juankada Lance",
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "page": "Juankada Jedi",
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "page": "Juankada Ligaya",
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "page": "Juankada Sabbie",
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "page": "Juankada Ellise",
+        "messages": 0,
+        "sessions": 0
+      }
+    ],
+    "this_week": [
+      {
+        "page": "Juan365",
+        "messages": 527,
+        "sessions": 134
+      },
+      {
+        "page": "Juan365 Live Stream",
+        "messages": 478,
+        "sessions": 0
+      },
+      {
+        "page": "Juana Babe Ashley",
+        "messages": 4,
+        "sessions": 5
+      },
+      {
+        "page": "Juankada Lance",
+        "messages": 2,
+        "sessions": 4
+      },
+      {
+        "page": "Juana Babe Sena",
+        "messages": 2,
+        "sessions": 4
+      },
+      {
+        "page": "Juana Babe Jam",
+        "messages": 1,
+        "sessions": 2
+      },
+      {
+        "page": "Juankada Papa Joe",
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "page": "Juankada Charm",
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "page": "Juankada Sabbie",
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "page": "Juankada Evo",
+        "messages": 0,
+        "sessions": 0
+      }
+    ],
+    "this_month": [
+      {
+        "page": "Juan365",
+        "messages": 3164,
+        "sessions": 870
+      },
+      {
+        "page": "Juan365 Live Stream",
+        "messages": 1715,
+        "sessions": 0
+      },
+      {
+        "page": "Juana Babe Ashley",
+        "messages": 55,
+        "sessions": 83
+      },
+      {
+        "page": "Juana Babe Sena",
+        "messages": 24,
+        "sessions": 32
+      },
+      {
+        "page": "Juankada Jedi",
+        "messages": 20,
+        "sessions": 48
+      },
+      {
+        "page": "Juankada Evo",
+        "messages": 12,
+        "sessions": 4
+      },
+      {
+        "page": "Juankada Papa Joe",
+        "messages": 8,
+        "sessions": 16
+      },
+      {
+        "page": "Juan365 Studios",
+        "messages": 6,
+        "sessions": 8
+      },
+      {
+        "page": "Juankada Lance",
+        "messages": 4,
+        "sessions": 12
+      },
+      {
+        "page": "Juana Babe Abi",
+        "messages": 4,
+        "sessions": 4
+      }
+    ]
+  },
+  "trend_30d": [
+    {
+      "date": "2025-12-31",
+      "messages": 815,
+      "sessions": 297
+    },
+    {
+      "date": "2026-01-01",
+      "messages": 606,
+      "sessions": 260
+    },
+    {
+      "date": "2026-01-02",
+      "messages": 957,
+      "sessions": 218
+    },
+    {
+      "date": "2026-01-03",
+      "messages": 1039,
+      "sessions": 231
+    },
+    {
+      "date": "2026-01-04",
+      "messages": 1401,
+      "sessions": 234
+    },
+    {
+      "date": "2026-01-05",
+      "messages": 1014,
+      "sessions": 149
+    },
+    {
+      "date": "2026-01-06",
+      "messages": 0,
+      "sessions": 0
+    }
+  ]
+}

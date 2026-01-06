@@ -1,0 +1,20 @@
+{
+  "month": "2025-05",
+  "month_name": "May 2025",
+  "month_start": "2025-05-01",
+  "generated_at": "2026-01-06T14:49:58.868250",
+  "summary": {
+    "total_messages": 0,
+    "total_sessions": 0,
+    "total_comments": 0,
+    "vs_last_month": {
+      "messages_pct": null,
+      "sessions_pct": null
+    },
+    "vs_last_year": {
+      "messages_pct": null,
+      "sessions_pct": null
+    }
+  },
+  "pages": []
+}

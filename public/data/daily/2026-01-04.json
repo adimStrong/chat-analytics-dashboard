@@ -1,0 +1,953 @@
+{
+  "date": "2026-01-04",
+  "generated_at": "2026-01-06T14:49:25.915547",
+  "summary": {
+    "total_messages": 1401,
+    "total_sessions": 234,
+    "morning_messages": 1061,
+    "mid_messages": 208,
+    "evening_messages": 132,
+    "vs_yesterday": {
+      "messages_pct": 34.8,
+      "sessions_pct": 1.3
+    }
+  },
+  "pages": [
+    {
+      "page_id": "580104038511364",
+      "page_name": "Juan365",
+      "shifts": {
+        "Evening": {
+          "messages": 110,
+          "incoming": 62,
+          "outgoing": 48,
+          "sessions": 46,
+          "avg_response_time": 92.7,
+          "avg_session_duration": 557.4
+        },
+        "Mid": {
+          "messages": 205,
+          "incoming": 107,
+          "outgoing": 98,
+          "sessions": 42,
+          "avg_response_time": 38.5,
+          "avg_session_duration": 539.2
+        },
+        "Morning": {
+          "messages": 548,
+          "incoming": 317,
+          "outgoing": 231,
+          "sessions": 106,
+          "avg_response_time": 216.3,
+          "avg_session_duration": 1222.8
+        }
+      },
+      "total": {
+        "messages": 863,
+        "incoming": 486,
+        "outgoing": 377,
+        "sessions": 194
+      }
+    },
+    {
+      "page_id": "481447078389174",
+      "page_name": "Juan365 Live Stream",
+      "shifts": {
+        "Evening": {
+          "messages": 9,
+          "incoming": 7,
+          "outgoing": 2,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 1,
+          "incoming": 1,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 505,
+          "incoming": 464,
+          "outgoing": 41,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 515,
+        "incoming": 472,
+        "outgoing": 43,
+        "sessions": 0
+      }
+    },
+    {
+      "page_id": "748765068327821",
+      "page_name": "Juana Babe Ashley",
+      "shifts": {
+        "Evening": {
+          "messages": 2,
+          "incoming": 2,
+          "outgoing": 0,
+          "sessions": 2,
+          "avg_response_time": null,
+          "avg_session_duration": 4.0
+        },
+        "Mid": {
+          "messages": 1,
+          "incoming": 1,
+          "outgoing": 0,
+          "sessions": 2,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 7,
+          "incoming": 7,
+          "outgoing": 0,
+          "sessions": 6,
+          "avg_response_time": null,
+          "avg_session_duration": 72.3
+        }
+      },
+      "total": {
+        "messages": 10,
+        "incoming": 10,
+        "outgoing": 0,
+        "sessions": 10
+      }
+    },
+    {
+      "page_id": "807965705726273",
+      "page_name": "Juana Babe Sena",
+      "shifts": {
+        "Evening": {
+          "messages": 7,
+          "incoming": 7,
+          "outgoing": 0,
+          "sessions": 6,
+          "avg_response_time": null,
+          "avg_session_duration": 59.0
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 7,
+        "incoming": 7,
+        "outgoing": 0,
+        "sessions": 6
+      }
+    },
+    {
+      "page_id": "858606287343265",
+      "page_name": "Juankada Jedi",
+      "shifts": {
+        "Evening": {
+          "messages": 3,
+          "incoming": 2,
+          "outgoing": 1,
+          "sessions": 12,
+          "avg_response_time": 8397.0,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 1,
+          "incoming": 1,
+          "outgoing": 0,
+          "sessions": 4,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 4,
+        "incoming": 3,
+        "outgoing": 1,
+        "sessions": 16
+      }
+    },
+    {
+      "page_id": "882499904951305",
+      "page_name": "Juankada Lance",
+      "shifts": {
+        "Evening": {
+          "messages": 1,
+          "incoming": 1,
+          "outgoing": 0,
+          "sessions": 4,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 1,
+          "incoming": 0,
+          "outgoing": 1,
+          "sessions": 4,
+          "avg_response_time": 39806.0,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 2,
+        "incoming": 1,
+        "outgoing": 1,
+        "sessions": 8
+      }
+    },
+    {
+      "page_id": "718958694640884",
+      "page_name": "Juan365 Cares",
+      "shifts": {
+        "Evening": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 0,
+        "incoming": 0,
+        "outgoing": 0,
+        "sessions": 0
+      }
+    },
+    {
+      "page_id": "807552789104584",
+      "page_name": "Juan365 LiveStream",
+      "shifts": {
+        "Evening": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 0,
+        "incoming": 0,
+        "outgoing": 0,
+        "sessions": 0
+      }
+    },
+    {
+      "page_id": "708878528972997",
+      "page_name": "Juan365 Studios",
+      "shifts": {
+        "Evening": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 0,
+        "incoming": 0,
+        "outgoing": 0,
+        "sessions": 0
+      }
+    },
+    {
+      "page_id": "747721128429855",
+      "page_name": "Juana Babe Abi",
+      "shifts": {
+        "Evening": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 0,
+        "incoming": 0,
+        "outgoing": 0,
+        "sessions": 0
+      }
+    },
+    {
+      "page_id": "731608473377029",
+      "page_name": "Juana Babe Jam",
+      "shifts": {
+        "Evening": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 0,
+        "incoming": 0,
+        "outgoing": 0,
+        "sessions": 0
+      }
+    },
+    {
+      "page_id": "754416584427163",
+      "page_name": "Juana Babe Zell",
+      "shifts": {
+        "Evening": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 0,
+        "incoming": 0,
+        "outgoing": 0,
+        "sessions": 0
+      }
+    },
+    {
+      "page_id": "101968408687724",
+      "page_name": "JuanBingo",
+      "shifts": {
+        "Evening": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 0,
+        "incoming": 0,
+        "outgoing": 0,
+        "sessions": 0
+      }
+    },
+    {
+      "page_id": "897960886734144",
+      "page_name": "Juankada Alexchoozy",
+      "shifts": {
+        "Evening": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 0,
+        "incoming": 0,
+        "outgoing": 0,
+        "sessions": 0
+      }
+    },
+    {
+      "page_id": "924225234111144",
+      "page_name": "Juankada Charm",
+      "shifts": {
+        "Evening": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 0,
+        "incoming": 0,
+        "outgoing": 0,
+        "sessions": 0
+      }
+    },
+    {
+      "page_id": "874648655739835",
+      "page_name": "Juankada Ellise",
+      "shifts": {
+        "Evening": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 0,
+        "incoming": 0,
+        "outgoing": 0,
+        "sessions": 0
+      }
+    },
+    {
+      "page_id": "927370847106754",
+      "page_name": "Juankada Evo",
+      "shifts": {
+        "Evening": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 0,
+        "incoming": 0,
+        "outgoing": 0,
+        "sessions": 0
+      }
+    },
+    {
+      "page_id": "397865533415866",
+      "page_name": "Juankada Geoff",
+      "shifts": {
+        "Evening": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 0,
+        "incoming": 0,
+        "outgoing": 0,
+        "sessions": 0
+      }
+    },
+    {
+      "page_id": "112088047220992",
+      "page_name": "Juankada host Drae",
+      "shifts": {
+        "Evening": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 0,
+        "incoming": 0,
+        "outgoing": 0,
+        "sessions": 0
+      }
+    },
+    {
+      "page_id": "305553999318966",
+      "page_name": "JUANKada Host Ikay",
+      "shifts": {
+        "Evening": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 0,
+        "incoming": 0,
+        "outgoing": 0,
+        "sessions": 0
+      }
+    },
+    {
+      "page_id": "959243183930083",
+      "page_name": "Juankada Ligaya",
+      "shifts": {
+        "Evening": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 0,
+        "incoming": 0,
+        "outgoing": 0,
+        "sessions": 0
+      }
+    },
+    {
+      "page_id": "874628665737433",
+      "page_name": "Juankada Papa Joe",
+      "shifts": {
+        "Evening": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 0,
+        "incoming": 0,
+        "outgoing": 0,
+        "sessions": 0
+      }
+    },
+    {
+      "page_id": "876401548892955",
+      "page_name": "Juankada Sabbie",
+      "shifts": {
+        "Evening": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 0,
+        "incoming": 0,
+        "outgoing": 0,
+        "sessions": 0
+      }
+    },
+    {
+      "page_id": "862622980275034",
+      "page_name": "Juankada Shann",
+      "shifts": {
+        "Evening": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 0,
+        "incoming": 0,
+        "outgoing": 0,
+        "sessions": 0
+      }
+    },
+    {
+      "page_id": "949473921576703",
+      "page_name": "JuanKada Star",
+      "shifts": {
+        "Evening": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 0,
+        "incoming": 0,
+        "outgoing": 0,
+        "sessions": 0
+      }
+    },
+    {
+      "page_id": "839729525890738",
+      "page_name": "JuanSports",
+      "shifts": {
+        "Evening": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Mid": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        },
+        "Morning": {
+          "messages": 0,
+          "incoming": 0,
+          "outgoing": 0,
+          "sessions": 0,
+          "avg_response_time": null,
+          "avg_session_duration": null
+        }
+      },
+      "total": {
+        "messages": 0,
+        "incoming": 0,
+        "outgoing": 0,
+        "sessions": 0
+      }
+    }
+  ]
+}
